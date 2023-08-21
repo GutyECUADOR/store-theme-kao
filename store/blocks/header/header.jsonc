@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      "flex-layout.row#desktop-promotional-banner",
       "sticky-layout#4-desktop"
     ]
   },
@@ -20,19 +20,23 @@
     }
   },
   
-  "flex-layout.row#3-desktop": {
+  "flex-layout.row#desktop-promotional-banner": {
     "props": {
-      "blockClass": "menu-link",
+      "blockClass": "promotional-banner",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "image#promo-banner"
     ]
+  },
+  "image#promo-banner": {
+    "props": {
+      "src": "https://coolboxpe.vtexassets.com/assets/vtex.file-manager-graphql/images/6fa3a542-2710-4038-b2e9-6266f70543d0___b34c847c9513b00617d5a214120b7a6d.png",
+      "maxWidth": "100%"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -43,7 +47,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": ["flex-layout.row#4-desktop", "flex-layout.row#desktop-menu"]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -56,12 +60,24 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       /* "locale-switcher", */
       "login",
       "minicart.v2"
+    ]
+  },
+  "flex-layout.row#desktop-menu": {
+    "props": {
+      "blockClass": "desktop-menu",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "vtex.menu@2.x:menu#institutional"
     ]
   },
   "flex-layout.col#logo-desktop": {

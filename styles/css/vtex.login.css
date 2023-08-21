@@ -1,0 +1,28 @@
+.label {
+    text-transform: none;
+    display: flex;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 0 0;
+    flex-direction: column;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.label:before {
+    content: '';
+    display: block;
+    float: left;
+    background-size: contain;
+    background-image: url(https://coolboxpe.vtexassets.com/arquivos/sesion260623-2.svg);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+}
+
+
+

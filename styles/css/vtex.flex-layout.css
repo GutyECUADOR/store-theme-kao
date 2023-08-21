@@ -1,24 +1,29 @@
-.flexRowContent--menu-link,
+.flexRowContent--promotional-banner,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
 }
 
 @media screen and (min-width: 40em) {
-  .flexRowContent--menu-link,
+  .flexRowContent--promotional-banner,
   .flexRowContent--main-header {
     padding: 0 1rem;
   }
 }
 
 @media screen and (min-width: 80rem) {
-  .flexRowContent--menu-link,
+  .flexRowContent--promotional-banner,
   .flexRowContent--main-header {
-    padding: 0 0.25rem;
+    padding: 0 0rem;
   }
 }
 
-.flexRowContent--menu-link {
+.flexRowContent--promotional-banner {
   background-color: #fec600;
+  color: #fff;
+}
+
+.flexRow--desktop-menu {
+  background-color: #f2f2f2;
   color: #fff;
 }
 
@@ -32,7 +37,7 @@
   background-color: #000000;
 }
 
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+.flexRowContent--promotional-banner :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
 }

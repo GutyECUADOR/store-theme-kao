@@ -1,0 +1,7 @@
+.menuItem  {
+    border-bottom: 2px solid transparent;
+}
+
+.menuItem:hover  {
+    border-bottom: 2px solid red;
+}
