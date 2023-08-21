@@ -59,7 +59,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      /* "locale-switcher", */
       "login",
       "minicart.v2"
     ]
@@ -80,7 +80,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/35dda6c1-1577-44bc-967a-3cae92c5050d___ce8e244a35c8777ad051ab33a88f4292.png",
+      "url": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/667a3e8b-bd0f-4d9b-a3ca-925f01aef1d8___eebeeaf02cb3a60387ae4b2257634e8e.png",
       "width": "180",
       "height": "40"
     }
@@ -125,7 +125,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/667a3e8b-bd0f-4d9b-a3ca-925f01aef1d8___eebeeaf02cb3a60387ae4b2257634e8e.png",
       "width": "77.5",
       "height": "27.5"
     }
