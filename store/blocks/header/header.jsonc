@@ -76,8 +76,7 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#category-menu",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#category-menu"
     ]
   },
   "flex-layout.col#logo-desktop": {

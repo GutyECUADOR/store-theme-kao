@@ -91,6 +91,19 @@
       "textAlignment": "center"
     }
   },
+  "info-card#mujer": {
+    "props": {
+      "id": "info-card-mujer",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/slideshow_1.jpg",
+      "headline": "Visita la colección",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/mujer",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
 
   "rich-text#question": {
     "props": {

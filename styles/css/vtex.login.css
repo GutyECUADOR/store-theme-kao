@@ -24,5 +24,6 @@
     width: 26px;
 }
 
-
-
+.container :global(.vtex-button):hover { 
+    background: none;
+}

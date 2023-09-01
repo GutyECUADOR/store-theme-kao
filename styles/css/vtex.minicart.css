@@ -1,0 +1,24 @@
+
+.minicartContainer :global(.vtex-button):hover { 
+    background: none;
+}
+
+.minicartContainer :global(.vtex-button) { 
+    color: #fff!important;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+/* .minicartContainer::after {
+    color: #fff!important;
+    content: "Mi Carrito";
+    font-size: 12px;
+    text-transform: none;
+    white-space: nowrap;
+} */
+
+
+.minicartIconContainer  {
+    color: #fff;
+}

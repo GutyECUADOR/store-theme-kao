@@ -4,9 +4,14 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#mujer",
+      "menu-item#hombre",
+      "menu-item#ninos",
+      "menu-item#accesorios",
+      "menu-item#deportes",
+      "menu-item#marcas",
+      "menu-item#maquinas",
+      "menu-item#descuentos"
     ]
   },
   "menu-item#category-apparel": {
@@ -19,8 +24,8 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Mujer",
+        "text": "Mujer"
       }
     },
     "blocks": [
@@ -105,6 +110,150 @@
       }
     }
   },
+  "menu-item#mujer": {
+    "props": {
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#ninos": {
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#accesorios": {
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#deportes": {
+    "props": {
+      "id": "menu-item-deportes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#maquinas": {
+    "props": {
+      "id": "menu-item-maquinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Máquinas",
+        "text": "Máquinas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#descuentos": {
+    "props": {
+      "id": "menu-item-descuentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Descuentos",
+        "text": "Descuentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -116,7 +265,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "More",
-        "text": "More"
+        "text": "Niños"
       }
     },
     "blocks": [
@@ -144,7 +293,7 @@
   },
   "flex-layout.col#menu-more-2": {
     "children": [
-      "info-card#home"
+      "info-card#mujer"
     ]
   },
   "vtex.menu@2.x:menu#more": {
@@ -153,7 +302,8 @@
     },
     "children": [
       "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#contact-us"
     ]
   },
   "menu-item#about-us": {
