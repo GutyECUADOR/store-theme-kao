@@ -29,8 +29,14 @@
       "fullWidth": true
     },
     "children": [
-      "image#promo-banner"
+      "rich-text#promotional"
     ]
+  },
+  "rich-text#promotional": {
+    "props": {
+      "text": "**Rebajas del 20% hasta el 23 de Septiembre, 2023!** Visita nuestra colección [Visitar ahora!](https://developers.vtex.com/vtex-developer-docs/docs/welcome).",
+      "blockClass": "promotionalText"
+    }
   },
   "image#promo-banner": {
     "props": {
@@ -145,4 +151,5 @@
       "height": "27.5"
     }
   }
+  
 }
