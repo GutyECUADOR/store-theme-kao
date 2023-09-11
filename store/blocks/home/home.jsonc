@@ -10,8 +10,8 @@
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#acercade"
+      /* "newsletter" */
     ]
   },
 
@@ -51,7 +51,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Nuevos Productos",
       "blockClass": "shelfTitle"
     }
   },
@@ -107,15 +107,22 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**ACERCA DE KAOSPORT**",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n KAO Sport cuenta con una de las más completas ofertas en implementos, calzado, ropa y artículos deportivos para todo nivel de juego, desde el deportista casual y de fin de semana, hasta el deportista semiprofesional y profesional. Comprometidos en mantener un alto Standard de calidad en todas sus líneas y además una relación justa y razonable entre producto y precio, valores que han permitido introducir, crecer y mantener prestigiosas marcas a través de los años. La ideología de la marca empieza desde su slogan “EL DEPORTISTA QUE HAY EN TI”, esta expresión se basa en que toda persona, cualquiera que sea su ocupación, género o edad ha practicado o puede practicar deporte y ser un deportista, KAO Sport busca fomentar y desarrollar esa faceta para llevar un estilo de vida más saludable y activo.",
       "blockClass": "link"
+    }
+  },
+
+  "rich-text#acercade": {
+    "props": {
+      "text": "\n KAO Sport cuenta con una de las más completas ofertas en implementos, calzado, ropa y artículos deportivos para todo nivel de juego, desde el deportista casual y de fin de semana, hasta el deportista semiprofesional y profesional. Comprometidos en mantener un alto Standard de calidad en todas sus líneas y además una relación justa y razonable entre producto y precio, valores que han permitido introducir, crecer y mantener prestigiosas marcas a través de los años. La ideología de la marca empieza desde su slogan “EL DEPORTISTA QUE HAY EN TI”, esta expresión se basa en que toda persona, cualquiera que sea su ocupación, género o edad ha practicado o puede practicar deporte y ser un deportista, KAO Sport busca fomentar y desarrollar esa faceta para llevar un estilo de vida más saludable y activo.",
+      "blockClass": "acercade"
     }
   }
 }

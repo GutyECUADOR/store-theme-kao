@@ -18,12 +18,14 @@
   margin: 0;
 }
 
-.container--link {
+.container--link, .container--acercade {
   justify-content: center;
+  background-color: #000000;
 }
 
 .container--question {
   justify-content: center;
+  background-color: #000000;
 }
 
 .container--question .paragraph {
@@ -31,7 +33,7 @@
   max-width: 540px;
   margin: 0 16px;
   padding-top: 120px;
-  color: #03034E;
+  color: #ffffff;
 }
 
 .container--question .strong {
@@ -41,11 +43,19 @@
 }
 
 .container--link .paragraph {
+  text-align: justify;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #a02d00;
+}
+
+.container--acercade .paragraph {
   text-align: center;
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #f5eeee;
 }
 
 .container--link .strong {

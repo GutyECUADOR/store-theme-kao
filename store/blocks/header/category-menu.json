@@ -288,7 +288,8 @@
   },
   "flex-layout.col#menu-more-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#more",
+      "vtex.menu@2.x:menu#more2"
     ]
   },
   "flex-layout.col#menu-more-2": {
@@ -297,6 +298,16 @@
     ]
   },
   "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq",
+      "menu-item#contact-us"
+    ]
+  },
+  "vtex.menu@2.x:menu#more2": {
     "props": {
       "orientation": "vertical"
     },
