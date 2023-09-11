@@ -73,10 +73,10 @@
      font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
+    width: 50%;
   }
   .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
+    width: 50%;
   }
   .imageElement--storePrint {
     margin-bottom: 0px;
@@ -110,4 +110,9 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.infoCardImage--info-card-home{
+
+  width: 100%;
 }

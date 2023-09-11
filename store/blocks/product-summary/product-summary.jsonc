@@ -3,12 +3,12 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      "flex-layout.col#productRating",
-      "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button"
+    /*   "flex-layout.col#productRating", */
+    "product-list-price#summary",
+    "flex-layout.row#selling-price-savings",
+    "product-installments#summary",
+    "product-summary-space",
+    "add-to-cart-button"
     ]
   },
   "flex-layout.col#productRating": {
@@ -30,7 +30,7 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 200
     }
   },
 

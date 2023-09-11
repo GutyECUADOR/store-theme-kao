@@ -1,3 +1,17 @@
+.element {
+  box-shadow: 0 0 8px #ddd;
+  margin: 10px;
+  border-radius: 4px;
+  transition: .2s ease-in-out;
+  padding: 10px;
+  height: 80%;
+}
+
+.element:hover {
+  box-shadow: 0 0 8px #bbb;
+  transition: .2s ease-in-out;
+}
+
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }

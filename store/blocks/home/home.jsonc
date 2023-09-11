@@ -4,11 +4,16 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      /* "flex-layout.row#deals", */
+     /*  "info-card#home", */
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
+      "info-card#mujeres",
+      "info-card#hombres",
+      "info-card#niños",
+      "info-card#equipos",
+      "info-card#bicicletas",
       "rich-text#question",
       "rich-text#acercade"
       /* "newsletter" */
@@ -67,8 +72,10 @@
   },
   "slider-layout#demo-products": {
     "props": {
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
@@ -77,15 +84,79 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/slideshow_1.jpg",
+      "headline": "Nuevos Productos",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#mujeres": {
+    "props": {
+      "id": "info-card-mujeres",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_1.jpg?v=157058975361433635031607789028",
+      "headline": "Colección Mujeres",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#hombres": {
+    "props": {
+      "id": "info-card-hombres",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_2.jpg?v=127342884560866092661607789028",
+      "headline": "Colección Hombres",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#niños": {
+    "props": {
+      "id": "info-card-niños",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_3.jpg?v=14131464114110780961607789029",
+      "headline": "Colección Niños",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#equipos": {
+    "props": {
+      "id": "info-card-equipos",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/two_banner_home_1.jpg?v=165715480468806238191607789029",
+      "headline": "Colección Equipos",
+      "callToActionText": "Visitar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#bicicletas": {
+    "props": {
+      "id": "info-card-bicicletas",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/two_banner_home_2.jpg?v=101907670649657183921607789030",
+      "headline": "Colección Bicicletas",
+      "callToActionText": "Visitar",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
