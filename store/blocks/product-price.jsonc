@@ -7,10 +7,10 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#PDP" // Precio del producto sin Impuestos
+      "product-selling-price" // Precio del producto sin Impuestos
     ]
   },
-  "product-selling-price#PDP": {
+  /* "product-selling-price#PDP": {
     "props": {
       "alwaysShow": true,
       "markers": [
@@ -19,7 +19,7 @@
       "blockClass": "summary",
       "message": "Precio actual: {sellingPriceValue} + IVA: {taxValue}"
     }
-  },
+  }, */
 
   "flex-layout.row#list-price-savings": {
     "props": {

@@ -1,7 +1,6 @@
 .label {
     text-transform: none;
     display: flex;
-    font-family: Montserrat;
     color: #fff;
     text-align: left;
     align-items: center;
@@ -24,6 +23,6 @@
     width: 26px;
 }
 
-.container :global(.vtex-button):hover { 
+.container :global(.vtex-button):hover {
     background: none;
 }

@@ -6,12 +6,96 @@
     }
   },
 
+  // This is the default block implementation for the minicart-layout
   "minicart.v2": {
     "props": {
       "customPixelEventId": "add-to-cart-button",
       "MinicartIcon": "icon-cart#minicart-icon"
     },
     "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "minicart-checkout-button": {
+    "props": {
+      /* "labelfinishShoppingButton" : "Pagar ahora", */
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart","rich-text#terminosCondiciones"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-installments": {
+    "props": {
+      "message": "Up to {installmentsNumber}x {installmentValue}",
+      "markers": []
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false
+    }
+  },
+  "rich-text#terminosCondiciones": {
+    "props": {
+      "textAlignment": "justity",
+      "textPosition": "CENTER",
+      "text": "Al proceder a pagar acepto que he leído y estoy de acuerdo con los [Términos y Condiciones](/terminos)",
+      "blockClass": "help-message"
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Your cart is empty."
+    }
   },
   "icon-cart#minicart-icon": {
     "props": {
