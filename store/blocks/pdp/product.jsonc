@@ -3,12 +3,11 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+     /*  "flex-layout.row#specifications-title", */
+      /* "product-specification-group#table", */
+      "shelf.relatedProducts"
+     /*  "product-reviews",
+      "product-questions-and-answers" */
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -112,7 +111,8 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
+      /* "shipping-simulator", */
+      "flex-layout.row#description",
       "share#default"
     ]
   },
