@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#desktop-promotional-banner": {
     "props": {
       "blockClass": "promotional-banner",
@@ -141,7 +141,6 @@
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -150,6 +149,14 @@
       "width": "77.5",
       "height": "27.5"
     }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#listLayout"]
   }
-  
 }
