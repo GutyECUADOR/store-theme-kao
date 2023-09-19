@@ -125,7 +125,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#hombre": {
@@ -143,7 +143,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#hombre"
     ]
   },
   "menu-item#ninos": {
@@ -161,7 +161,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#accesorios": {
@@ -179,7 +179,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#deportes": {
@@ -197,7 +197,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#marcas": {
@@ -215,7 +215,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#maquinas": {
@@ -233,7 +233,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#descuentos": {
@@ -251,7 +251,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
   "menu-item#more": {
@@ -269,26 +269,34 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mujer"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#mujer": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#mega-menu-main-container"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "vtex.menu@2.x:submenu#hombre": {
+    "props": {
+      "width": "100%"
+    },
     "children": [
-      "flex-layout.col#megamenu-left",
-      "flex-layout.col#megamenu-right"
+      "flex-layout.row#mega-menu-main-container"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container": {
+    "children": [
+      "flex-layout.col#megamenu-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
     ]
   },
   "flex-layout.col#megamenu-left": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#main-megamenus"
     ]
   },
   "flex-layout.col#megamenu-right": {
@@ -296,15 +304,15 @@
       "info-card#mujer"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#main-megamenus": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "flex-layout.row#megamenu-container"
+      "flex-layout.row#megamenu-columns-container"
     ]
   },
-  "flex-layout.row#megamenu-container": {
+  "flex-layout.row#megamenu-columns-container": {
     "children": [
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-clothing",
@@ -313,8 +321,8 @@
     ],
     "props": {
       "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingTop": 1,
+      "paddingBottom": 1
     }
   },
   "menu-item#about-us": {
