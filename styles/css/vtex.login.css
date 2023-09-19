@@ -26,3 +26,11 @@
 .container :global(.vtex-button):hover {
     background: none;
 }
+
+.accessCodeOptionBtn :global(.vtex-button), .emailPasswordOptionBtn :global(.vtex-button) {
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color:#fff ;
+  background-color: #d70d27;
+}

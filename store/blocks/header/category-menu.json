@@ -282,17 +282,16 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#megamenu-left",
+      "flex-layout.col#megamenu-right"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#megamenu-left": {
     "children": [
-      "vtex.menu@2.x:menu#more",
-      "vtex.menu@2.x:menu#more2"
+      "vtex.menu@2.x:menu#more"
     ]
   },
-  "flex-layout.col#menu-more-2": {
+  "flex-layout.col#megamenu-right": {
     "children": [
       "info-card#mujer"
     ]
@@ -302,20 +301,21 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq",
-      "menu-item#contact-us"
+      "flex-layout.row#megamenu-container"
     ]
   },
-  "vtex.menu@2.x:menu#more2": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "flex-layout.row#megamenu-container": {
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq",
-      "menu-item#contact-us"
-    ]
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
   },
   "menu-item#about-us": {
     "props": {
