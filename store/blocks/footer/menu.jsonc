@@ -1,4 +1,315 @@
 {
+  "vtex.menu@2.x:menu#mujer-ropa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-ropa",
+      "menu-item#mujer-ropa-camisetas",
+      "menu-item#mujer-ropa-tops-bras",
+      "menu-item#mujer-ropa-conjuntos",
+      "menu-item#mujer-ropa-chompas",
+      "menu-item#mujer-ropa-shorts",
+      "menu-item#mujer-ropa-leggins",
+      "menu-item#mujer-ropa-pantalones",
+      "menu-item#mujer-ropa-talla-plus"
+    ]
+  },
+  "rich-text#titulo-ropa": {
+    "props": {
+      "text": "Ropa",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#mujer-ropa-camisetas": {
+    "props": {
+      "id": "mujer-ropa-camisetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-tops-bras": {
+    "props": {
+      "id": "mujer-ropa-tops-bras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tops/Bras",
+        "text": "Tops/Bras"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-conjuntos": {
+    "props": {
+      "id": "mujer-ropa-conjuntos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Conjuntos",
+        "text": "Conjuntos"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-chompas": {
+    "props": {
+      "id": "mujer-ropa-chompas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chompas",
+        "text": "Chompas"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-shorts": {
+    "props": {
+      "id": "mujer-ropa-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-leggins": {
+    "props": {
+      "id": "mujer-ropa-leggins",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Leggins",
+        "text": "Leggins"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-pantalones": {
+    "props": {
+      "id": "mujer-ropa-pantalones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-ternos-bano": {
+    "props": {
+      "id": "mujer-ropa-ternos-bano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ternos-bano",
+        "text": "Ternos de Baño"
+      }
+    }
+  },
+  "menu-item#mujer-ropa-talla-plus": {
+    "props": {
+      "id": "mujer-ropa-talla-plus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "talla-plus",
+        "text": "Talla Plus"
+      }
+    }
+  },
+
+  //Zapatos
+  "vtex.menu@2.x:menu#mujer-zapatos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-zapatos",
+      "menu-item#mujer-zapatos-correr",
+      "menu-item#mujer-zapatos-training",
+      "menu-item#mujer-zapatos-lifestyle",
+      "menu-item#mujer-zapatos-outdoor",
+      "menu-item#mujer-zapatos-natacion",
+      "menu-item#mujer-zapatos-basket",
+      "menu-item#mujer-zapatos-tenis"
+    ]
+  },
+  "rich-text#titulo-zapatos": {
+    "props": {
+      "text": "Zapatos",
+      "blockClass": "menunivel2"
+    }
+  },
+
+  //Accesorios
+  "vtex.menu@2.x:menu#mujer-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-accesorios",
+      "menu-item#mujer-zapatos-correr",
+      "menu-item#mujer-zapatos-training",
+      "menu-item#mujer-zapatos-lifestyle",
+      "menu-item#mujer-zapatos-outdoor",
+      "menu-item#mujer-zapatos-natacion",
+      "menu-item#mujer-zapatos-basket",
+      "menu-item#mujer-zapatos-tenis"
+    ]
+  },
+  "rich-text#titulo-accesorios": {
+    "props": {
+      "text": "Accesorios",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#mujer-zapatos-correr": {
+    "props": {
+      "id": "mujer-zapatos-correr",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Correr",
+        "text": "Correr"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-training": {
+    "props": {
+      "id": "mujer-zapatos-training",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-lifestyle": {
+    "props": {
+      "id": "mujer-zapatos-lifestyle",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lifestyle",
+        "text": "Lifestyle"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-outdoor": {
+    "props": {
+      "id": "mujer-zapatos-outdoor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outdoor",
+        "text": "Outdoor"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-natacion": {
+    "props": {
+      "id": "mujer-zapatos-natacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Natacion",
+        "text": "Natacion"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-basket": {
+    "props": {
+      "id": "mujer-zapatos-basket",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Basket",
+        "text": "Basket"
+      }
+    }
+  },
+  "menu-item#mujer-zapatos-tenis": {
+    "props": {
+      "id": "mujer-zapatos-tenis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+
+
+
   "vtex.menu@2.x:menu#Products": {
     "props": {
       "orientation": "vertical"

@@ -112,6 +112,7 @@
   },
   "menu-item#mujer": {
     "props": {
+
       "id": "menu-item-mujer",
       "type": "custom",
       "iconId": null,
@@ -314,10 +315,9 @@
   },
   "flex-layout.row#megamenu-columns-container": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags"
+      "vtex.menu@2.x:menu#mujer-ropa",
+      "vtex.menu@2.x:menu#mujer-zapatos",
+      "vtex.menu@2.x:menu#mujer-accesorios"
     ],
     "props": {
       "blockClass": "menu-row",
