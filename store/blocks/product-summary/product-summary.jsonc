@@ -7,6 +7,7 @@
     "product-list-price#summary",
     "flex-layout.row#selling-price-savings",
     "product-installments#summary",
+    "product-summary-description",
     "product-summary-space",
     "add-to-cart-button"
     ]
