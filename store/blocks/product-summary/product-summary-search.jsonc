@@ -9,7 +9,7 @@
   },
   "responsive-layout.desktop#productSummaryListSearch": {
     "children": [
-      "flex-layout.row#summaryListDesktop"
+      "flex-layout.row#summaryListDesktopSearch"
     ]
   },
   "flex-layout.row#savingsSummaryListDesktopSearch": {

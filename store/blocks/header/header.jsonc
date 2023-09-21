@@ -155,6 +155,6 @@
     }
   },
   "autocomplete-result-list.v2": {
-    "blocks": ["product-summary.shelf#listLayout"]
+    "blocks": ["product-summary.shelf#searchLayout"]
   }
 }

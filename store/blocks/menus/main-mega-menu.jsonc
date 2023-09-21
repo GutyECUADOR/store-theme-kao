@@ -120,7 +120,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#mujer"
+      "vtex.menu@2.x:submenu#marcas"
     ]
   },
   "menu-item#maquinas": {

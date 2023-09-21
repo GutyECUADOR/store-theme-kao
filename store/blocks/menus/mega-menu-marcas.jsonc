@@ -1,0 +1,45 @@
+{
+  "vtex.menu@2.x:submenu#marcas": {
+    "props": {
+      "width": "100%",
+      "blockClass": "mi-menu"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-main-container-marcas"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container-marcas": {
+    "children": [
+      "flex-layout.col#megamenu-marcas-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
+    ]
+  },
+  "flex-layout.col#megamenu-marcas-left": {
+    "children": [
+      "vtex.menu@2.x:menu#submain-megamenu-marcas"
+    ]
+  },
+  "flex-layout.col#megamenu-marcas-right": {
+    "children": [
+      "info-card#general"
+    ]
+  },
+  "vtex.menu@2.x:menu#submain-megamenu-marcas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#megamenu-columns-container-marcas"
+    ]
+  },
+  "flex-layout.row#megamenu-columns-container-marcas": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    }
+  }
+}

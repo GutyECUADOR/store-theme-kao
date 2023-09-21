@@ -1,0 +1,42 @@
+{
+  "vtex.menu@2.x:menu#marcas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#marcas-lotto",
+      "menu-item#marcas-aurik"
+    ]
+  },
+  "menu-item#marcas-lotto": {
+    "props": {
+      "id": "marcas-adidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "lotto",
+        "text": "Lotto"
+      }
+    }
+  },
+  "menu-item#marcas-aurik": {
+    "props": {
+      "id": "marcas-aurik",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "aurik",
+        "text": "Aurik"
+      }
+    }
+  }
+ 
+}
