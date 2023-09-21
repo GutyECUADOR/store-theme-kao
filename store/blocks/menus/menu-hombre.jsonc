@@ -159,18 +159,21 @@
   },
 
   //Zapatos
+
   "vtex.menu@2.x:menu#hombre-zapatos": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
       "rich-text#titulo-zapatos-hombre",
+      "menu-item#hombre-zapatos-futbol",
       "menu-item#hombre-zapatos-correr",
       "menu-item#hombre-zapatos-training",
       "menu-item#hombre-zapatos-lifestyle",
       "menu-item#hombre-zapatos-outdoor",
       "menu-item#hombre-zapatos-natacion",
       "menu-item#hombre-zapatos-basket",
+      "menu-item#hombre-zapatos-crossfit",
       "menu-item#hombre-zapatos-tenis"
     ]
   },
@@ -180,7 +183,21 @@
       "blockClass": "menunivel2"
     }
   },
-
+  "menu-item#hombre-zapatos-futbol": {
+    "props": {
+      "id": "hombre-zapatos-futbol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Futbol",
+        "text": "Futbol"
+      }
+    }
+  },
   "menu-item#hombre-zapatos-correr": {
     "props": {
       "id": "hombre-zapatos-correr",
@@ -271,6 +288,21 @@
       }
     }
   },
+  "menu-item#hombre-zapatos-crossfit": {
+    "props": {
+      "id": "hombre-zapatos-crossfit",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "crossfit",
+        "text": "Crossfit"
+      }
+    }
+  },
   "menu-item#hombre-zapatos-tenis": {
     "props": {
       "id": "hombre-zapatos-tenis",
@@ -288,6 +320,7 @@
   },
 
 //Accesorios
+
 "vtex.menu@2.x:menu#hombre-accesorios": {
   "props": {
     "orientation": "vertical"
