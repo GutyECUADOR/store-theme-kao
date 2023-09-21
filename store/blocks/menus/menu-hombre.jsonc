@@ -1,0 +1,385 @@
+{
+  "vtex.menu@2.x:menu#hombre-ropa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-ropa-hombre",
+      "menu-item#hombre-ropa-camisetas",
+      "menu-item#hombre-ropa-tops-bras",
+      "menu-item#hombre-ropa-conjuntos",
+      "menu-item#hombre-ropa-chompas",
+      "menu-item#hombre-ropa-shorts",
+      "menu-item#hombre-ropa-bermudas",
+      "menu-item#hombre-ropa-pantalones",
+      "menu-item#hombre-ropa-ternos-bano",
+      "menu-item#hombre-ropa-talla-plus"
+    ]
+  },
+  "rich-text#titulo-ropa-hombre": {
+    "props": {
+      "text": "Ropa",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#hombre-ropa-camisetas": {
+    "props": {
+      "id": "hombre-ropa-camisetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-tops-bras": {
+    "props": {
+      "id": "hombre-ropa-tops-bras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tops/Bras",
+        "text": "Tops/Bras"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-conjuntos": {
+    "props": {
+      "id": "hombre-ropa-conjuntos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Conjuntos",
+        "text": "Conjuntos"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-chompas": {
+    "props": {
+      "id": "hombre-ropa-chompas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chompas",
+        "text": "Chompas"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-shorts": {
+    "props": {
+      "id": "hombre-ropa-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-bermudas": {
+    "props": {
+      "id": "hombre-ropa-bermudas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bermudas",
+        "text": "Bermudas"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-pantalones": {
+    "props": {
+      "id": "hombre-ropa-pantalones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-ternos-bano": {
+    "props": {
+      "id": "hombre-ropa-ternos-bano",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ternos-bano",
+        "text": "Ternos de Baño"
+      }
+    }
+  },
+  "menu-item#hombre-ropa-talla-plus": {
+    "props": {
+      "id": "hombre-ropa-talla-plus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "talla-plus",
+        "text": "Talla Plus"
+      }
+    }
+  },
+
+  //Zapatos
+  "vtex.menu@2.x:menu#hombre-zapatos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-zapatos-hombre",
+      "menu-item#hombre-zapatos-correr",
+      "menu-item#hombre-zapatos-training",
+      "menu-item#hombre-zapatos-lifestyle",
+      "menu-item#hombre-zapatos-outdoor",
+      "menu-item#hombre-zapatos-natacion",
+      "menu-item#hombre-zapatos-basket",
+      "menu-item#hombre-zapatos-tenis"
+    ]
+  },
+  "rich-text#titulo-zapatos-hombre": {
+    "props": {
+      "text": "Zapatos",
+      "blockClass": "menunivel2"
+    }
+  },
+
+  "menu-item#hombre-zapatos-correr": {
+    "props": {
+      "id": "hombre-zapatos-correr",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Correr",
+        "text": "Correr"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-training": {
+    "props": {
+      "id": "hombre-zapatos-training",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Training",
+        "text": "Training"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-lifestyle": {
+    "props": {
+      "id": "hombre-zapatos-lifestyle",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lifestyle",
+        "text": "Lifestyle"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-outdoor": {
+    "props": {
+      "id": "hombre-zapatos-outdoor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Outdoor",
+        "text": "Outdoor"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-natacion": {
+    "props": {
+      "id": "hombre-zapatos-natacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Natacion",
+        "text": "Natacion"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-basket": {
+    "props": {
+      "id": "hombre-zapatos-basket",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Basket",
+        "text": "Basket"
+      }
+    }
+  },
+  "menu-item#hombre-zapatos-tenis": {
+    "props": {
+      "id": "hombre-zapatos-tenis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+
+//Accesorios
+"vtex.menu@2.x:menu#hombre-accesorios": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-accesorios-hombre",
+    "menu-item#hombre-accesorios-gorras",
+    "menu-item#hombre-accesorios-mochilas",
+    "menu-item#hombre-accesorios-maletas",
+    "menu-item#hombre-accesorios-medias",
+    "menu-item#hombre-accesorios-otros"
+  ]
+},
+"rich-text#titulo-accesorios-hombre": {
+  "props": {
+    "text": "Accesorios",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#hombre-accesorios-gorras": {
+  "props": {
+    "id": "hombre-accesorios-gorras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Gorras",
+      "text": "Gorras"
+    }
+  }
+},
+"menu-item#hombre-accesorios-mochilas": {
+  "props": {
+    "id": "hombre-accesorios-mochilas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Mochilas",
+      "text": "Mochilas"
+    }
+  }
+},
+"menu-item#hombre-accesorios-maletas": {
+  "props": {
+    "id": "hombre-accesorios-maletas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Maletas",
+      "text": "Maletas"
+    }
+  }
+},
+"menu-item#hombre-accesorios-medias": {
+  "props": {
+    "id": "hombre-accesorios-medias",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Medias",
+      "text": "Medias"
+    }
+  }
+},
+"menu-item#hombre-accesorios-otros": {
+  "props": {
+    "id": "hombre-accesorios-otros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Otros",
+      "text": "Otros"
+      }
+    }
+  }
+}

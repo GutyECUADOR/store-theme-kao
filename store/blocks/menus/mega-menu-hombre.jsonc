@@ -33,9 +33,9 @@
   },
   "flex-layout.row#megamenu-columns-container-hombre": {
     "children": [
-      /* "vtex.menu@2.x:menu#hombre-ropa",
+      "vtex.menu@2.x:menu#hombre-ropa",
       "vtex.menu@2.x:menu#hombre-zapatos",
-      "vtex.menu@2.x:menu#hombre-accesorios" */
+      "vtex.menu@2.x:menu#hombre-accesorios"
     ],
     "props": {
       "blockClass": "menu-row",

@@ -4,7 +4,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#titulo-ropa",
+      "rich-text#titulo-ropa-mujer",
       "menu-item#mujer-ropa-camisetas",
       "menu-item#mujer-ropa-tops-bras",
       "menu-item#mujer-ropa-conjuntos",
@@ -12,10 +12,11 @@
       "menu-item#mujer-ropa-shorts",
       "menu-item#mujer-ropa-leggins",
       "menu-item#mujer-ropa-pantalones",
+      "menu-item#mujer-ropa-ternos-bano",
       "menu-item#mujer-ropa-talla-plus"
     ]
   },
-  "rich-text#titulo-ropa": {
+  "rich-text#titulo-ropa-mujer": {
     "props": {
       "text": "Ropa",
       "blockClass": "menunivel2"
@@ -163,7 +164,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#titulo-zapatos",
+      "rich-text#titulo-zapatos-mujer",
       "menu-item#mujer-zapatos-correr",
       "menu-item#mujer-zapatos-training",
       "menu-item#mujer-zapatos-lifestyle",
@@ -173,7 +174,7 @@
       "menu-item#mujer-zapatos-tenis"
     ]
   },
-  "rich-text#titulo-zapatos": {
+  "rich-text#titulo-zapatos-mujer": {
     "props": {
       "text": "Zapatos",
       "blockClass": "menunivel2"
@@ -292,7 +293,7 @@
     "orientation": "vertical"
   },
   "children": [
-    "rich-text#titulo-accesorios",
+    "rich-text#titulo-accesorios-mujer",
     "menu-item#mujer-accesorios-gorras",
     "menu-item#mujer-accesorios-mochilas",
     "menu-item#mujer-accesorios-maletas",
@@ -300,7 +301,7 @@
     "menu-item#mujer-accesorios-otros"
   ]
 },
-"rich-text#titulo-accesorios": {
+"rich-text#titulo-accesorios-mujer": {
   "props": {
     "text": "Accesorios",
     "blockClass": "menunivel2"
