@@ -1,0 +1,164 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#mujer",
+      "menu-item#hombre",
+      "menu-item#ninos",
+      "menu-item#accesorios",
+      "menu-item#deportes",
+      "menu-item#marcas",
+      "menu-item#maquinas",
+      "menu-item#descuentos"
+    ]
+  },
+  "menu-item#mujer": {
+    "props": {
+
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#hombre": {
+    "props": {
+      "id": "menu-item-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#hombre"
+    ]
+  },
+  "menu-item#ninos": {
+    "props": {
+      "id": "menu-item-niños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#accesorios": {
+    "props": {
+      "id": "menu-item-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#deportes": {
+    "props": {
+      "id": "menu-item-deportes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#maquinas": {
+    "props": {
+      "id": "menu-item-maquinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Máquinas",
+        "text": "Máquinas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  },
+  "menu-item#descuentos": {
+    "props": {
+      "id": "menu-item-descuentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Descuentos",
+        "text": "Descuentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mujer"
+    ]
+  }
+
+
+}

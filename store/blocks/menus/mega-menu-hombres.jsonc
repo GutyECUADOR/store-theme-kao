@@ -1,0 +1,46 @@
+{
+  "vtex.menu@2.x:submenu#hombre": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-main-container-hombre"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container-hombre": {
+    "children": [
+      "flex-layout.col#megamenu-hombre-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
+    ]
+  },
+  "flex-layout.col#megamenu-hombre-left": {
+    "children": [
+      "vtex.menu@2.x:menu#submain-megamenu-hombre"
+    ]
+  },
+  "flex-layout.col#megamenu-hombre-right": {
+    "children": [
+      "info-card#general"
+    ]
+  },
+  "vtex.menu@2.x:menu#submain-megamenu-hombre": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#megamenu-columns-container-hombre"
+    ]
+  },
+  "flex-layout.row#megamenu-columns-container-hombre": {
+    "children": [
+      /* "vtex.menu@2.x:menu#hombre-ropa",
+      "vtex.menu@2.x:menu#hombre-zapatos",
+      "vtex.menu@2.x:menu#hombre-accesorios" */
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    }
+  }
+}

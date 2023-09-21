@@ -4,15 +4,15 @@
       "blockClass": "searchLayoutSummary"
     },
     "children": [
-      "responsive-layout.desktop#productSummaryList"
+      "responsive-layout.desktop#productSummaryListSearch"
     ]
   },
-  "responsive-layout.desktop#productSummaryList": {
+  "responsive-layout.desktop#productSummaryListSearch": {
     "children": [
       "flex-layout.row#summaryListDesktop"
     ]
   },
-  "flex-layout.row#savingsSummaryListDesktop": {
+  "flex-layout.row#savingsSummaryListDesktopSearch": {
     "props": {
       "colSizing": "auto",
       "colGap": 3,
@@ -23,49 +23,49 @@
       "product-price-savings#summary"
     ]
   },
-  "flex-layout.row#summaryListDesktop": {
+  "flex-layout.row#summaryListDesktopSearch": {
     "props":{
       "fullWidth": true,
       "colSizing": "auto",
       "blockClass": "summaryListDesktop"
     },
     "children": [
-      "flex-layout.row#summaryLeftListDesktop"
+      "flex-layout.row#summaryLeftListDesktopSearch"
     ]
   },
-  "flex-layout.row#summaryLeftListDesktop": {
+  "flex-layout.row#summaryLeftListDesktopSearch": {
     "props": {
       "blockClass": "summaryLeftListDesktop",
       "colSizing": "auto",
       "colGap": 7
     },
     "children": [
-      "stack-layout#summaryListDesktop",
-      "flex-layout.col#summaryDetailsListDesktop"
+      "stack-layout#summaryListDesktopSearch",
+      "flex-layout.col#summaryDetailsListDesktopSearch"
     ]
   },
-  "flex-layout.col#summaryDetailsListDesktop": {
+  "flex-layout.col#summaryDetailsListDesktopSearch": {
     "props": {
       "preventVerticalStretch": true
     },
     "children": [
-      "vtex.store-components:product-brand#summaryListDesktop",
-      "product-summary-name#summaryListDesktop",
+      "vtex.store-components:product-brand#summaryListDesktopSearch",
+      "product-summary-name#summaryListDesktopSearch",
       "product-summary-description"
     ]
   },
-  "product-summary-name#summaryListDesktop": {
+  "product-summary-name#summaryListDesktopSearch": {
     "props": {
       "blockClass": "summaryListDesktop"
     }
   },
-  "vtex.store-components:product-brand#summaryListDesktop": {
+  "vtex.store-components:product-brand#summaryListDesktopSearch": {
     "props": {
       "displayMode": "text",
       "blockClass": "summaryListDesktop"
     }
   },
-  "flex-layout.col#summaryRightListDesktop": {
+  "flex-layout.col#summaryRightListDesktopSearch": {
     "props": {
       "blockClass": "summaryRightListDesktop",
       "preventVerticalStretch": true
@@ -75,26 +75,26 @@
       "flex-layout.col#priceSummaryListDesktop"
     ]
   },
-  "flex-layout.row#buyButtonsSummaryListDesktop": {
+  "flex-layout.row#buyButtonsSummaryListDesktopSearch": {
     "props": {
       "colSizing": "auto",
       "colGap": 5
     },
     "children": [
       "add-to-cart-button",
-      "flex-layout.row#buyNowButton"
+      "flex-layout.row#buyNowButtonSearch"
     ]
   },
-  "flex-layout.row#buyNowButton": {
+  "flex-layout.row#buyNowButtonSearch": {
     "props": {
       "blockClass": "buyNowButton"
     },
     "children": [
-      "add-to-cart-button#buyNow"
+      "add-to-cart-button#buyNowSearch"
     ]
   },
 
-  "add-to-cart-button#buyNow": {
+  "add-to-cart-button#buyNowSearch": {
     "props": {
       "text": "BUY NOW",
       "isOneClickBuy": true,
@@ -102,14 +102,14 @@
       "blockClass": "buyNow"
     }
   },
-  "stack-layout#summaryListDesktop": {
+  "stack-layout#summaryListDesktopSearch": {
     "children": [
-      "product-summary-image#summaryListDesktop",
+      "product-summary-image#summaryListDesktopSearch",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
-  "product-summary-image#summaryListDesktop": {
+  "product-summary-image#summaryListDesktopSearch": {
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
@@ -117,7 +117,7 @@
       "blockClass": "summaryListDesktop"
     }
   },
-  "flex-layout.row#summaryListMobile": {
+  "flex-layout.row#summaryListMobileSearch": {
     "props":{
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
@@ -125,18 +125,18 @@
       "colGap": 5
     },
     "children": [
-      "stack-layout#summaryListMobile",
-      "flex-layout.col#summaryDetailsListMobile"
+      "stack-layout#summaryListMobileSearch",
+      "flex-layout.col#summaryDetailsListMobileSearch"
     ]
   },
-  "stack-layout#summaryListMobile": {
+  "stack-layout#summaryListMobileSearch": {
     "children": [
-      "product-summary-image#summaryListMobile",
+      "product-summary-image#summaryListMobileSearch",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
-  "product-summary-image#summaryListMobile": {
+  "product-summary-image#summaryListMobileSearch": {
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
@@ -144,29 +144,29 @@
       "blockClass": "summaryListMobile"
     }
   },
-  "flex-layout.col#summaryDetailsListMobile": {
+  "flex-layout.col#summaryDetailsListMobileSearch": {
     "props": {
       "preventVerticalStretch": true,
       "width": "grow",
       "blockClass": "summaryDetailsListMobile"
     },
     "children": [
-      "flex-layout.col#summaryUpDetailsListMobile",
-      "flex-layout.col#summaryDownDetailsListMobile"
+      "flex-layout.col#summaryUpDetailsListMobileSearch",
+      "flex-layout.col#summaryDownDetailsListMobileSearch"
     ]
   },
-  "flex-layout.col#summaryUpDetailsListMobile": {
+  "flex-layout.col#summaryUpDetailsListMobileSearch": {
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "summaryUpDetailsListMobile"
     },
     "children": [
-      "vtex.store-components:product-brand#summaryListMobile",
-      "product-summary-name#summaryListMobile",
+      "vtex.store-components:product-brand#summaryListMobileSearch",
+      "product-summary-name#summaryListMobileSearch",
       "product-rating-inline"
     ]
   },
-  "flex-layout.col#summaryDownDetailsListMobile": {
+  "flex-layout.col#summaryDownDetailsListMobileSearch": {
     "props": {
       "preventVerticalStretch": true
     },
@@ -175,13 +175,13 @@
       "product-installments#summary"
     ]
   },
-  "vtex.store-components:product-brand#summaryListMobile": {
+  "vtex.store-components:product-brand#summaryListMobileSearch": {
     "props": {
       "displayMode": "text",
       "blockClass": "summaryListMobile"
     }
   },
-  "product-summary-name#summaryListMobile": {
+  "product-summary-name#summaryListMobileSearch": {
     "props": {
       "tag": "div",
       "blockClass": "summaryListMobile"
