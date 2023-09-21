@@ -1,0 +1,394 @@
+{
+  "vtex.menu@2.x:menu#accesorios-mochilas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-mochilas",
+      "menu-item#accesorios-mochilas-escolares",
+      "menu-item#accesorios-mochilas-outdoor",
+      "menu-item#accesorios-mochilas-otros"
+    ]
+  },
+  "rich-text#titulo-mochilas": {
+    "props": {
+      "text": "Mochilas",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-mochilas-escolares": {
+    "props": {
+      "id": "accesorios-mochilas-escolares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Escolares",
+        "text": "Escolares"
+      }
+    }
+  },
+  "menu-item#accesorios-mochilas-outdoor": {
+    "props": {
+      "id": "accesorios-mochilas-outdoor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "outdoor",
+        "text": "outdoor"
+      }
+    }
+  },
+  "menu-item#accesorios-mochilas-otros": {
+    "props": {
+      "id": "accesorios-mochilas-otros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      }
+    }
+  },
+
+
+  //Maletas
+
+  "vtex.menu@2.x:menu#accesorios-maletas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-maletas",
+      "menu-item#accesorios-maletas"
+    ]
+  },
+  "rich-text#titulo-maletas": {
+    "props": {
+      "text": "Maletas",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-maletas": {
+    "props": {
+      "id": "accesorios-maletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Maletas",
+        "text": "Maletas"
+      }
+    }
+  },
+ 
+// Medicinal
+
+  "vtex.menu@2.x:menu#accesorios-medicinal": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-medicinal",
+    "menu-item#accesorios-medicinal-rodilleras",
+    "menu-item#accesorios-medicinal-coderas",
+    "menu-item#accesorios-medicinal-musleras",
+    "menu-item#accesorios-medicinal-tobilleras",
+    "menu-item#accesorios-medicinal-plantillas"
+  ]
+  },
+  "rich-text#titulo-medicinal": {
+    "props": {
+      "text": "Medicinal",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-medicinal-rodilleras": {
+    "props": {
+      "id": "accesorios-medicinal-rodilleras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Rodilleras",
+        "text": "Rodilleras"
+      }
+    }
+  },
+  "menu-item#accesorios-medicinal-coderas": {
+    "props": {
+      "id": "accesorios-medicinal-coderas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Coderas",
+        "text": "Coderas"
+      }
+    }
+  },
+  "menu-item#accesorios-medicinal-musleras": {
+    "props": {
+      "id": "accesorios-medicinal-musleras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Musleras",
+        "text": "Musleras"
+      }
+    }
+  },
+  "menu-item#accesorios-medicinal-tobilleras": {
+    "props": {
+      "id": "accesorios-medicinal-tobilleras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tobilleras",
+        "text": "Tobilleras"
+      }
+    }
+  },
+  "menu-item#accesorios-medicinal-plantillas": {
+    "props": {
+      "id": "accesorios-medicinal-plantillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "plantillas",
+        "text": "Plantillas"
+      }
+    }
+  },
+  
+
+  //Fitness
+
+  "vtex.menu@2.x:menu#accesorios-fitness": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-fitness",
+      "menu-item#accesorios-fitness"
+    ]
+  },
+  "rich-text#titulo-fitness": {
+    "props": {
+      "text": "Fitness",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-fitness": {
+    "props": {
+      "id": "accesorios-fitness",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "fitness",
+        "text": "Fitness"
+      }
+    }
+  },
+
+  // outdoor
+
+  "vtex.menu@2.x:menu#accesorios-outdoor": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-outdoor",
+      "menu-item#accesorios-outdoor-navajas",
+      "menu-item#accesorios-outdoor-linternas",
+      "menu-item#accesorios-outdoor-camping"
+     
+    ]
+    },
+    "rich-text#titulo-outdoor": {
+      "props": {
+        "text": "Outdoor",
+        "blockClass": "menunivel2"
+      }
+    },
+    "menu-item#accesorios-outdoor-navajas": {
+      "props": {
+        "id": "accesorios-outdoor-navajas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Navajas",
+          "text": "Navajas"
+        }
+      }
+    },
+    "menu-item#accesorios-outdoor-linternas": {
+      "props": {
+        "id": "accesorios-outdoor-linternas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "linternas",
+          "text": "Linternas"
+        }
+      }
+    },
+    "menu-item#accesorios-outdoor-camping": {
+      "props": {
+        "id": "accesorios-outdoor-camping",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "camping",
+          "text": "Camping"
+        }
+      }
+    },
+
+  // gorras
+
+  "vtex.menu@2.x:menu#accesorios-gorras": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-gorras",
+    "menu-item#accesorios-gorras-tenis",
+    "menu-item#accesorios-gorras-running",
+    "menu-item#accesorios-gorras-fashion"
+    
+  ]
+  },
+  "rich-text#titulo-gorras": {
+    "props": {
+      "text": "Gorras",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-gorras-tenis": {
+    "props": {
+      "id": "accesorios-gorras-tenis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+  "menu-item#accesorios-gorras-running": {
+    "props": {
+      "id": "accesorios-gorras-running",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "running",
+        "text": "Running"
+      }
+    }
+  },
+  "menu-item#accesorios-gorras-fashion": {
+    "props": {
+      "id": "accesorios-gorras-fashion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "fashion",
+        "text": "Fashion"
+      }
+    }
+  },
+
+   // termos
+
+  "vtex.menu@2.x:menu#accesorios-termos": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-termos",
+    "menu-item#accesorios-termos"
+  ]
+  },
+  "rich-text#titulo-termos": {
+    "props": {
+      "text": "Termos",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#accesorios-termos": {
+    "props": {
+      "id": "accesorios-termos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "termos",
+        "text": "Termos"
+      }
+    }
+  }
+}

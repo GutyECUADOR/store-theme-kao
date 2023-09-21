@@ -1,0 +1,50 @@
+{
+  "vtex.menu@2.x:submenu#accesorios": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-main-container-accesorios"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container-accesorios": {
+    "children": [
+      "flex-layout.col#megamenu-accesorios-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
+    ]
+  },
+  "flex-layout.col#megamenu-accesorios-left": {
+    "children": [
+      "vtex.menu@2.x:menu#submain-megamenu-accesorios"
+    ]
+  },
+  "flex-layout.col#megamenu-accesorios-right": {
+    "children": [
+      "info-card#general"
+    ]
+  },
+  "vtex.menu@2.x:menu#submain-megamenu-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#megamenu-columns-container-accesorios"
+    ]
+  },
+  "flex-layout.row#megamenu-columns-container-accesorios": {
+    "children": [
+      "vtex.menu@2.x:menu#accesorios-mochilas",
+      "vtex.menu@2.x:menu#accesorios-maletas",
+      "vtex.menu@2.x:menu#accesorios-medicinal",
+      "vtex.menu@2.x:menu#accesorios-fitness",
+      "vtex.menu@2.x:menu#accesorios-outdoor",
+      "vtex.menu@2.x:menu#accesorios-gorras",
+      "vtex.menu@2.x:menu#accesorios-termos"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    }
+  }
+}
