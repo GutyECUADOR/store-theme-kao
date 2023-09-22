@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:submenu#marcas": {
     "props": {
-      "width": "100%",
-      "blockClass": "mi-menu"
+      "width": "50%"
     },
     "children": [
       "flex-layout.row#mega-menu-main-container-marcas"

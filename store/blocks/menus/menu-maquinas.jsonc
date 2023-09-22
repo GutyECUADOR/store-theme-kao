@@ -1,0 +1,106 @@
+{
+  "vtex.menu@2.x:menu#maquinas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#maquinas-multifuerza",
+      "menu-item#maquinas-caminadoras",
+      "menu-item#maquinas-elipticas",
+      "menu-item#maquinas-estaticas",
+      "menu-item#maquinas-banda",
+      "menu-item#maquinas-otro"
+    ]
+  },
+  "menu-item#maquinas-multifuerza": {
+    "props": {
+      "id": "maquinas-multifuerza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "maquinas-multifuerza",
+        "text": "Multifuerza"
+      }
+    }
+  },
+  "menu-item#maquinas-caminadoras": {
+    "props": {
+      "id": "maquinas-caminadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Caminadoras",
+        "text": "Caminadoras"
+      }
+    }
+  },
+  "menu-item#maquinas-elipticas": {
+    "props": {
+      "id": "maquinas-eliptica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "eliptica",
+        "text": "Eliptica"
+      }
+    }
+  },
+  "menu-item#maquinas-estaticas": {
+    "props": {
+      "id": "maquinas-estaticas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "maquinas-estaticas",
+        "text": "Estaticas"
+      }
+    }
+  },
+  "menu-item#maquinas-banda": {
+    "props": {
+      "id": "maquinas-banda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "maquinas-banda",
+        "text": "Banda"
+      }
+    }
+  },
+  "menu-item#maquinas-otro": {
+    "props": {
+      "id": "maquinas-otro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "maquinas-otro",
+        "text": "Otros"
+      }
+    }
+  }
+
+}

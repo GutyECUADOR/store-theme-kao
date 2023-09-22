@@ -1,0 +1,44 @@
+{
+  "vtex.menu@2.x:submenu#maquinas": {
+    "props": {
+      "width": "50%"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-main-container-maquinas"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container-maquinas": {
+    "children": [
+      "flex-layout.col#megamenu-maquinas-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
+    ]
+  },
+  "flex-layout.col#megamenu-maquinas-left": {
+    "children": [
+      "vtex.menu@2.x:menu#submain-megamenu-maquinas"
+    ]
+  },
+  "flex-layout.col#megamenu-maquinas-right": {
+    "children": [
+      "info-card#general"
+    ]
+  },
+  "vtex.menu@2.x:menu#submain-megamenu-maquinas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#megamenu-columns-container-maquinas"
+    ]
+  },
+  "flex-layout.row#megamenu-columns-container-maquinas": {
+    "children": [
+      "vtex.menu@2.x:menu#maquinas"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    }
+  }
+}
