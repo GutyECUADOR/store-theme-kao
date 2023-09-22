@@ -87,6 +87,18 @@
   margin-right: 1.5rem;
 }
 
+.container--footer-title {
+  color: #a02d00;
+  font-weight: bold;
+}
+
+.container--footer-description {
+  text-align: justify;
+  font-size: 12px;
+  padding-right: 1.5rem;
+
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

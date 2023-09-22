@@ -10,6 +10,15 @@
 
 }
 
+.styledLinkContainer {
+
+}
+
+.menuContainerNav--footer-links .styledLinkContainer {
+  margin-left: 0px;
+}
+
+
 /* .menuItem .styledLink:hover{
   color: white !important;
 }

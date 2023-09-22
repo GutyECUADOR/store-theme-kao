@@ -1,218 +1,125 @@
 {
 
 
-  "vtex.menu@2.x:menu#Products": {
+  "vtex.menu@2.x:menu#empresa": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "rich-text#info-empresa-title",
+      "rich-text#info-empresa-description"
     ]
   },
-  "menu-item#news": {
+  "rich-text#info-empresa-title": {
     "props": {
-      "id": "menu-item-news",
+      "text": "Empresa",
+      "blockClass": "footer-title"
+    }
+  },
+  "rich-text#info-empresa-description": {
+    "props": {
+      "text": "Dirección y Contacto: Av. los Shirys N37-27 y Naciones Unidas - Edificio Silva Nuñez 02-2252802 Extensión 1201 de Lun - Vier 9:00h a 17:00h 0999328928 ventasweb@kaosport.com (no envíar currículum) \n Quito - Ecuador",
+      "blockClass": "footer-description"
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#footer-aviso-legal": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-links"
+    },
+    "children": [
+      "rich-text#info-aviso-legal",
+      "menu-item#quienes-somos",
+      "menu-item#terminos-servicio",
+      "menu-item#politica-entregas-devoluciones",
+      "menu-item#compra-segura"
+    ]
+  },
+  "rich-text#info-aviso-legal": {
+    "props": {
+      "text": "Aviso Legal",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "noFollow": true,
+        "tagTitle": "quienes-somos",
+        "text": "Quienes somos"
       }
     }
   },
-  "menu-item#blackfriday": {
+
+  "menu-item#terminos-servicio": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-terminos-servicio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "noFollow": true,
+        "tagTitle": "terminos-servicio",
+        "text": "Terminos del servicio"
       }
     }
   },
-  "menu-item#sale": {
+
+  "menu-item#politica-entregas-devoluciones": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-politica-entregas-devoluciones",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "noFollow": true,
+        "tagTitle": "politica-entregas-devoluciones",
+        "text": "Politica de entregas & devoluciones"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#compra-segura": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-compra-segura",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "#",
-        "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#smartphones": {
-    "props": {
-      "id": "menu-item-smartphones",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/smartphones",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "compra-segura",
+        "text": "Compra 100% segura"
       }
     }
   },
 
-  "menu-item#videogames": {
-    "props": {
-      "id": "menu-item-videogames",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
-      }
-    }
-  },
 
-  "menu-item#tvs": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
-      }
-    }
-  },
 
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
-
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
-  },
-
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
-  },
-
-  "vtex.menu@2.x:menu#footer-clothing": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
 
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "rich-text#info-aviso-legal",
+      "menu-item#quienes-somos",
+      "menu-item#terminos-servicio",
+      "menu-item#politica-entregas-devoluciones",
+      "menu-item#compra-segura"
     ]
   },
 
@@ -267,9 +174,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#terminos-servicio"
     ]
   },
 
@@ -291,9 +196,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#terminos-servicio"
     ]
   },
 

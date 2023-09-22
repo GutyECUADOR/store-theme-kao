@@ -11,10 +11,8 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#empresa",
+      "vtex.menu@2.x:menu#footer-aviso-legal",
       "footer-spacer",
       "social-networks"
     ],
@@ -49,7 +47,7 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    /* "children": ["accepted-payment-methods"], */
     "props": {
       "blockClass": "payment-methods"
     }
