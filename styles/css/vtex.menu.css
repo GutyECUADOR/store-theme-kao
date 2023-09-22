@@ -1,7 +1,16 @@
-/* .menuItem  {
+.menuItem  {
     border-bottom: 2px solid transparent;
-} */
+}
 
-/* .menuItem:hover  {
-    border-bottom: 2px solid red;
-} */
+
+.menuItem:hover  {
+  background-color: #bebdbd;
+  transition: all .3s;
+  cursor: pointer;
+
+}
+
+/* .menuItem .styledLink:hover{
+  color: white !important;
+}
+ */
