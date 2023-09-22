@@ -5,7 +5,22 @@
     },
     "children": [
       "menu-item#marcas-lotto",
-      "menu-item#marcas-aurik"
+      "menu-item#marcas-aurik",
+      "menu-item#marcas-spalding",
+      "menu-item#marcas-converse",
+      "menu-item#marcas-victorinox",
+      "menu-item#marcas-speedo",
+      "menu-item#marcas-timberland",
+      "menu-item#marcas-stiga",
+      "menu-item#marcas-venum",
+      "menu-item#marcas-mikasa",
+      "menu-item#marcas-starvie",
+      "menu-item#marcas-adidas",
+      "menu-item#marcas-reebok",
+      "menu-item#marcas-nike",
+      "menu-item#marcas-primaxi",
+      "menu-item#marcas-skechers",
+      "menu-item#marcas-vans"
     ]
   },
   "menu-item#marcas-lotto": {
@@ -37,6 +52,251 @@
         "text": "Aurik"
       }
     }
+  },
+  "menu-item#marcas-spalding": {
+    "props": {
+      "id": "marcas-spalding",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "spalding",
+        "text": "Spalding"
+      }
+    }
+  },
+  "menu-item#marcas-converse": {
+    "props": {
+      "id": "marcas-converse",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "converse",
+        "text": "Converse"
+      }
+    }
+  },
+  "menu-item#marcas-victorinox": {
+    "props": {
+      "id": "marcas-victorinox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "victorinox",
+        "text": "Victorinox"
+      }
+    }
+  },
+  "menu-item#marcas-speedo": {
+    "props": {
+      "id": "marcas-speedo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "speedo",
+        "text": "Speedo"
+      }
+    }
+  },
+  "menu-item#marcas-timberland": {
+    "props": {
+      "id": "marcas-timberland",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "timberland",
+        "text": "Timberland"
+      }
+    }
+  },
+  "menu-item#marcas-stiga": {
+    "props": {
+      "id": "marcas-stiga",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "stiga",
+        "text": "Stiga"
+      }
+    }
+  },
+  "menu-item#marcas-venum": {
+    "props": {
+      "id": "marcas-venum",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "venum",
+        "text": "Venum"
+      }
+    }
+  },
+  "menu-item#marcas-mikasa": {
+    "props": {
+      "id": "marcas-mikasa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "mikasa",
+        "text": "Mikasa"
+      }
+    }
+  },
+  "menu-item#marcas-starvie": {
+    "props": {
+      "id": "marcas-starvie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "starvie",
+        "text": "Starvie"
+      }
+    }
+  },
+  "menu-item#marcas-adidas": {
+    "props": {
+      "id": "marcas-adidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "adidas",
+        "text": "Adidas"
+      }
+    }
+  },
+  "menu-item#marcas-reebok": {
+    "props": {
+      "id": "marcas-reebok",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "reebok",
+        "text": "Reebok"
+      }
+    }
+  },
+  "menu-item#marcas-nike": {
+    "props": {
+      "id": "marcas-nike",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "nike",
+        "text": "Nike"
+      }
+    }
+  },
+
+  "menu-item#marcas-primaxi": {
+    "props": {
+      "id": "marcas-primaxi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "primaxi",
+        "text": "Primaxi"
+      }
+    }
+  },
+
+  "menu-item#marcas-skechers": {
+    "props": {
+      "id": "marcas-skechers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "skechers",
+        "text": "Skechers"
+      }
+    }
+  },
+
+  "menu-item#marcas-vans": {
+    "props": {
+      "id": "marcas-vans",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vans",
+        "text": "Vans"
+      }
+    }
+  },
+
+  "menu-item#marcas-arena": {
+    "props": {
+      "id": "marcas-arena",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "arena",
+        "text": "Arena"
+      }
+    }
   }
- 
+
+
 }
