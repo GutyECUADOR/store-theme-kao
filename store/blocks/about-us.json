@@ -42,7 +42,7 @@
   },
   "video#about-us": {
     "props": {
-      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
+      "src": "https://www.youtube.com/watch?v=wKREJ_7iCsQ",
       "width": "100%",
       "height": "100%"
     }

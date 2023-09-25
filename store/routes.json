@@ -1,11 +1,8 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
+  "store.custom#terminos": {
+    "path": "/terminos"
   },
-  "store.custom#faq": {
-    "path": "/faq"
-  },
-  "store.custom#contact-us": {
-    "path": "/contact-us"
+  "store.custom#locales-quito": {
+    "path": "/locales-quito"
   }
 }

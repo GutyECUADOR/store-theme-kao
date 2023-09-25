@@ -52,7 +52,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos",
         "noFollow": true,
         "tagTitle": "quienes-somos",
         "text": "Quienes somos"
@@ -68,7 +68,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos",
         "noFollow": true,
         "tagTitle": "terminos-servicio",
         "text": "Terminos del servicio"
@@ -84,7 +84,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos",
         "noFollow": true,
         "tagTitle": "politica-entregas-devoluciones",
         "text": "Politica de entregas & devoluciones"
@@ -99,7 +99,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos",
         "noFollow": true,
         "tagTitle": "compra-segura",
         "text": "Compra 100% segura"
@@ -107,7 +107,90 @@
     }
   },
 
+  // LOCALES
 
+  "vtex.menu@2.x:menu#locales": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-links"
+    },
+    "children": [
+      "rich-text#locales",
+      "menu-item#locales-quito",
+      "menu-item#locales-guayaquil",
+      "menu-item#locales-cuenca",
+      "menu-item#locales-manta-machala"
+    ]
+  },
+  "rich-text#locales": {
+    "props": {
+      "text": "Locales",
+      "blockClass": "footer-title"
+    }
+  },
+
+  "menu-item#locales-quito": {
+    "props": {
+      "id": "menu-item-locales-quito",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "locales-quito",
+        "text": "Quito"
+      }
+    }
+  },
+
+  "menu-item#locales-guayaquil": {
+    "props": {
+      "id": "menu-item-locales-guayaquil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "locales-guayaquil",
+        "text": "Guayaquil"
+      }
+    }
+  },
+
+  "menu-item#locales-cuenca": {
+    "props": {
+      "id": "menu-item-locales-cuenca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "locales-cuenca",
+        "text": "Cuenca"
+      }
+    }
+  },
+  "menu-item#locales-manta-machala": {
+    "props": {
+      "id": "menu-item-manta-machala",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "manta-machala",
+        "text": "Manta & Machala"
+      }
+    }
+  },
 
 
   "vtex.menu@2.x:menu#footer-mobile": {

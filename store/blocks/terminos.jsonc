@@ -1,5 +1,5 @@
 {
-  "store.custom#faq": {
+  "store.custom#terminos": {
     "children": [
       "flex-layout.row#faq"
     ]
@@ -17,21 +17,25 @@
   "flex-layout.col#faq": {
     "children": [
       "rich-text#faq",
-      "disclosure-layout-group#group"
+      "rich-text#terminostext"
+      
     ]
   },
   "rich-text#faq": {
     "props": {
-      "text": "## FAQ"
+      "text": "## TÉRMINOS Y CONDICIONES"
+    }
+  },
+  "rich-text#terminostext": {
+    "props": {
+      "text": "Sin texto",
+      "blockClass": "terminos-condiciones"
     }
   },
 
   "disclosure-layout-group#group": {
     "children": [
-      "disclosure-layout#first",
-      "disclosure-layout#second",
-      "disclosure-layout#third",
-      "disclosure-layout#fourth"
+      
     ]
   },
 

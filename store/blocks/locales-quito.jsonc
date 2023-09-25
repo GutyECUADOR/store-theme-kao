@@ -1,0 +1,31 @@
+{
+  "store.custom#locales-quito": {
+    "children": [
+      "flex-layout.row#locales-quito"
+    ]
+  },
+
+  "flex-layout.row#locales-quito": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#locales-quito"
+    ]
+  },
+
+  "flex-layout.col#locales-quito": {
+    "children": [
+      "rich-text#locales-quito"
+     
+      
+    ]
+  },
+  "rich-text#locales-quito": {
+    "props": {
+      "text": "## LOCALES - QUITO"
+    }
+  }
+ 
+  
+}

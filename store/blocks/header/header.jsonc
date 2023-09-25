@@ -34,7 +34,7 @@
   },
   "rich-text#promotional": {
     "props": {
-      "text": "**Rebajas del 20% hasta el 23 de Septiembre, 2023!** Visita nuestra colección [Visitar ahora!](https://developers.vtex.com/vtex-developer-docs/docs/welcome).",
+      "text": "**Rebajas del 20% hasta el 23 de Septiembre, 2023!** Visita nuestra colección [Visitar ahora!](/promociones).",
       "blockClass": "promotionalText"
     }
   },

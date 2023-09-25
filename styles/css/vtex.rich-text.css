@@ -14,6 +14,10 @@
   font-size: 10px;
 }
 
+.container--terminos-condiciones {
+  text-align: justify;
+}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
 }

@@ -13,7 +13,7 @@
     "children": [
       "vtex.menu@2.x:menu#empresa",
       "vtex.menu@2.x:menu#footer-aviso-legal",
-      "footer-spacer",
+      "vtex.menu@2.x:menu#locales",
       "social-networks"
     ],
     "props": {
@@ -66,7 +66,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "© 2022 KAO Sport. Todos los derechos reservados.",
+      "text": "© 2023 KAO Sport. Todos los derechos reservados.",
       "blockClass": "footer"
     }
   },
