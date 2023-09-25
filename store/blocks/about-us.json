@@ -8,7 +8,6 @@
 
   "flex-layout.row#about-us": {
     "children": [
-      "image#mobile-phone",
       "flex-layout.col#text-about-us"
     ]
   },
@@ -28,6 +27,7 @@
     "props": {
       "text":
       "# Create meaningful and relevant experiences.",
+      "textAlignment": "CENTER",
       "blockClass": "title"
     }
   },
