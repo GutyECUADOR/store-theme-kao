@@ -1,13 +1,14 @@
 {
   "store.custom#locales-quito": {
     "children": [
+      "flex-layout.row#titulo-quito",
       "flex-layout.row#locales-quito"
     ]
   },
 
-  "flex-layout.row#locales-quito": {
+  "flex-layout.row#titulo-quito": {
     "props": {
-      "blockClass": "faq"
+      "blockClass": ""
     },
     "children": [
       "flex-layout.col#locales-quito"
@@ -15,16 +16,36 @@
   },
 
   "flex-layout.col#locales-quito": {
+    "props": {
+      "blockClass": "faq"
+    },
     "children": [
       "rich-text#locales-quito"
-     
-      
     ]
   },
   "rich-text#locales-quito": {
     "props": {
-      "text": "## LOCALES - QUITO"
+      "text": "LOCALES - QUITO"
     }
+  },
+  "flex-layout.row#locales-quito": {
+    "props": {
+      "blockClass": "row-locales"
+    },
+    "children": [
+      "flex-layout.col#local1",
+      "flex-layout.col#local1",
+      "flex-layout.col#local1",
+      "flex-layout.col#local1"
+    ]
+  },
+  "flex-layout.col#local1": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#locales-quito"
+    ]
   }
  
   
