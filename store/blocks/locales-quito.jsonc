@@ -2,77 +2,295 @@
   "store.custom#locales-quito": {
     "children": [
       "flex-layout.row#titulo-quito",
-      "flex-layout.row#locales-quito"
+      "flex-layout.row#locales-fila-1",
+      "flex-layout.row#locales-fila-2",
+      "flex-layout.row#titulo-guayaquil",
+      "flex-layout.row#locales-fila-1",
+      "flex-layout.row#locales-fila-2"
     ]
   },
 
+  //QUITO
   "flex-layout.row#titulo-quito": {
     "props": {
       "blockClass": "faq"
     },
     "children": [
-      "flex-layout.col#locales-quito"
+      "flex-layout.col#locales-quito-titulo"
     ]
   },
-
-  "flex-layout.col#locales-quito": {
+  "flex-layout.col#locales-quito-titulo": {
     "props": {
       "blockClass": "faq"
     },
     "children": [
-      "rich-text#locales-quito"
+      "rich-text#titulo-locales-quito"
     ]
   },
-  "rich-text#locales-quito": {
+  "rich-text#titulo-locales-quito": {
     "props": {
       "blockClass": "title-custom-locales-page",
       "textAlignment": "CENTER",
       "text": "LOCALES - QUITO"
     }
   },
-  "flex-layout.row#locales-quito": {
+
+  //GUAYAQUILL
+  "flex-layout.row#titulo-guayaquil": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#locales-guayaquil-titulo"
+    ]
+  },
+  "flex-layout.col#locales-guayaquil-titulo": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "rich-text#titulo-locales-guayaquil"
+    ]
+  },
+  "rich-text#titulo-locales-guayaquil": {
+    "props": {
+      "blockClass": "title-custom-locales-page",
+      "textAlignment": "CENTER",
+      "text": "LOCALES - GUAYAQUILL"
+    }
+  },
+
+  
+
+
+  // ROW CARDS LOCALES
+  "flex-layout.row#locales-fila-1": {
     "props": {
       "blockClass": "row-locales"
     },
     "children": [
-      "flex-layout.col#quicentro-norte",
-      "flex-layout.col#local1",
-      "flex-layout.col#local1",
-      "flex-layout.col#local1"
-    ]
-  },
-  "flex-layout.col#local1": {
-    "props": {
-      "blockClass": "card-local"
-    },
-    "children": [
-      "rich-text#locales-quito"
+      "flex-layout.col#local-1",
+      "flex-layout.col#local-2",
+      "flex-layout.col#local-3",
+      "flex-layout.col#local-4"
     ]
   },
 
-  "flex-layout.col#quicentro-norte": {
+  // LOCAL
+  "flex-layout.col#local-1": {
     "props": {
       "blockClass": "card-local"
     },
     "children": [
-      "rich-text#quicentro-norte-title",
-      "rich-text#quicentro-norte-description"
+      "rich-text#local-1-title",
+      "rich-text#local-1-description"
     ]
   },
-  "rich-text#quicentro-norte-title": {
+  "rich-text#local-1-title": {
     "props": {
       "textAlignment": "CENTER",
       "text": "Quicentro Norte",
       "blockClass": "title-card-local"
     }
   },
-  "rich-text#quicentro-norte-description": {
+  "rich-text#local-1-description": {
     "props": {
       "textAlignment": "CENTER",
       "text": "Av. Naciones Unidas y Av. 6 de diciembre - local No.111",
       "blockClass": "description-card-local"
     }
+  },
+  
+  // LOCAL
+  "flex-layout.col#local-2": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-2-title",
+      "rich-text#local-2-description"
+    ]
+  },
+  "rich-text#local-2-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Portal Shopping",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-2-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Avenidas Simón Bolívar, Panamericana Norte y, Capitán Giovanni",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-3": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-3-title",
+      "rich-text#local-3-description"
+    ]
+  },
+  "rich-text#local-3-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "C.C. El Bosque",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-3-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Av. del Parque s/n y Alonso de Torres - local No.280",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-4": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-4-title",
+      "rich-text#local-4-description"
+    ]
+  },
+  "rich-text#local-4-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Amazonas",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-4-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Av. Amazonas N31-61 y Calle Moreno Bellido",
+      "blockClass": "description-card-local"
+    }
+  },
+
+
+  // ROW CARDS LOCALES FILA 2
+  "flex-layout.row#locales-fila-2": {
+    "props": {
+      "blockClass": "row-locales"
+    },
+    "children": [
+      "flex-layout.col#local-5",
+      "flex-layout.col#local-6",
+      "flex-layout.col#local-7",
+      "flex-layout.col#local-8"
+    ]
+  },
+
+  // LOCAL
+  "flex-layout.col#local-5": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-5-title",
+      "rich-text#local-5-description"
+    ]
+  },
+  "rich-text#local-5-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Scala Shopping",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-5-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Cumbayá-Vía Interoceánica s/n Pasaje El Valle",
+      "blockClass": "description-card-local"
+    }
+  },
+  
+  // LOCAL
+  "flex-layout.col#local-6": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-6-title",
+      "rich-text#local-6-description"
+    ]
+  },
+  "rich-text#local-6-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Mega KAO",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-6-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Av. de los Shyris N37-284 y la Tierra",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-7": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-7-title",
+      "rich-text#local-7-description"
+    ]
+  },
+  "rich-text#local-7-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "C.C. El Recreo",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-7-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Av. Maldonado s/n y Secundaria",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-8": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-8-title",
+      "rich-text#local-8-description"
+    ]
+  },
+  "rich-text#local-8-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "C.C. Quicentro Sur",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-8-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Tambollacta - Av. Quitumbe Ñan s/n Y Av. Morán Valverde - local No. P2-045",
+      "blockClass": "description-card-local"
+    }
   }
- 
+
+
+  
   
 }
