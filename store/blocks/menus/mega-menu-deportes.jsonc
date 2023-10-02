@@ -1,0 +1,54 @@
+{
+  "vtex.menu@2.x:submenu#deportes": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mega-menu-main-container-deportes"
+    ]
+  },
+  "flex-layout.row#mega-menu-main-container-deportes": {
+    "children": [
+      "flex-layout.col#megamenu-deportes-left" // Menus sección
+     /*  "flex-layout.col#megamenu-right" */ //Banner Seccion
+    ]
+  },
+  "flex-layout.col#megamenu-deportes-left": {
+    "children": [
+      "vtex.menu@2.x:menu#submain-megamenu-deportes"
+    ]
+  },
+  "flex-layout.col#megamenu-deportes-right": {
+    "children": [
+      "info-card#mujer"
+    ]
+  },
+  "vtex.menu@2.x:menu#submain-megamenu-deportes": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#megamenu-columns-container-deportes"
+    ]
+  },
+  "flex-layout.row#megamenu-columns-container-deportes": {
+    "children": [
+      "vtex.menu@2.x:menu#deportes-futbol",
+      "vtex.menu@2.x:menu#deportes-basket",
+      "vtex.menu@2.x:menu#deportes-natacion",
+      "vtex.menu@2.x:menu#deportes-fitness",
+      "vtex.menu@2.x:menu#deportes-running",
+      "vtex.menu@2.x:menu#deportes-crossfit",
+      "vtex.menu@2.x:menu#deportes-gym",
+      "vtex.menu@2.x:menu#deportes-tenis-volley",
+      "vtex.menu@2.x:menu#deportes-padel",
+      "vtex.menu@2.x:menu#deportes-ciclismo",
+      "vtex.menu@2.x:menu#deportes-otros"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 1,
+      "paddingBottom": 1
+    }
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "vtex.menu@2.x:menu#deportes-futbol": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-ropa-deportes",
+      "menu-item#deportes-futbol-1",
+      "menu-item#deportes-futbol-2",
+      "menu-item#deportes-futbol-3",
+      "menu-item#deportes-futbol-4",
+      "menu-item#deportes-futbol-5",
+      "menu-item#deportes-futbol-6"
+    ]
+  },
+  "rich-text#titulo-ropa-deportes": {
+    "props": {
+      "text": "Futbol",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#deportes-futbol-1": {
+    "props": {
+      "id": "deportes-futbol-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      }
+    }
+  },
+  "menu-item#deportes-futbol-2": {
+    "props": {
+      "id": "deportes-futbol-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#deportes-futbol-3": {
+    "props": {
+      "id": "deportes-futbol-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Guantes",
+        "text": "Guantes"
+      }
+    }
+  },
+  "menu-item#deportes-futbol-4": {
+    "props": {
+      "id": "deportes-futbol-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Canilleras",
+        "text": "Canilleras"
+      }
+    }
+  },
+  "menu-item#deportes-futbol-5": {
+    "props": {
+      "id": "deportes-futbol-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Balones",
+        "text": "Balones"
+      }
+    }
+  },
+  "menu-item#deportes-futbol-6": {
+    "props": {
+      "id": "deportes-futbol-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      }
+    }
+  },
+
+  //basket
+  "vtex.menu@2.x:menu#deportes-basket": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-basket",
+      "menu-item#deportes-basket-1",
+      "menu-item#deportes-basket-2",
+      "menu-item#deportes-basket-3",
+      "menu-item#deportes-basket-4",
+      "menu-item#deportes-basket-5"
+    ]
+  },
+  "rich-text#titulo-basket": {
+    "props": {
+      "text": "Basket",
+      "blockClass": "menunivel2"
+    }
+  },
+  "menu-item#deportes-basket-1": {
+    "props": {
+      "id": "deportes-basket-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Zapatos",
+        "text": "Zapatos"
+      }
+    }
+  },
+  "menu-item#deportes-basket-2": {
+    "props": {
+      "id": "deportes-basket-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#deportes-basket-3": {
+    "props": {
+      "id": "deportes-basket-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tableros",
+        "text": "Tableros"
+      }
+    }
+  },
+  "menu-item#deportes-basket-4": {
+    "props": {
+      "id": "deportes-basket-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Balones",
+        "text": "Balones"
+      }
+    }
+  },
+  "menu-item#deportes-basket-5": {
+    "props": {
+      "id": "deportes-basket-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      }
+    }
+  },
+ 
+//Natacion
+"vtex.menu@2.x:menu#deportes-natacion": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-natacion",
+    "menu-item#deportes-natacion-1",
+    "menu-item#deportes-natacion-2",
+    "menu-item#deportes-natacion-3",
+    "menu-item#deportes-natacion-4",
+    "menu-item#deportes-natacion-5"
+  ]
+},
+"rich-text#titulo-natacion": {
+  "props": {
+    "text": "Natacion",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-natacion-1": {
+  "props": {
+    "id": "deportes-natacion-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-natacion-2": {
+  "props": {
+    "id": "deportes-natacion-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-natacion-3": {
+  "props": {
+    "id": "deportes-natacion-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Gafas",
+      "text": "Gafas"
+    }
+  }
+},
+"menu-item#deportes-natacion-4": {
+  "props": {
+    "id": "deportes-natacion-4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Gorras",
+      "text": "Gorras"
+    }
+  }
+},
+"menu-item#deportes-natacion-5": {
+  "props": {
+    "id": "deportes-natacion-5",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+      }
+    }
+},
+
+//Fitness
+
+"vtex.menu@2.x:menu#deportes-fitness": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-fitness",
+    "menu-item#deportes-fitness-1",
+    "menu-item#deportes-fitness-2",
+    "menu-item#deportes-fitness-3"
+  ]
+},
+"rich-text#titulo-deportes-fitness": {
+  "props": {
+    "text": "Fitness",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-fitness-1": {
+  "props": {
+    "id": "deportes-fitness-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-fitness-2": {
+  "props": {
+    "id": "deportes-fitness-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-fitness-3": {
+  "props": {
+    "id": "deportes-fitness-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+
+//Running
+
+"vtex.menu@2.x:menu#deportes-running": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-running",
+    "menu-item#deportes-running-1",
+    "menu-item#deportes-running-2",
+    "menu-item#deportes-running-3"
+  ]
+},
+"rich-text#titulo-deportes-running": {
+  "props": {
+    "text": "Running",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-running-1": {
+  "props": {
+    "id": "deportes-running-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-running-2": {
+  "props": {
+    "id": "deportes-running-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-running-3": {
+  "props": {
+    "id": "deportes-running-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+
+
+"vtex.menu@2.x:menu#deportes-crossfit": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-crossfit",
+    "menu-item#deportes-crossfit-1",
+    "menu-item#deportes-crossfit-2",
+    "menu-item#deportes-crossfit-3"
+  ]
+},
+"rich-text#titulo-deportes-crossfit": {
+  "props": {
+    "text": "Crossfit",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-crossfit-1": {
+  "props": {
+    "id": "deportes-crossfit-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-crossfit-2": {
+  "props": {
+    "id": "deportes-crossfit-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-crossfit-3": {
+  "props": {
+    "id": "deportes-crossfit-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+
+"vtex.menu@2.x:menu#deportes-gym": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-gym",
+    "menu-item#deportes-gym-1",
+    "menu-item#deportes-gym-2",
+    "menu-item#deportes-gym-3"
+  ]
+},
+"rich-text#titulo-deportes-gym": {
+  "props": {
+    "text": "Gym",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-gym-1": {
+  "props": {
+    "id": "deportes-gym-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Discos",
+      "text": "Discos"
+    }
+  }
+},
+"menu-item#deportes-gym-2": {
+  "props": {
+    "id": "deportes-gym-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Mancuernas",
+      "text": "Mancuernas"
+    }
+  }
+},
+"menu-item#deportes-gym-3": {
+  "props": {
+    "id": "deportes-gym-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Barras",
+      "text": "Barras"
+    }
+  }
+},
+"vtex.menu@2.x:menu#deportes-tenis-volley": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-tenis-volley",
+    "menu-item#deportes-tenis-volley-1",
+    "menu-item#deportes-tenis-volley-2",
+    "menu-item#deportes-tenis-volley-3"
+  ]
+},
+"rich-text#titulo-deportes-tenis-volley": {
+  "props": {
+    "text": "Tenis & Volley",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-tenis-volley-1": {
+  "props": {
+    "id": "deportes-tenis-volley-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-tenis-volley-2": {
+  "props": {
+    "id": "deportes-tenis-volley-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-tenis-volley-3": {
+  "props": {
+    "id": "deportes-tenis-volley-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+"vtex.menu@2.x:menu#deportes-padel": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-padel",
+    "menu-item#deportes-padel-1",
+    "menu-item#deportes-padel-2",
+    "menu-item#deportes-padel-3"
+  ]
+},
+"rich-text#titulo-deportes-padel": {
+  "props": {
+    "text": "Padel",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-padel-1": {
+  "props": {
+    "id": "deportes-padel-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-padel-2": {
+  "props": {
+    "id": "deportes-padel-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-padel-3": {
+  "props": {
+    "id": "deportes-padel-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+"vtex.menu@2.x:menu#deportes-ciclismo": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-ciclismo",
+    "menu-item#deportes-ciclismo-1",
+    "menu-item#deportes-ciclismo-2",
+    "menu-item#deportes-ciclismo-3",
+    "menu-item#deportes-ciclismo-4"
+  ]
+},
+"rich-text#titulo-deportes-ciclismo": {
+  "props": {
+    "text": "Ciclismo",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-ciclismo-1": {
+  "props": {
+    "id": "deportes-ciclismo-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Zapatos",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-ciclismo-2": {
+  "props": {
+    "id": "deportes-ciclismo-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Ropa",
+      "text": "Ropa"
+    }
+  }
+},
+"menu-item#deportes-ciclismo-3": {
+  "props": {
+    "id": "deportes-ciclismo-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Bicicletas",
+      "text": "Conjuntos"
+    }
+  }
+},
+"menu-item#deportes-ciclismo-4": {
+  "props": {
+    "id": "deportes-ciclismo-4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Accesorios",
+      "text": "Accesorios"
+    }
+  }
+},
+"vtex.menu@2.x:menu#deportes-otros": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "rich-text#titulo-deportes-otros",
+    "menu-item#deportes-otros-1",
+    "menu-item#deportes-otros-2",
+    "menu-item#deportes-otros-3",
+    "menu-item#deportes-otros-4",
+    "menu-item#deportes-otros-5",
+    "menu-item#deportes-otros-6"
+  ]
+},
+"rich-text#titulo-deportes-otros": {
+  "props": {
+    "text": "Otros",
+    "blockClass": "menunivel2"
+  }
+},
+"menu-item#deportes-otros-1": {
+  "props": {
+    "id": "deportes-otros-1",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Roller",
+      "text": "Zapatos"
+    }
+  }
+},
+"menu-item#deportes-otros-2": {
+  "props": {
+    "id": "deportes-otros-2",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Camping",
+      "text": "Camping"
+    }
+  }
+},
+"menu-item#deportes-otros-3": {
+  "props": {
+    "id": "deportes-otros-3",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Senderismo",
+      "text": "Senderismo"
+    }
+  }
+},
+"menu-item#deportes-otros-4": {
+  "props": {
+    "id": "deportes-otros-4",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Escalada",
+      "text": "Escalada"
+    }
+  }
+},
+"menu-item#deportes-otros-5": {
+  "props": {
+    "id": "deportes-otros-5",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Baisbol",
+      "text": "Baisbol"
+    }
+  }
+},
+"menu-item#deportes-otros-6": {
+  "props": {
+    "id": "deportes-otros-6",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "#",
+      "noFollow": false,
+      "tagTitle": "Mesas",
+      "text": "Mesas"
+    }
+  }
+}
+}
