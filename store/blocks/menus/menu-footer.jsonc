@@ -137,7 +137,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/locales",
         "noFollow": true,
         "tagTitle": "locales-quito",
         "text": "Quito"
@@ -153,7 +153,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/locales",
         "noFollow": true,
         "tagTitle": "locales-guayaquil",
         "text": "Guayaquil"
@@ -169,7 +169,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/locales",
         "noFollow": true,
         "tagTitle": "locales-cuenca",
         "text": "Cuenca"
@@ -184,7 +184,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/locales",
         "noFollow": true,
         "tagTitle": "manta-machala",
         "text": "Manta & Machala"

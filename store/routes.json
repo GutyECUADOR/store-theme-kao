@@ -2,7 +2,7 @@
   "store.custom#terminos": {
     "path": "/terminos"
   },
-  "store.custom#locales-quito": {
-    "path": "/locales-quito"
+  "store.custom#locales": {
+    "path": "/locales"
   }
 }

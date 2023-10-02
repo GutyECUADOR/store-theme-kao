@@ -1,12 +1,12 @@
 {
-  "store.custom#locales-quito": {
+  "store.custom#locales": {
     "children": [
       "flex-layout.row#titulo-quito",
       "flex-layout.row#locales-fila-1",
       "flex-layout.row#locales-fila-2",
       "flex-layout.row#titulo-guayaquil",
-      "flex-layout.row#locales-fila-1",
-      "flex-layout.row#locales-fila-2"
+      "flex-layout.row#locales-guayaquil-fila-1",
+      "flex-layout.row#locales-guayaquil-fila-2"
     ]
   },
 
@@ -61,8 +61,6 @@
   },
 
   
-
-
   // ROW CARDS LOCALES
   "flex-layout.row#locales-fila-1": {
     "props": {
@@ -186,7 +184,8 @@
       "flex-layout.col#local-5",
       "flex-layout.col#local-6",
       "flex-layout.col#local-7",
-      "flex-layout.col#local-8"
+      "flex-layout.col#local-8",
+      "flex-layout.col#local-9"
     ]
   },
 
@@ -288,9 +287,260 @@
       "text": "Tambollacta - Av. Quitumbe Ñan s/n Y Av. Morán Valverde - local No. P2-045",
       "blockClass": "description-card-local"
     }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-9": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-9-title",
+      "rich-text#local-9-description"
+    ]
+  },
+  "rich-text#local-9-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Condado",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-9-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Carcelén Av. de la Prensa s/n. Av. Mariscal Sucre -Local 250-251",
+      "blockClass": "description-card-local"
+    }
+  },
+
+
+ // ROW CARDS LOCALES
+ "flex-layout.row#locales-guayaquil-fila-1": {
+  "props": {
+    "blockClass": "row-locales"
+  },
+  "children": [
+    "flex-layout.col#local-guayaquil-1",
+    "flex-layout.col#local-guayaquil-2",
+    "flex-layout.col#local-guayaquil-3",
+    "flex-layout.col#local-guayaquil-4"
+  ]
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-1": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-guayaquil-1-title",
+    "rich-text#local-guayaquil-1-description"
+  ]
+},
+"rich-text#local-guayaquil-1-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Sonesta Hotel Shopping- Guayaquil",
+    "blockClass": "title-card-local"
   }
+},
+"rich-text#local-guayaquil-1-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. Constitución y Pasaje 1A N/E, Local N°8",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-2": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-guayaquil-2-title",
+    "rich-text#local-guayaquil-2-description"
+  ]
+},
+"rich-text#local-guayaquil-2-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "C.C. Paseo Shopping Daule",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-guayaquil-2-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Vía Daule Km. 9 Principal s/n y Secundaria - local 20-21",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-3": {
+"props": {
+  "blockClass": "card-local"
+},
+"children": [
+  "rich-text#local-guayaquil-3-title",
+  "rich-text#local-guayaquil-3-description"
+]
+},
+"rich-text#local-guayaquil-3-title": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "C.C. Río Centro Ceibos",
+  "blockClass": "title-card-local"
+}
+},
+"rich-text#local-guayaquil-3-description": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "Vía Daule Km. 9 Principal s/n y Secundaria",
+  "blockClass": "description-card-local"
+}
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-4": {
+"props": {
+  "blockClass": "card-local"
+},
+"children": [
+  "rich-text#local-guayaquil-4-title",
+  "rich-text#local-guayaquil-4-description"
+]
+},
+"rich-text#local-guayaquil-4-title": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "Paseo Shopping Duran-Guayaquil",
+  "blockClass": "title-card-local"
+}
+},
+"rich-text#local-guayaquil-4-description": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "Km3/5 Autopista Duran Boliche",
+  "blockClass": "description-card-local"
+}
+},
+
+ // ROW CARDS LOCALES
+ "flex-layout.row#locales-guayaquil-fila-2": {
+  "props": {
+    "blockClass": "row-locales"
+  },
+  "children": [
+    "flex-layout.col#local-guayaquil-5",
+    "flex-layout.col#local-guayaquil-6",
+    "flex-layout.col#local-guayaquil-7",
+    "flex-layout.col#local-guayaquil-8"
+  ]
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-5": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-guayaquil-5-title",
+    "rich-text#local-guayaquil-5-description"
+  ]
+},
+"rich-text#local-guayaquil-5-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Mall del Sur",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-guayaquil-5-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. 25 de Julio s/n intersección José de la Cuadra -Local 251",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-6": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-guayaquil-6-title",
+    "rich-text#local-guayaquil-6-description"
+  ]
+},
+"rich-text#local-guayaquil-6-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Dorado",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-guayaquil-6-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Km 10.5 de la vía a la Aurora",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-7": {
+"props": {
+  "blockClass": "card-local"
+},
+"children": [
+  "rich-text#local-guayaquil-7-title",
+  "rich-text#local-guayaquil-7-description"
+]
+},
+"rich-text#local-guayaquil-7-title": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "C.C. Policentro",
+  "blockClass": "title-card-local"
+}
+},
+"rich-text#local-guayaquil-7-description": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "Av. Del Periodista s/n y Av. Juan Bautista Asube - local F72",
+  "blockClass": "description-card-local"
+}
+},
+
+// LOCAL
+"flex-layout.col#local-guayaquil-8": {
+"props": {
+  "blockClass": "card-local"
+},
+"children": [
+  "rich-text#local-guayaquil-8-title",
+  "rich-text#local-guayaquil-8-description"
+]
+},
+"rich-text#local-guayaquil-8-title": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "",
+  "blockClass": "title-card-local"
+}
+},
+"rich-text#local-guayaquil-8-description": {
+"props": {
+  "textAlignment": "CENTER",
+  "text": "",
+  "blockClass": "description-card-local"
+}
+}
 
 
-  
   
 }
