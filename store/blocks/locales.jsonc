@@ -6,7 +6,11 @@
       "flex-layout.row#locales-fila-2",
       "flex-layout.row#titulo-guayaquil",
       "flex-layout.row#locales-guayaquil-fila-1",
-      "flex-layout.row#locales-guayaquil-fila-2"
+      "flex-layout.row#locales-guayaquil-fila-2",
+      "flex-layout.row#titulo-cuenca",
+      "flex-layout.row#locales-cuenca-fila-1",
+      "flex-layout.row#titulo-manta-machala",
+      "flex-layout.row#locales-manta-machala-fila-1"
     ]
   },
 
@@ -57,6 +61,56 @@
       "blockClass": "title-custom-locales-page",
       "textAlignment": "CENTER",
       "text": "LOCALES - GUAYAQUILL"
+    }
+  },
+
+  //CUENCA
+  "flex-layout.row#titulo-cuenca": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#locales-cuenca-titulo"
+    ]
+  },
+  "flex-layout.col#locales-cuenca-titulo": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "rich-text#titulo-locales-cuenca"
+    ]
+  },
+  "rich-text#titulo-locales-cuenca": {
+    "props": {
+      "blockClass": "title-custom-locales-page",
+      "textAlignment": "CENTER",
+      "text": "LOCALES - CUENCA"
+    }
+  },
+
+  //MANTA
+  "flex-layout.row#titulo-manta-machala": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#locales-manta-machala-titulo"
+    ]
+  },
+  "flex-layout.col#locales-manta-machala-titulo": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "rich-text#titulo-locales-manta-machala"
+    ]
+  },
+  "rich-text#titulo-locales-manta-machala": {
+    "props": {
+      "blockClass": "title-custom-locales-page",
+      "textAlignment": "CENTER",
+      "text": "LOCALES - MANTA & MACHALA"
     }
   },
 
@@ -539,8 +593,180 @@
   "text": "",
   "blockClass": "description-card-local"
 }
-}
+},
 
+
+// ROW CARDS LOCALES
+"flex-layout.row#locales-cuenca-fila-1": {
+  "props": {
+    "blockClass": "row-locales"
+  },
+  "children": [
+    "flex-layout.col#local-cuenca-1",
+    "flex-layout.col#local-cuenca-2"
+  ]
+},
+
+// LOCAL
+"flex-layout.col#local-cuenca-1": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-cuenca-1-title",
+    "rich-text#local-cuenca-1-description"
+  ]
+},
+"rich-text#local-cuenca-1-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Cuenca Centro",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-cuenca-1-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Bolivar 578 y Hermano Miguel",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-cuenca-2": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-cuenca-2-title",
+    "rich-text#local-cuenca-2-description"
+  ]
+},
+"rich-text#local-cuenca-2-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Mall del Rio - Cuenca",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-cuenca-2-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. Felipe II y Circunvalación Sur",
+    "blockClass": "description-card-local"
+  }
+},
+// LOCAL
+"flex-layout.col#local-cuenca-3": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-cuenca-3-title",
+    "rich-text#local-cuenca-3-description"
+  ]
+},
+"rich-text#local-cuenca-3-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-cuenca-3-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "",
+    "blockClass": "description-card-local"
+  }
+},
+
+
+// ROW CARDS LOCALES
+"flex-layout.row#locales-manta-machala-fila-1": {
+  "props": {
+    "blockClass": "row-locales"
+  },
+  "children": [
+    "flex-layout.col#local-manta-machala-1",
+    "flex-layout.col#local-manta-machala-2",
+    "flex-layout.col#local-manta-machala-3"
+  ]
+},
+
+// LOCAL
+"flex-layout.col#local-manta-machala-1": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-manta-machala-1-title",
+    "rich-text#local-manta-machala-1-description"
+  ]
+},
+"rich-text#local-manta-machala-1-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Mall del Pacífico",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-manta-machala-1-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. 4 de Noviembre s/n Calle 20 -Local 27",
+    "blockClass": "description-card-local"
+  }
+},
+
+// LOCAL
+"flex-layout.col#local-manta-machala-2": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-manta-machala-2-title",
+    "rich-text#local-manta-machala-2-description"
+  ]
+},
+"rich-text#local-manta-machala-2-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Manta Shopping",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-manta-machala-2-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. Perpetuo Socorro y Av. Flavio Reyes s/n y Circunvalación",
+    "blockClass": "description-card-local"
+  }
+},
+// LOCAL
+"flex-layout.col#local-manta-machala-3": {
+  "props": {
+    "blockClass": "card-local"
+  },
+  "children": [
+    "rich-text#local-manta-machala-3-title",
+    "rich-text#local-manta-machala-3-description"
+  ]
+},
+"rich-text#local-manta-machala-3-title": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Machala",
+    "blockClass": "title-card-local"
+  }
+},
+"rich-text#local-manta-machala-3-description": {
+  "props": {
+    "textAlignment": "CENTER",
+    "text": "Av. Paquisha, Machala",
+    "blockClass": "description-card-local"
+  }
+}
 
   
 }
