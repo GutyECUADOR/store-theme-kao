@@ -33,6 +33,7 @@
       "rich-text#info-aviso-legal",
       "menu-item#quienes-somos",
       "menu-item#terminos-servicio",
+      "menu-item#politica-proteccion-datos",
       "menu-item#politica-entregas-devoluciones",
       "menu-item#compra-segura"
     ]
@@ -72,6 +73,21 @@
         "noFollow": true,
         "tagTitle": "terminos-servicio",
         "text": "Terminos del servicio"
+      }
+    }
+  },
+  "menu-item#politica-proteccion-datos": {
+    "props": {
+      "id": "menu-item-politica-proteccion-datos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-proteccion-datos",
+        "noFollow": true,
+        "tagTitle": "politica-proteccion-datos",
+        "text": "Politica de Protección de datos"
       }
     }
   },
