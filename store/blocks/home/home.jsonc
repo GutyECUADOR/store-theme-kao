@@ -67,6 +67,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
+      /* "category": "1",
+      "collection": "141", */
       "orderBy": "OrderByTopSaleDESC"
     }
   },

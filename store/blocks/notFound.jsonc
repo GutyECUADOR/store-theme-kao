@@ -1,0 +1,35 @@
+{
+  "store.not-found#product": {
+    "children": [
+      "flex-layout.row#not-found"
+    ]
+  },
+
+  "flex-layout.row#not-found": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#not-found"
+    ]
+  },
+
+  "flex-layout.col#not-found": {
+    "children": [
+      "rich-text#not-found",
+      "rich-text#text-not-found"
+
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "text": "## PÁGINA NO ENCONTRADA"
+    }
+  },
+  "rich-text#text-not-found": {
+    "props": {
+      "text": "No hemos encontrado el producto o categoria que buscas.",
+      "blockClass": "terminos-condiciones"
+    }
+  }
+}
