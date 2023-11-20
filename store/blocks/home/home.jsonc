@@ -107,7 +107,7 @@
       "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_1.jpg?v=157058975361433635031607789028",
       "headline": "Colección Mujeres",
       "callToActionText": "Visitar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/143?map=productClusterIds",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -120,7 +120,7 @@
       "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_2.jpg?v=127342884560866092661607789028",
       "headline": "Colección Hombres",
       "callToActionText": "Visitar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/144?map=productClusterIds",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -133,7 +133,7 @@
       "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/top_banner_home_3.jpg?v=14131464114110780961607789029",
       "headline": "Colección Niños",
       "callToActionText": "Visitar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/142?map=productClusterIds",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -146,7 +146,7 @@
       "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/two_banner_home_1.jpg?v=165715480468806238191607789029",
       "headline": "Colección Equipos",
       "callToActionText": "Visitar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/145?map=productClusterIds",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -159,7 +159,7 @@
       "imageUrl": "https://kaosport.com/cdn/shop/t/13/assets/two_banner_home_2.jpg?v=101907670649657183921607789030",
       "headline": "Colección Bicicletas",
       "callToActionText": "Visitar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/146?map=productClusterIds",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
