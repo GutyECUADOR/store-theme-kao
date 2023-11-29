@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "list-context.image-list#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       /* "flex-layout.row#deals", */
@@ -15,13 +15,14 @@
       "info-card#equipos",
       "info-card#bicicletas",
       "rich-text#question",
+     /*  "image#logo-acercade", */
       "rich-text#acercade"
       /* "newsletter" */
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "list-context.image-list#home": {
+    "children": ["slider-layout#slides-images"],
     "props": {
       "height": 570,
       "preload": true,
@@ -37,17 +38,17 @@
       ]
     }
   },
-  "slider-layout#demo-images": {
+  "slider-layout#slides-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
-      /* "autoplay": {
+      "autoplay": {
         "timeout": 6000,
         "stopOnHover": true
-      }, */
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
@@ -67,19 +68,23 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      /* "category": "1",
-      "collection": "141", */
+      /* "category": "1", */
+      /* "collection": "141", */
       "orderBy": "OrderByTopSaleDESC"
     }
   },
   "slider-layout#demo-products": {
     "props": {
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
         "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
       },
       "infinite": true,
       "fullWidth": false,
@@ -209,6 +214,13 @@
     "props": {
       "text": "\n KAO Sport cuenta con una de las más completas ofertas en implementos, calzado, ropa y artículos deportivos para todo nivel de juego, desde el deportista casual y de fin de semana, hasta el deportista semiprofesional y profesional. Comprometidos en mantener un alto Standard de calidad en todas sus líneas y además una relación justa y razonable entre producto y precio, valores que han permitido introducir, crecer y mantener prestigiosas marcas a través de los años. La ideología de la marca empieza desde su slogan “EL DEPORTISTA QUE HAY EN TI”, esta expresión se basa en que toda persona, cualquiera que sea su ocupación, género o edad ha practicado o puede practicar deporte y ser un deportista, KAO Sport busca fomentar y desarrollar esa faceta para llevar un estilo de vida más saludable y activo.",
       "blockClass": "acercade"
+    }
+  },
+  "image#logo-acercade": {
+    "props": {
+      "blockClass": "logo-acercade",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/667a3e8b-bd0f-4d9b-a3ca-925f01aef1d8___eebeeaf02cb3a60387ae4b2257634e8e.png",
+      "maxWidth": "100%"
     }
   }
 }

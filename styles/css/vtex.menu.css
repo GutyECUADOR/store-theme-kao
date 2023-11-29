@@ -10,6 +10,16 @@
 
 }
 
+.styledLinkContent--menu-item-mobile{
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.styledLinkContent--menu-item-mobile:hover{
+  color: #b91717;
+  font-size: 1.5rem;
+}
+
 .styledLinkContainer {
 
 }

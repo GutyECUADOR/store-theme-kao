@@ -17,19 +17,32 @@
   "flex-layout.col#not-found": {
     "children": [
       "rich-text#not-found",
+      "image#logo-notfound",
       "rich-text#text-not-found"
 
     ]
   },
   "rich-text#not-found": {
     "props": {
-      "text": "## PÁGINA NO ENCONTRADA"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PÁGINA NO ENCONTRADA**",
+      "font": "t-heading-2"
     }
   },
   "rich-text#text-not-found": {
     "props": {
-      "text": "No hemos encontrado el producto o categoria que buscas.",
-      "blockClass": "terminos-condiciones"
+      "text": "No hemos encontrado el producto o categoria que buscas. Prueba con otro término de búsqueda. O regresa al inicio [aqui](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5"
+    }
+  },
+  "image#logo-notfound": {
+    "props": {
+      "blockClass": "logo-acercade",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/35dda6c1-1577-44bc-967a-3cae92c5050d___ce8e244a35c8777ad051ab33a88f4292.png",
+      "maxWidth": "100%"
     }
   }
 }

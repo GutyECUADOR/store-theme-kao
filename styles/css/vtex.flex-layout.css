@@ -66,7 +66,7 @@
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 2rem;
 }
 
 .flexRow--deals {
