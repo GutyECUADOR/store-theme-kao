@@ -1,4 +1,7 @@
 {
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
   "store.custom#terminos": {
     "path": "/terminos"
   },

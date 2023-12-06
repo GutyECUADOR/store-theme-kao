@@ -1,0 +1,39 @@
+{
+  "store.custom#quienes-somos": {
+    "children": [
+      "flex-layout.row#quienes-somos"
+    ]
+  },
+
+  "flex-layout.row#quienes-somos": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#quienes-somos"
+    ]
+  },
+
+  "flex-layout.col#quienes-somos": {
+    "children": [
+      "rich-text#quienes-somos",
+      "rich-text#quienes-somos-text"
+      
+    ]
+  },
+  "rich-text#quienes-somos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## ¿QUIÉNES SOMOS?"
+    }
+  },
+  "rich-text#quienes-somos-text": {
+    "props": {
+      "text": "KAO Sport cuenta con una de las más completas ofertas en implementos, calzado, ropa y artículos deportivos para todo nivel de juego, desde el deportista casual y de fin de semana, hasta el deportista semiprofesional y profesional. Comprometidos en mantener un alto Standard de calidad en todas sus líneas y además una relación justa y razonable entre producto y precio, valores que han permitido introducir, crecer y mantener prestigiosas marcas a través de los años. La ideología de la marca empieza desde su slogan “EL DEPORTISTA QUE HAY EN TI”, esta expresión se basa en que toda persona, cualquiera que sea su ocupación, género o edad ha practicado o puede practicar deporte y ser un deportista, KAO Sport busca fomentar y desarrollar esa faceta para llevar un estilo de vida más saludable y activo.",
+      "blockClass": "terminos-condiciones"
+    }
+  }
+
+ 
+}
