@@ -1,7 +1,7 @@
 {
   "vendor": "kaosport",
   "name": "store-theme-kao-jg",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
