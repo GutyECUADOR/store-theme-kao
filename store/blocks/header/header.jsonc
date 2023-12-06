@@ -7,6 +7,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "menu-item#button-floting-whatsapp",
       "flex-layout.row#1-desktop",
       "flex-layout.row#desktop-promotional-banner",
       "sticky-layout#4-desktop"
@@ -107,7 +108,7 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": ["menu-item#button-floting-whatsapp", "sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]

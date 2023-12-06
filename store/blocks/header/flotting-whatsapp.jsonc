@@ -1,0 +1,22 @@
+{
+  "menu-item#button-floting-whatsapp": {
+    "props": {
+      "id": "item-icon-whatsapp",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["icono-button-floting"],
+      "itemProps": {
+        "type": "ex",
+        "href": "https://api.whatsapp.com/send?phone=593999328928",
+        "noFollow": false,
+        "tagTitle": "Ir a WhatsApp",
+        "target": "target"
+      },
+      "iconProps": {
+        "id": "hpa-whatsapp-button",
+        "size": 30,
+        "viewBox": "0 0 448 512"
+      }
+    }
+  }
+}

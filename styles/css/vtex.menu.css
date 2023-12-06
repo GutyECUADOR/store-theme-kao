@@ -33,3 +33,52 @@
   color: white !important;
 }
  */
+
+/* FLOTTING WHATSAPP */
+ .styledLink--icono-button-floting {
+  display: flex;
+  background-color: #25d366;
+  width: 60px;
+  height: 60px !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transition: all 0.4s;
+  color: #fff;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.styledLink--icono-button-floting:hover {
+  background-color: aliceblue;
+  color: #25d366;
+}
+
+.styledLinkIcon--icono-button-floting {
+  font-size: 0;
+}
+
+.menuItem--icono-button-floting {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  z-index: 100;
+}
+.menuItem--icono-button-floting:hover {
+  background: transparent !important;
+}
+
+@media (max-width: 1025px) {
+  .menuItem--icono-button-floting {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .styledLinkContainer--icono-button-floting {
+    margin: 0 !important;
+  }
+
+  .styledLink--icono-button-floting {
+    width: 52px;
+    height: 52px !important;
+  }
+}
