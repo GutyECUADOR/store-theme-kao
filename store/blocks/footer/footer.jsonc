@@ -5,7 +5,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop", // Menu Footer
-      "flex-layout.row#footer-2-desktop", // Credit cards
+     /*  "flex-layout.row#footer-2-desktop", */ // Credit cards
       "flex-layout.row#footer-3-desktop" //Footer copyright
     ]
   },
@@ -14,12 +14,27 @@
       "vtex.menu@2.x:menu#empresa",
       "vtex.menu@2.x:menu#footer-aviso-legal",
       "vtex.menu@2.x:menu#locales",
-      "social-networks"
+      "flex-layout.col#social-networks"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.col#social-networks": {
+    "children": [
+      "social-networks",
+      "image#icon-pci",
+      "image#icon-poweredByVtex"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign":"middle",
+      "paddingTop": 5,
+      "paddingBottom": 5,
+      "rowGap": 5
     }
   },
 
@@ -43,6 +58,37 @@
           "url": "https://www.youtube.com/user/KaoSportCenter"
         }
       ]
+    }
+  },
+  "image#icon-pci": {
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/c7aa93b6-8014-4be0-9734-cb8cc6498e7c___a572e5ec5a51fc366723eb73ea534f4e.svg",
+      "maxHeight": 50
+    }
+  },
+
+  "flex-layout.row#poweredby": {
+    "children": [
+      "rich-text#poweredby",
+      "image#icon-poweredByVtex"
+    ],
+    "props": {
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "rowGap": 0
+    }
+  },
+
+  "rich-text#poweredby": {
+    "props": {
+      "text": "Powered By"
+    }
+  },
+
+  "image#icon-poweredByVtex": {
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/53ded994-e7f8-4b8a-ad37-5fc915ae35cc___03f7e25d78f4a54977ffe57a3b8f2223.svg",
+      "maxHeight": 30
     }
   },
 
@@ -73,8 +119,8 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#1-footer-mobile"
+     /*  "flex-layout.row#2-footer-mobile" */
     ]
   },
   "flex-layout.row#2-footer-mobile": {
