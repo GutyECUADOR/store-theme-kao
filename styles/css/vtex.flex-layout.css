@@ -134,3 +134,24 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.flexRow--mobile-row {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--payment-methods{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol--payment-methods {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
