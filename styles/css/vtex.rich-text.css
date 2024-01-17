@@ -147,6 +147,10 @@
   margin-top: 0px !important;
 }
 
+.wrapper--footer-mobile-title {
+  text-align: center;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
