@@ -17,7 +17,7 @@
       "flex-layout.col#social-networks"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "menu-row-footer",
       "paddingTop": 6,
       "paddingBottom": 3
     }
@@ -112,7 +112,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "© 2023 KAO Sport. Todos los derechos reservados.",
+      "text": "© 2024 KAO Sport. Todos los derechos reservados.",
       "blockClass": "footer"
     }
   },

@@ -34,6 +34,15 @@
 }
  */
 
+.styledLink--footerlink { 
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+
+.styledLink--footerlink:hover { 
+  background-color: #b91717;
+}
+
 /* FLOTTING WHATSAPP */
  .styledLink--icono-button-floting {
   display: flex;

@@ -124,11 +124,27 @@
   font-weight: bold;
 }
 
+.paragraph--footer-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.paragraph--footer-description{
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.paragraph--footer {
+  font-size: 10px;
+  text-align: center;
+}
+
 .container--footer-description {
   text-align: justify;
   font-size: 12px;
   padding-right: 1.5rem;
-
+  margin-top: 0px !important;
 }
 
 @media only screen and (min-width: 640px) {
@@ -152,3 +168,4 @@
     line-height: 1.3em;
   }
 }
+

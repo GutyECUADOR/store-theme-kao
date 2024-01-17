@@ -130,3 +130,7 @@
   text-align: ce;
 }
 
+.flexRowContent--menu-row-footer{
+  padding-left: 10%;
+  padding-right: 10%;
+}
