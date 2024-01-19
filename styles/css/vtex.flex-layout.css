@@ -59,6 +59,11 @@
   background-color: #000000;
 }
 
+.flexRowContent--main-header-mobile-search {
+  align-items: center;
+  background-color: #ffffff;
+}
+
 .flexRowContent--promotional-banner :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;

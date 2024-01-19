@@ -108,10 +108,10 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["menu-item#button-floting-whatsapp", "sticky-layout#1-mobile"]
+    "children": ["menu-item#button-floting-whatsapp", "sticky-layout#1-mobile" ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile-search"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -124,6 +124,16 @@
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile-search": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-search",
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
@@ -298,7 +308,6 @@
       "title": "Logo",
       "href": "/",
       "url": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/667a3e8b-bd0f-4d9b-a3ca-925f01aef1d8___eebeeaf02cb3a60387ae4b2257634e8e.png",
-      "width": "77.5",
       "height": "27.5"
     }
   },
