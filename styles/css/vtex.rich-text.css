@@ -120,8 +120,10 @@
 }
 
 .container--footer-title {
+  text-align: center;
   color: #a02d00;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .paragraph--footer-title {
@@ -151,6 +153,11 @@
   text-align: center;
 }
 
+.paragraph--footerlink {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -171,5 +178,12 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--footer-title {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  
 }
 

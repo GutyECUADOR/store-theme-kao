@@ -18,7 +18,7 @@
   },
   "rich-text#info-empresa-description": {
     "props": {
-      "text": "Dirección y Contacto: Av. los Shirys N37-27 y Naciones Unidas - Edificio Silva Nuñez 02-2252802 Extensión 1201 de Lun - Vier 9:00h a 17:00h 0999328928 ventasweb@kaosport.com (no envíar currículum) \n Quito - Ecuador",
+      "text": "Av. los Shirys N37-27 y Naciones Unidas - Edificio Silva Nuñez 02-2252802 Extensión 1201 de Lun - Vier 9:00h a 17:00h 0999328928 ventasweb@kaosport.com \n Quito - Ecuador",
       "blockClass": "footerlink"
     }
   },
