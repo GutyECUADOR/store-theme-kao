@@ -66,8 +66,7 @@
     "vtex.search": "2.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x",
-    "vtex.mega-menu": "2.x"
+    "vtex.reviews-and-ratings": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
