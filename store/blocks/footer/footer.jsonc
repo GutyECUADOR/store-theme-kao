@@ -79,6 +79,19 @@
     }
   },
 
+  "flex-layout.col#poweredby-mobile": {
+    "children": [
+      /* "rich-text#poweredby", */
+      "image#icon-poweredByVtex-mobile",
+      "image#icon-pci"
+    ],
+    "props": {
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "rowGap": 0
+    }
+  },
+
   "rich-text#poweredby": {
     "props": {
       "text": "Powered By"
@@ -88,7 +101,14 @@
   "image#icon-poweredByVtex": {
     "props": {
       "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/53ded994-e7f8-4b8a-ad37-5fc915ae35cc___03f7e25d78f4a54977ffe57a3b8f2223.svg",
-      "maxHeight": 30
+      "blockClass": "poweredByVtex"
+    }
+  },
+
+  "image#icon-poweredByVtex-mobile": {
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/53ded994-e7f8-4b8a-ad37-5fc915ae35cc___03f7e25d78f4a54977ffe57a3b8f2223.svg",
+      "blockClass": "poweredByVtex-mobile"
     }
   },
 
@@ -133,7 +153,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
+      "flex-layout.col#poweredby-mobile",
       "social-networks",
       "rich-text#footer-mobile"
     ],
