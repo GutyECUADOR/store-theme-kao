@@ -4,6 +4,7 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "mega-menu-trigger-btn",
       "menu-item#mujer",
       "menu-item#hombre",
       "menu-item#ninos",

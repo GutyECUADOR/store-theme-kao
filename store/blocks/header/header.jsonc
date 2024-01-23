@@ -54,7 +54,29 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop", "flex-layout.row#desktop-menu"]
+    "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu", "flex-layout.row#desktop-menu"]
+  },
+  //Mega Menú
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal",
+      "title": "Categorias",
+      "defaultDepartmentActive": "Inicio"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -96,7 +118,8 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"]
   },
   "logo#desktop": {
     "props": {
