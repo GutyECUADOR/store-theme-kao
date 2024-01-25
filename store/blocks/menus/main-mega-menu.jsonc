@@ -5,8 +5,8 @@
     },
     "children": [
       "mega-menu-trigger-btn",
-      "menu-item#mujer",
       "menu-item#hombre",
+      "menu-item#mujer",
       "menu-item#ninos",
       "menu-item#accesorios",
       "menu-item#deportes",
@@ -29,10 +29,7 @@
         "tagTitle": "Mujeres",
         "text": "Mujeres"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#mujer"
-    ]
+    }
   },
   "menu-item#hombre": {
     "props": {
@@ -47,10 +44,7 @@
         "tagTitle": "Hombres",
         "text": "Hombres"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#hombre"
-    ]
+    }
   },
   "menu-item#ninos": {
     "props": {
@@ -65,10 +59,7 @@
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#niño"
-    ]
+    }
   },
   "menu-item#accesorios": {
     "props": {
@@ -83,10 +74,7 @@
         "tagTitle": "Accesorios",
         "text": "Accesorios"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#accesorios"
-    ]
+    }
   },
   "menu-item#deportes": {
     "props": {
@@ -101,10 +89,7 @@
         "tagTitle": "Deportes",
         "text": "Deportes"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#deportes"
-    ]
+    }
   },
   "menu-item#marcas": {
     "props": {
@@ -119,10 +104,7 @@
         "tagTitle": "Marcas",
         "text": "Marcas"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#marcas"
-    ]
+    }
   },
   "menu-item#maquinas": {
     "props": {
@@ -137,10 +119,7 @@
         "tagTitle": "Máquinas",
         "text": "Máquinas"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#maquinas"
-    ]
+    }
   },
   "menu-item#descuentos": {
     "props": {
