@@ -78,6 +78,13 @@
       "Drawer": "drawer"
     }
   },
+  "rich-text#menu": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Menú"
+    }
+  },
   "flex-layout.row#4-desktop": {
     "props": {
       "blockClass": "main-header",
