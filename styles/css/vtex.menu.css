@@ -21,6 +21,7 @@
 }
 
 .styledLinkContainer--footerlink {
+  font-size: 12px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -40,7 +41,7 @@
 
 .styledLink--footerlink { 
   color: rgb(0, 0, 0);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .styledLink--footerlink:hover { 

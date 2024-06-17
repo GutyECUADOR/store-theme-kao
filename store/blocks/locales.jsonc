@@ -121,6 +121,7 @@
       "blockClass": "row-locales"
     },
     "children": [
+      "flex-layout.col#local-0",
       "flex-layout.col#local-1",
       "flex-layout.col#local-2",
       "flex-layout.col#local-3",
@@ -129,6 +130,29 @@
   },
 
   // LOCAL
+  "flex-layout.col#local-0": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-0-title",
+      "rich-text#local-0-description"
+    ]
+  },
+  "rich-text#local-0-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Edificio EPIQ",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-0-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Av Eloy Alfaro y República del Salvador. Edificio EPIQ Piso 1 y 2",
+      "blockClass": "description-card-local"
+    }
+  },
   "flex-layout.col#local-1": {
     "props": {
       "blockClass": "card-local"
