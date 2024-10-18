@@ -24,7 +24,11 @@
 }
 
 .container :global(.vtex-button):hover {
-    background: none;
+    background-color: transparent;
+}
+
+.container :global(.vtex-button):focus {
+    background-color: transparent;
 }
 
 .accessCodeOptionBtn :global(.vtex-button), .emailPasswordOptionBtn :global(.vtex-button) {

@@ -38,7 +38,7 @@
   },
   "minicart-checkout-button": {
     "props": {
-      /* "labelfinishShoppingButton" : "Pagar ahora", */
+      "labelfinishShoppingButton" : "Pagar ahora",
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }
   },
@@ -94,7 +94,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "Tu carrito está vacio."
     }
   },
   "icon-cart#minicart-icon": {

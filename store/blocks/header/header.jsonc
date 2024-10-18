@@ -168,6 +168,16 @@
       "fullWidth": true
     }
   },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Entrar con e-mail y contraseña",
+      "accessCodeTitle": "Recibir código de acceso por correo",
+      "emailPlaceholder": "Ej.: micorreo@gmail.com",
+      "passwordPlaceholder": "Ingrese su contraseña",
+      "showPasswordVerificationIntoTooltip": false,
+      "termsAndConditions": "Al proceder a pagar acepto que he leído y estoy de acuerdo con los [Términos y Condiciones](/terminos)"
+    }
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
