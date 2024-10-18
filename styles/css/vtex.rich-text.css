@@ -1,3 +1,9 @@
+.wrapper--PrecioExclusivoWeb {
+  color: #ea0029;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 .wrapper {
   width: 100%;
 }
@@ -33,9 +39,18 @@
 }
 
 .container--shelfTitle {
+  margin-top: 10px;
+  margin-bottom: 0px;
   color: #080808;
   justify-content: center;
   text-align: center;
+}
+
+.paragraph--shelfTitle {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .container--promotionalText {

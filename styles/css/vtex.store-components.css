@@ -1,3 +1,4 @@
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -65,6 +66,7 @@
   margin: 1rem 0;
 }
 
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -109,9 +111,12 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
-  font-weight: bold;
-  font-size: 30px;
+  color: #000;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: -.3px;
 }
 
 .image {

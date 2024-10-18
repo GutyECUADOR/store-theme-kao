@@ -2,29 +2,25 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      /* "flex-layout.row#deals", */
-     /*  "info-card#home", */
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "rich-text#nuevos-productos",
+      "flex-layout.row#HomeBlock",
       "info-card#mujeres",
       "info-card#hombres",
       "info-card#niños",
       "info-card#equipos",
       "info-card#bicicletas",
-      "rich-text#question",
+      "newsletter",
+      "rich-text#TituloAcercaDe",
      /*  "image#logo-acercade", */
       "rich-text#acercade"
-      /* "newsletter" */
     ]
   },
 
   "list-context.image-list#home": {
     "children": ["slider-layout#slides-images"],
     "props": {
-      "height": 570,
+      "height": 333,
       "preload": true,
       "images": [
         {
@@ -55,35 +51,45 @@
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#nuevos-productos": {
     "props": {
-      "text": "## Nuevos Productos",
+      "title:": "Nuevos Productos",
+      "text": "Nuevos Productos",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#HomeBlock": {
+    "children": ["flex-layout.row#NuevosProductosCard"],
+    "props": {
+      "blockClass": "home-block"
+    }
   },
-  "list-context.product-list#demo1": {
+  "flex-layout.row#NuevosProductosCard": {
+    "children": ["list-context.product-list#nuevosProductos"],
+    "props": {
+      "blockClass": "NuevosProductosCard"
+    }
+  },
+  "list-context.product-list#nuevosProductos": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#nuevos-productos"],
     "props": {
       /* "category": "1", */
       /* "collection": "141", */
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#nuevos-productos": {
     "props": {
       "showNavigationArrows": "always",
-      "showPaginationDots": "never",
+      "showPaginationDots": "always",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
       "autoplay": {
-        "timeout": 2000,
+        "timeout": 10000,
         "stopOnHover": true
       },
       "infinite": true,
@@ -196,8 +202,9 @@
     }
   },
 
-  "rich-text#question": {
+  "rich-text#TituloAcercaDe": {
     "props": {
+      "title:": "Titulo Acerca de",
       "text": "**ACERCA DE KAOSPORT**",
       "blockClass": "question"
     }

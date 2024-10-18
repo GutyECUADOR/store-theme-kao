@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Fixed height in `list-context.image-list#demo` example.
 - Images used in `slider-layout#demo-images` example.
-- Amount of products displayed as default in `slider-layout#demo-products`.
+- Amount of products displayed as default in `slider-layout#nuevos-productos`.
 - Max-width to 100% in `sliderTrackContainer` in vtex.slider-layout.css.
 - Width in `logo#mobile`.
 - Benefits bar color to improve contrast.
