@@ -1,13 +1,25 @@
 .menuItem  {
-    border-bottom: 2px solid transparent;
+    
+}
+
+.styledLinkContainer{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 
-.menuItem:hover  {
-  background-color: #bebdbd;
+.menuItem--isOpen  {
+  background: rgb(228, 5, 33);
+  color: #ffffff;
   transition: all .3s;
   cursor: pointer;
 
+}
+
+.menuItem--isOpen .styledLinkContent{
+  color: rgb(255, 255, 255);
 }
 
 .styledLinkContent--menu-item-mobile{
