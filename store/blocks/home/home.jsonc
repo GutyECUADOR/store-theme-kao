@@ -2,9 +2,10 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#home",
-      "__fold__",
+      "flex-layout.row#QuickAccess",
       "rich-text#nuevos-productos",
-      "flex-layout.row#HomeBlock",
+      "flex-layout.row#NuevosProductos",
+      "__fold__",
       "info-card#mujeres",
       "info-card#hombres",
       "info-card#niños",
@@ -18,6 +19,7 @@
   },
 
   "list-context.image-list#home": {
+    "title": "Carrusel Principal",
     "children": ["slider-layout#slides-images"],
     "props": {
       "height": 333,
@@ -50,15 +52,66 @@
       "blockClass": "carousel"
     }
   },
+  
+  "flex-layout.row#QuickAccess": {
+    "children": ["flex-layout.row#QuickAccessCards"],
+    "props": {
+      "blockClass": "home-block"
+    }
+  },
+
+  "flex-layout.row#QuickAccessCards": {
+    "children": [
+      "image#banner1",
+      "image#banner2",
+      "image#banner3",
+      "image#banner4"
+    ],
+    "props": {
+      "blockClass": "QuickAccessCards",
+      "colGap": 5
+    }
+  },
+
+  "image#banner1": {
+    "title": "Banner1",
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/74f51b9f-bd97-4652-8b32-4cbdae5678e0___29f30d435c54003828d82038c3a72539.webp",
+      "blockClass": "quick-access-link"
+    }
+  },
+  "image#banner2": {
+    "title": "Banner2",
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/1fc94202-3ad7-48ad-a094-ced6bb02a09c___32a861eed638a6d2ef328357ad938ff2.png",
+      "blockClass": "quick-access-link"
+    }
+  },
+  "image#banner3": {
+    "title": "Banner3",
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/1fc94202-3ad7-48ad-a094-ced6bb02a09c___32a861eed638a6d2ef328357ad938ff2.png",
+      "blockClass": "quick-access-link"
+    }
+  },
+  "image#banner4": {
+    "title": "Banner4",
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/1fc94202-3ad7-48ad-a094-ced6bb02a09c___32a861eed638a6d2ef328357ad938ff2.png",
+      "blockClass": "quick-access-link"
+    }
+  },
+
 
   "rich-text#nuevos-productos": {
+    "title": "Titulo Vitrina Principal",
     "props": {
       "title:": "Nuevos Productos",
       "text": "Nuevos Productos",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#HomeBlock": {
+  "flex-layout.row#NuevosProductos": {
     "children": ["flex-layout.row#NuevosProductosCard"],
     "props": {
       "blockClass": "home-block"

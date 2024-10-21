@@ -119,6 +119,18 @@
   letter-spacing: -.3px;
 }
 
+.imageElement--quick-access-link {
+  transition: all .15s linear;
+}
+
+
+.imageElement--quick-access-link:hover {
+    transform: translateY(-7px);
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .5));
+}
+
+
 .image {
   image-rendering: -webkit-optimize-contrast;
 }

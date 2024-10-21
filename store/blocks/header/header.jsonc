@@ -175,7 +175,7 @@
       "emailPlaceholder": "Ej.: micorreo@gmail.com",
       "passwordPlaceholder": "Ingrese su contraseña",
       "showPasswordVerificationIntoTooltip": false,
-      "termsAndConditions": "Al proceder a pagar acepto que he leído y estoy de acuerdo con los [Términos y Condiciones](/terminos)"
+      "termsAndConditions": "Al iniciar sesión acepto que he leído y estoy de acuerdo con los [Términos y Condiciones](/terminos)"
     }
   },
   "logo#mobile": {
