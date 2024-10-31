@@ -14,8 +14,17 @@
   padding: 0px;
 }
 
+.productBrand--quickview{
+  font-size: 2rem;
+  font-family: San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+.imageElement--carousel {
+
+}
+
 .newsletter {
-  background-color: #03054e;
+  background-color: #fec600;
   max-width: 1528px;
   margin: 0 auto;
 }
