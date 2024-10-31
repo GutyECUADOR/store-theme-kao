@@ -16,6 +16,16 @@
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 7%);
 }
 
+.flexRow--CardContainer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 1440px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 7%);
+}
+
 .flexRow--QuickAccessCards{
   margin-top: 20px;
 }

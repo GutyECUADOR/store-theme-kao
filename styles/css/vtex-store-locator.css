@@ -1,0 +1,8 @@
+.listingMapContainer {
+    min-height: 800px;
+}
+
+.container {
+    min-height: 600px;
+    max-height:750px
+}
