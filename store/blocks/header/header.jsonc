@@ -8,90 +8,37 @@
   "header-layout.desktop": {
     "children": [
       "menu-item#button-floting-whatsapp",
-      "flex-layout.row#1-desktop",
-      "flex-layout.row#desktop-promotional-banner",
-      "sticky-layout#4-desktop"
+      "flex-layout.row#1-hidensection",
+      "sticky-layout#desktop-row"
     ]
   },
 
-  "flex-layout.row#1-desktop": {
+  "flex-layout.row#1-hidensection": {
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
     }
   },
 
-  "flex-layout.row#desktop-promotional-banner": {
-    "props": {
-      "blockClass": "promotional-banner",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-     /*  "image#promo-banner", */
-      "rich-text#promotional"
-    ]
-  },
-  "rich-text#promotional": {
-    "title": "Promo Banner Texto",
-    "props": {
-      "text": "**Rebajas del 20% hasta el 23 de Septiembre, 2023!** Visita nuestra colección [Visitar ahora!](/promociones).",
-      "blockClass": "promotionalText"
-    }
-  },
-  "image#promo-banner": {
-    "title": "Promo Banner Imagen",
-    "props": {
-      "src": "https://coolboxpe.vtexassets.com/assets/vtex.file-manager-graphql/images/6fa3a542-2710-4038-b2e9-6266f70543d0___b34c847c9513b00617d5a214120b7a6d.png",
-      "maxWidth": "100%"
-    }
-  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
-  "sticky-layout#4-desktop": {
+  "sticky-layout#desktop-row": {
     "props": {
       "blockClass": "sticky-header"
     },
     "children": [
-      "flex-layout.row#4-desktop", 
+      "flex-layout.row#desktop-promotional-banner",
       "flex-layout.row#mega-menu", 
-      "flex-layout.row#desktop-menu"]
+      "flex-layout.row#principal-row", 
+      "flex-layout.row#category-menu"
+    ]
   },
-  //Mega Menú
-  "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
-  },
-  "mega-menu#desktop": {
-    "props": {
-      "openOnly": "horizontal",
-      "title": "Categorias",
-      "defaultDepartmentActive": "Inicio"
-    }
-  },
-  "flex-layout.col#trigger-mega-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["mega-menu-trigger-btn"]
-  },
-  "mega-menu-trigger-btn": {
-    "props": {
-      "Drawer": "drawer"
-    }
-  },
-  "rich-text#menu": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Menú"
-    }
-  },
-  "flex-layout.row#4-desktop": {
+  
+  // Row principal home logo y cuadro de busqueda
+  "flex-layout.row#principal-row": {
     "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
@@ -109,7 +56,7 @@
       "minicart.v2"
     ]
   },
-  "flex-layout.row#desktop-menu": {
+  "flex-layout.row#category-menu": {
     "props": {
       "blockClass": "desktop-menu",
       "horizontalAlign": "center",

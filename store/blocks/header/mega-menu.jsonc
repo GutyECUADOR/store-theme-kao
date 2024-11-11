@@ -1,0 +1,35 @@
+{
+    //Mega Menú
+    "flex-layout.row#mega-menu": {
+        "children": [
+            "mega-menu#desktop"
+        ]
+    },
+    "mega-menu#desktop": {
+        "props": {
+            "openOnly": "horizontal",
+            "title": "Categorias",
+            "defaultDepartmentActive": "Inicio"
+        }
+    },
+    "flex-layout.col#trigger-mega-menu": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "mega-menu-trigger-btn"
+        ]
+    },
+    "mega-menu-trigger-btn": {
+        "props": {
+            "Drawer": "drawer"
+        }
+    },
+    "rich-text#menu": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Menú"
+        }
+    }
+}

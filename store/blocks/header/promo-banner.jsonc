@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#desktop-promotional-banner": {
+        "props": {
+            "blockClass": "promotional-banner",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            /*  "image#promo-banner", */
+            "rich-text#promotional"
+        ]
+    },
+    "rich-text#promotional": {
+        "title": "Promo Banner Texto",
+        "props": {
+            "text": "**Rebajas del 10% hasta el 23 de Septiembre!** Visita nuestra colección [Visitar ahora!](/promociones).",
+            "blockClass": "promotionalText"
+        }
+    },
+    "image#promo-banner": {
+        "title": "Promo Banner Imagen",
+        "props": {
+            "src": "https://coolboxpe.vtexassets.com/assets/vtex.file-manager-graphql/images/6fa3a542-2710-4038-b2e9-6266f70543d0___b34c847c9513b00617d5a214120b7a6d.png",
+            "maxWidth": "100%"
+        }
+    }
+}

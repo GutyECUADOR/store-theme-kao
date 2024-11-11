@@ -12,6 +12,10 @@
   width: auto;
 }
 
+.paragraph--promotionalText{
+  line-height: 0px;
+}
+
 .paragraph--title-card-local{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -54,7 +58,8 @@
 }
 
 .container--promotionalText {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1px;
 }
 
 .container--terminos-condiciones {
