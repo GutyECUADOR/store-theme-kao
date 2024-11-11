@@ -2,7 +2,7 @@
   justify-content: center;
 }
 
-.sliderLayoutContainer--carousel {
+.sliderLayoutContainer--banner-principal {
   background-color: #F0F0F0;
 }
 
@@ -47,4 +47,19 @@
   padding: 8px;
   color: #fff;
   -webkit-tap-highlight-color: transparent;
+}
+
+.sliderLayoutContainer--carousel {
+  margin: 0 0 35px;
+}
+
+.paginationDotsContainer--carousel {
+  bottom: -30px;
+}
+
+@media (min-width: 1660px) {
+  .sliderLayoutContainer--carousel {
+      max-width: 1600px;
+      margin: 10px auto 35px !important;
+  }
 }
