@@ -6,12 +6,10 @@
       "rich-text#nuevos-productos",
       "flex-layout.row#NuevosProductos",
       "__fold__",
-      "info-card#mujeres",
-      "info-card#hombres",
-      "info-card#niños",
-      "info-card#equipos",
-      "info-card#bicicletas",
-      "newsletter",
+      "rich-text#productos-destacados",
+      "flex-layout.row#productos-destacados",
+      "rich-text#productos-destacados2",
+      "flex-layout.row#productos-destacados2",
       "rich-text#TituloAcercaDe",
      /*  "image#logo-acercade", */
       "rich-text#acercade"
@@ -102,7 +100,7 @@
     }
   },
 
-
+  /*BANNER NUEVOS PRODUCTOS*/
   "rich-text#nuevos-productos": {
     "title": "Titulo Vitrina Principal",
     "props": {
@@ -150,6 +148,150 @@
       "blockClass": "shelf"
     }
   },
+
+  /*VITRINA 2 - CON IMAGEN IZQUIERDA*/
+
+  "rich-text#productos-destacados": {
+    "title": "Productos Destacados",
+    "props": {
+      "title:": "Productos Destacados",
+      "text": "Productos Destacados",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#productos-destacados": {
+    "children": ["flex-layout.row#productos-destacadosCard"],
+    "props": {
+      "blockClass": "home-block"
+    }
+  },
+  "flex-layout.row#productos-destacadosCard": {
+    "children": ["flex-layout.col#izquierda", "flex-layout.col#derecha"],
+    "props": {
+      "blockClass": "NuevosProductosCard"
+    }
+  },
+  "flex-layout.col#izquierda": {
+    "children": ["image#banner-productos-destacados"],
+    "props": {
+      "width": "25%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.col#derecha": {
+    "children": ["list-context.product-list#productos-destacados"],
+    "props": {
+      "width": "75%",
+      "rowGap": 0
+    }
+  },
+  "image#banner-productos-destacados": {
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/fd7f5065-9626-42cc-94a9-641e48b03afe___c4512db275abb51e3d2cf538b5177595.png"
+    }
+  },
+  "list-context.product-list#productos-destacados": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#productos-destacados"],
+    "props": {
+      /* "category": "1", */
+      "collection": "141",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#productos-destacados": {
+    "props": {
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  /*VITRINA 3 - CON IMAGEN DERECHA*/
+  "rich-text#productos-destacados2": {
+    "title": "Bicicletas y Equipos",
+    "props": {
+      "title:": "Bicicletas y Equipos",
+      "text": "Bicicletas y Equipos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#productos-destacados2": {
+    "children": ["flex-layout.row#productos-destacados2Card"],
+    "props": {
+      "blockClass": "home-block"
+    }
+  },
+  "flex-layout.row#productos-destacados2Card": {
+    "children": ["flex-layout.col#izquierda2", "flex-layout.col#derecha2"],
+    "props": {
+      "blockClass": "NuevosProductosCard"
+    }
+  },
+  "flex-layout.col#izquierda2": {
+    "children": ["list-context.product-list#productos-destacados2"],
+    "props": {
+      "width": "75%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.col#derecha2": {
+    "children": ["image#banner-productos-destacados2"],
+    "props": {
+      "width": "25%",
+      "rowGap": 0
+    }
+  },
+  "image#banner-productos-destacados2": {
+    "props": {
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/fd7f5065-9626-42cc-94a9-641e48b03afe___c4512db275abb51e3d2cf538b5177595.png"
+    }
+  },
+  "list-context.product-list#productos-destacados2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#productos-destacados"],
+    "props": {
+      /* "category": "150", */
+      "collection": "145",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#productos-destacados2": {
+    "props": {
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+  /*Info Cards */
+
   "info-card#home": {
     "props": {
       "id": "info-card-home",
