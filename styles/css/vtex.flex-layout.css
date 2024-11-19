@@ -128,9 +128,14 @@
   padding-top: 5px;
 }
 
+.flexCol--row-search-content {
+  background-color: #fff;
+}
+
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
+  margin-right: 10px;
 }
 
 .flexCol--productCountCol {
@@ -162,6 +167,12 @@
 
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
+}
+
+.flexColChild--filterCol {
+  max-width: 500px;
+  min-width: 240px;
+  margin-right: 10px;
 }
 
 .flexRow--addToCartRow {

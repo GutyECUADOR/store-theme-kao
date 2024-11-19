@@ -1,7 +1,24 @@
+
+@media only screen and (min-width: 1441px) {
+  .searchResultContainer {
+      max-width: 1440px;
+      min-width: 1440px;
+      overflow: hidden;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .filters--layout {
+      padding: 20px;
+      background: #fff;
+  }
+}
+
 .galleryLayoutOptionButton {
   background-color: #F0F0F0;
   color: #3F3F40;
-  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+ 
 }
 
 .galleryLayoutOptionButton--selected {
@@ -23,4 +40,17 @@
 
 .galleryItem--grid {
   padding: 0px;
+  background-color: #fff;
+}
+
+.gallery {
+  padding: 0px;
+}
+
+.galleryTitle--layout {
+  font-size: 1.75rem;
+}
+
+.buttonShowMore {
+  margin-top: 30px;
 }
