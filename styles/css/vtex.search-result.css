@@ -54,3 +54,17 @@
 .buttonShowMore {
   margin-top: 30px;
 }
+
+.totalProducts--layout, .totalProductsMessage {
+  color: black;
+  font-size: 1rem;
+}
+
+.orderByButton {
+  min-width: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+}

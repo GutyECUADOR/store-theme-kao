@@ -82,8 +82,11 @@
 }
 
 .flexRow--desktop-menu {
-  background-color: #f2f2f2;
   color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15);
+  background: #272727;
+  padding: 4px 0;
+  display: flex;
 }
 
 .flexRowContent--main-header {
@@ -140,6 +143,11 @@
 
 .flexCol--productCountCol {
   align-items: flex-start;
+  background: #fff;
+}
+
+.flexRowContent--orderByAndSwitcher {
+  background: #fff;
 }
 
 .flexCol--orderByCol {
@@ -188,6 +196,9 @@
 .flexRowContent--menu-row-footer{
   padding-left: 10%;
   padding-right: 10%;
+  color: #000000;
+ /*  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .15);
+  background: #272727; */
 }
 
 .flexRow--mobile-row {

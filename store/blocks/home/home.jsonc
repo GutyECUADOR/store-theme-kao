@@ -28,7 +28,7 @@
           "mobileImage": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/99a27cab-b78c-4c97-931e-f930c2fedba6___0e94cd122f0df8f60cb5321d6187df08.jpg"
         },
         {
-          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/24340d32-6f40-48cc-ac0e-f3614f99b50e___c3cf12cb6f331e47048b96412b0dc381.jpg",
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/44e19daf-fd37-4ee7-be2b-006122b5d164___5ecc729d3e0a8b00c6f9b9fa4137d231.png",
           "mobileImage": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/24340d32-6f40-48cc-ac0e-f3614f99b50e___c3cf12cb6f331e47048b96412b0dc381.jpg"
         }
       ]
@@ -188,7 +188,7 @@
   },
   "image#banner-productos-destacados": {
     "props": {
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/fd7f5065-9626-42cc-94a9-641e48b03afe___c4512db275abb51e3d2cf538b5177595.png"
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/f2f5b509-9363-4657-a376-fc3a37961b7e___f7a5cf1618eb1baaca1c52db879ea699.png"
     }
   },
   "list-context.product-list#productos-destacados": {
@@ -257,7 +257,7 @@
   },
   "image#banner-productos-destacados2": {
     "props": {
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/fd7f5065-9626-42cc-94a9-641e48b03afe___c4512db275abb51e3d2cf538b5177595.png"
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/27f8ea93-2c05-4363-8314-35cbd1ac20b4___074119b1f393162205860d9f90be147f.png"
     }
   },
   "list-context.product-list#productos-destacados2": {

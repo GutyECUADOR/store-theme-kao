@@ -17,14 +17,14 @@
   },
   "menu-item#mujer": {
     "props": {
-
+      "blockClass": "header-option",
       "id": "menu-item-mujer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Mujeres",
         "text": "Mujeres"
@@ -33,6 +33,7 @@
   },
   "menu-item#hombre": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-hombre",
       "type": "custom",
       "iconId": null,
@@ -48,6 +49,7 @@
   },
   "menu-item#ninos": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-niños",
       "type": "custom",
       "iconId": null,
@@ -63,6 +65,7 @@
   },
   "menu-item#accesorios": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-accesorios",
       "type": "custom",
       "iconId": null,
@@ -78,6 +81,7 @@
   },
   "menu-item#deportes": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-deportes",
       "type": "custom",
       "iconId": null,
@@ -93,6 +97,7 @@
   },
   "menu-item#marcas": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-marcas",
       "type": "custom",
       "iconId": null,
@@ -108,6 +113,7 @@
   },
   "menu-item#maquinas": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-maquinas",
       "type": "custom",
       "iconId": null,
@@ -123,6 +129,7 @@
   },
   "menu-item#descuentos": {
     "props": {
+      "blockClass": "header-option",
       "id": "menu-item-descuentos",
       "type": "custom",
       "iconId": null,
