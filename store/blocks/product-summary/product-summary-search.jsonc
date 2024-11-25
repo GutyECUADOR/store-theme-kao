@@ -44,15 +44,25 @@
       "flex-layout.col#summaryDetailsListDesktopSearch"
     ]
   },
+  /*Card Information Column*/
   "flex-layout.col#summaryDetailsListDesktopSearch": {
     "props": {
       "preventVerticalStretch": true
     },
     "children": [
-      "vtex.store-components:product-brand#summaryListDesktopSearch",
+      /* "vtex.store-components:product-brand#summaryListDesktopSearch", */
       "product-summary-name#summaryListDesktopSearch",
-      "product-summary-description"
+      "flex-layout.row#PreciosConDescuentos",
+      "product-summary-sku-selector#search",
+      "add-to-cart-button"
+     
     ]
+  },
+  "product-summary-sku-selector#search": {
+    "props":{
+      "displayMode": "slider",
+      "maxItems": 3
+    }
   },
   "product-summary-name#summaryListDesktopSearch": {
     "props": {
@@ -105,8 +115,8 @@
   "stack-layout#summaryListDesktopSearch": {
     "children": [
       "product-summary-image#summaryListDesktopSearch",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      /* "modal-trigger#quickview" */ // Check quickview.jsonc
     ]
   },
   "product-summary-image#summaryListDesktopSearch": {
@@ -132,7 +142,6 @@
   "stack-layout#summaryListMobileSearch": {
     "children": [
       "product-summary-image#summaryListMobileSearch",
-      "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },

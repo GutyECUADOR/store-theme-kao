@@ -71,14 +71,30 @@
   font-size: 1.25rem;
 }
 
+.buyButtonContainer{
+  padding: 10px;
+}
+
 .buyButton .vtex-button {
   border-radius: 25%;
   background-color: #ff0303;
 }
 
 
-
 .buyButtonText {
   font-size: 12px;
   font-weight: bold;
+}
+
+
+/* Product Summary Search List*/
+
+.container--searchLayoutSummary {
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 100% !important;
+}
+
+.imageNormal {
+  max-height: 17.56rem;
 }
