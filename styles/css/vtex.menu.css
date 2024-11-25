@@ -105,6 +105,10 @@
   color: #000;
 }
 
+.triggerContainer {
+  color: #fff !important
+}
+
 @media (max-width: 1025px) {
   .menuItem--icono-button-floting {
     right: 10px;

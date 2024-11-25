@@ -178,6 +178,11 @@
   font-size: 1.2rem;
 }
 
+.paragraph--help-message{
+  text-wrap: balance;
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -189,7 +194,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #d72c2c;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;

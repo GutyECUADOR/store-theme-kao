@@ -122,7 +122,7 @@
     }
   },
   "list-context.product-list#nuevosProductos": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#nuevos-productos"],
     "props": {
       /* "category": "1", */
@@ -192,7 +192,7 @@
     }
   },
   "list-context.product-list#productos-destacados": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#productos-destacados"],
     "props": {
       /* "category": "1", */
@@ -261,7 +261,7 @@
     }
   },
   "list-context.product-list#productos-destacados2": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#home"],
     "children": ["slider-layout#productos-destacados"],
     "props": {
       /* "category": "150", */

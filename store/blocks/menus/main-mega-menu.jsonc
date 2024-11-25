@@ -5,6 +5,7 @@
     },
     "children": [
       "mega-menu-trigger-btn",
+      "menu-item#inicio",
       "menu-item#hombre",
       "menu-item#mujer",
       "menu-item#ninos",
@@ -15,19 +16,19 @@
       "menu-item#descuentos"
     ]
   },
-  "menu-item#mujer": {
+  "menu-item#inicio": {
     "props": {
       "blockClass": "header-option",
-      "id": "menu-item-mujer",
+      "id": "menu-item-inicio",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "",
+        "href": "/",
         "noFollow": true,
-        "tagTitle": "Mujeres",
-        "text": "Mujeres"
+        "tagTitle": "Inicio",
+        "text": "Inicio"
       }
     }
   },
@@ -44,6 +45,22 @@
         "noFollow": true,
         "tagTitle": "Hombres",
         "text": "Hombres"
+      }
+    }
+  },
+  "menu-item#mujer": {
+    "props": {
+      "blockClass": "header-option",
+      "id": "menu-item-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Mujeres",
+        "text": "Mujeres"
       }
     }
   },

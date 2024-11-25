@@ -16,6 +16,12 @@
   transition: .2s ease-in-out;
 }
 
+.SKUSelectorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
@@ -63,4 +69,16 @@
 .sellingPrice {
   color: #ff0303;
   font-size: 1.25rem;
+}
+
+.buyButton .vtex-button {
+  border-radius: 25%;
+  background-color: #ff0303;
+}
+
+
+
+.buyButtonText {
+  font-size: 12px;
+  font-weight: bold;
 }

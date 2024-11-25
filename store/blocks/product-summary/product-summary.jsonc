@@ -1,11 +1,14 @@
 {
-  "product-summary.shelf": {
+  "product-summary.shelf#home": {
     "children": [
       "stack-layout#prodsum",
       "product-summary-brand",
       "product-summary-name",
+      "product-summary-space",
+      "product-summary-sku-selector",
       "rich-text#PrecioExclusivoWeb",
-      "flex-layout.row#PreciosConDescuentos"
+      "flex-layout.row#PreciosConDescuentos",
+      "product-summary-buy-button"
     ]
   },
   "flex-layout.col#productRating": {
@@ -57,10 +60,8 @@
   },
   "product-summary-sku-selector": {
   "props":{
-    "showVariationsLabels": ["false"],
-    "displayMode": "default",
-    "sortVariationsByLabel": "true",
-    "maxItems": 4
+    "displayMode": "slider",
+    "maxItems": 3
   }
   },
 

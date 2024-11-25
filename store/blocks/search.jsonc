@@ -269,7 +269,7 @@
         }
       ],
       "ListSummary": "product-summary.shelf#listLayout",
-      "GridSummary": "product-summary.shelf"
+      "GridSummary": "product-summary.shelf#home"
     }
   },
   "gallery-layout-switcher": {
