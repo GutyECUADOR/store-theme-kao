@@ -19,8 +19,14 @@
   font-family: San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
-.imageElement--carousel {
+.productImagesThumb {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  overflow: hidden;
+}
 
+.productImagesThumbActive {
+  border: 1px solid #d70d27;
 }
 
 .newsletter {
@@ -130,6 +136,7 @@
 
 .imageElement--quick-access-link {
   transition: all .15s linear;
+  margin-bottom: 1rem;
 }
 
 

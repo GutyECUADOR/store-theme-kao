@@ -50,7 +50,7 @@
       "blockClass": "carousel"
     }
   },
-  
+
   "flex-layout.row#QuickAccess": {
     "children": ["flex-layout.row#QuickAccessCards"],
     "props": {
@@ -133,7 +133,7 @@
   "slider-layout#nuevos-productos": {
     "props": {
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
@@ -203,7 +203,7 @@
   "slider-layout#productos-destacados": {
     "props": {
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
@@ -272,7 +272,7 @@
   "slider-layout#productos-destacados2": {
     "props": {
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,

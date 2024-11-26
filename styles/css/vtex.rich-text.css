@@ -179,8 +179,9 @@
 }
 
 .paragraph--help-message{
+  text-align: center;
   text-wrap: balance;
-  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 640px) {
@@ -209,6 +210,6 @@
     font-size: 1rem;
   }
 
-  
+
 }
 

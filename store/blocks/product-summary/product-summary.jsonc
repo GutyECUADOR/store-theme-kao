@@ -8,7 +8,7 @@
       "product-summary-sku-selector",
       "rich-text#PrecioExclusivoWeb",
       "flex-layout.row#PreciosConDescuentos",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
   },
   "flex-layout.col#productRating": {
@@ -32,7 +32,7 @@
     "text": "Precio Exclusivo Web",
     "blockClass": "PrecioExclusivoWeb"
   }
-  },  
+  },
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,

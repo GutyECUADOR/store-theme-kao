@@ -1,0 +1,18 @@
+.removeButton {
+  background-color: red;
+  border-radius: 25%;
+  margin: 10px;
+}
+
+.deleteIcon {
+  color: white;
+}
+
+.productBrandName {
+  font-weight: bold;
+}
+
+.productName {
+  font-weight: bold;
+  font-size: 1rem;
+}

@@ -23,10 +23,19 @@
     color: #fff;
 }
 
+.minicartProductListContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) {
+  border-radius: 15px;
+  background-color: #fff;
+}
 
 .minicartTitle {
   color: #000;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
 }
