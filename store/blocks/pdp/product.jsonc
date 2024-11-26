@@ -5,7 +5,8 @@
       "condition-layout.product#availability",
      /*  "flex-layout.row#specifications-title", */
       /* "product-specification-group#table", */
-      "shelf.relatedProducts"
+      "rich-text#alsoViewTitle",
+      "flex-layout.row#alsoView"
      /*  "product-reviews",
       "product-questions-and-answers" */
     ]
@@ -109,11 +110,11 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
       "availability-subscriber",
       /* "shipping-simulator", */
       "flex-layout.row#description",
-      "share#default"
+      "flex-layout.row#buy-button"
+      /* "share#default" */
     ]
   },
 

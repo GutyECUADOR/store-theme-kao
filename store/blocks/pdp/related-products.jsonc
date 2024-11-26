@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#alsoView": {
+        "children": [
+            "flex-layout.row#cardProductosDestacados"
+        ],
+        "props": {
+            "marginBottom": 6,
+            "blockClass": ["home-block"]
+        }
+    },
+    "flex-layout.row#cardProductosDestacados": {
+        "children": ["flex-layout.col#alsoView"],
+        "props": {
+        "blockClass": "CardPDPContainer"
+        }
+    },
+    "flex-layout.col#alsoView": {
+        "children": [
+            /* "rich-text#alsoViewTitle", */
+            /* "list-context.product-list#alsoView", */
+            "shelf.relatedProducts"
+        ]
+    },
+    "shelf.relatedProducts": {
+        "blocks": [
+            "product-summary.shelf#home"
+        ],
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "showTitle": false,
+                "maxItems": 10,
+                "itemsPerPage": 5,
+                "scroll": "BY_PAGE",
+                "gap": "ph2"
+            }
+        }
+    },
+    "rich-text#alsoViewTitle": {
+        "props": {
+            "text": "### Productos Relacionados",
+            "blockClass": "alsoView"
+        }
+    },
+    "list-context.product-list#alsoView": {
+        "children": [
+            "slider-layout#alsoView"
+        ],
+        "blocks": [
+            "product-summary.shelf#home"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 12,
+            "installmentCriteria": "MAX_WITH_INTEREST"
+        }
+    },
+    "slider-layout#alsoView": {
+        "props": {
+           "props": {
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 10000,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf"
+            }
+        }
+    }
+}
