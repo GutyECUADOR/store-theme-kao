@@ -2,7 +2,8 @@
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "blockClass": "add-carrito"
     }
   },
 
@@ -39,7 +40,8 @@
   "minicart-checkout-button": {
     "props": {
       "labelfinishShoppingButton" : "Pagar ahora",
-      "finishShoppingButtonLink": "/checkout/#/orderform"
+      "finishShoppingButtonLink": "/checkout/#/orderform",
+      "blockClass": "minicart-add-button"
     }
   },
 

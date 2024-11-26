@@ -14,5 +14,6 @@
 
 .productName {
   font-weight: bold;
+  line-height: normal;
   font-size: 1rem;
 }

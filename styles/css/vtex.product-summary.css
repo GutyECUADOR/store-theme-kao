@@ -11,9 +11,8 @@
   letter-spacing: -.3px;
 }
 
-.element:hover {
-  box-shadow: 0 0 8px #bbb;
-  transition: .2s ease-in-out;
+.element {
+  padding: 10px;
 }
 
 .SKUSelectorContainer {

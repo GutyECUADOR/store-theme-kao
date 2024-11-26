@@ -29,8 +29,13 @@
 }
 
 .minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRow) {
+  margin-top: 10px;
   border-radius: 15px;
   background-color: #fff;
+}
+
+.minicartCheckoutButton {
+  
 }
 
 .minicartTitle {
@@ -38,4 +43,13 @@
   font-size: 15px;
   font-weight: bold;
   text-align: center;
+}
+
+.closeIconButton {
+  background-color: #3a3a37;
+    color: #fff;
+    height: 31px;
+    width: 31px;
+    padding: 0;
+    border-radius: 0 0 5px;
 }

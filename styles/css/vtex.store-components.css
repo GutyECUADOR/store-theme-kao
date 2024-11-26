@@ -146,6 +146,9 @@
     -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .5));
 }
 
+.imageElement--imagen-banners-home {
+  height: 100%;
+}
 
 .image {
   image-rendering: -webkit-optimize-contrast;
@@ -168,4 +171,20 @@
 .searchBarContainer{
   padding-top: 0px;
   padding-bottom: 0px;
+  
+}
+
+.searchBarInnerContainer .vtex-input-prefix__group {
+  transition: all .15s ease-in-out;
+  box-shadow: inset 0 0 0 0 #ea0029;
+  background-color: #d70d27;
+}
+
+.searchBarContainer .vtex-input-prefix__group {
+  margin: 0;
+  border: 0;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #fff;
+  position: relative;
 }
