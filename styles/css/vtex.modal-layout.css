@@ -87,3 +87,21 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+/*PROMO MODAL */
+
+.headerContainer--header-promo-modal {
+  background-color: red;
+}
+
+.closeButton--header-promo-modal {
+  position: absolute;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 0 0 0 10px;
+  right: 0;
+  color: #fff;
+  background-color: #b50101 !important;
+  transition: all .3s;
+}

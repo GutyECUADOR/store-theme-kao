@@ -5,6 +5,7 @@
       "flex-layout.row#QuickAccess",
       "rich-text#nuevos-productos",
       "flex-layout.row#NuevosProductos",
+      "modal-trigger#promo-modal",
       "__fold__",
       "rich-text#productos-destacados",
       "flex-layout.row#productos-destacados",
@@ -15,7 +16,31 @@
       "rich-text#acercade"
     ]
   },
-
+  "modal-trigger#promo-modal": {
+    "title": "Modal-Promo",
+    "children": ["modal-layout#promo-modal-body"],
+    "props": {
+      "trigger": "load"
+    }
+  },
+  "modal-layout#promo-modal-body": {
+    "children": [
+      "modal-header#promo-modal",
+      "image#promo-modal-image"
+    ]
+  },
+  "modal-header#promo-modal":{
+    "props": {
+      "blockClass": "header-promo-modal"
+    }
+  },
+  "image#promo-modal-image": {
+    "props": {
+      "blockClass": "logo-acercade",
+      "src": "https://placehold.co/600x400",
+      "maxWidth": "100%"
+    }
+  },
   "list-context.image-list#home": {
     "title": "Carrusel Principal",
     "children": ["slider-layout#slides-images"],
@@ -78,7 +103,7 @@
       "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/d536f2f0-9f8e-4d7b-bf6f-4c1555ec0cac___c285a86c58cc03fce8caace76412d9fb.png",
       "blockClass": "quick-access-link",
       "link": {
-        "url" : "productos--promociones"
+        "url" : "/productos--promociones"
       }
     }
   },
