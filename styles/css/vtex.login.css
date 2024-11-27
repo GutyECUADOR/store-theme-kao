@@ -5,10 +5,9 @@
     text-align: left;
     align-items: center;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: bold;
     padding: 3px 0 0;
     flex-direction: column;
-    font-weight: 400;
     white-space: nowrap;
 }
 

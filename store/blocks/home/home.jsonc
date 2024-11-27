@@ -207,6 +207,7 @@
   "flex-layout.col#izquierda": {
     "children": ["image#banner-productos-destacados"],
     "props": {
+      "blockClass": "banners-shelfs",
       "width": "25%",
       "rowGap": 0
     }
@@ -214,6 +215,7 @@
   "flex-layout.col#derecha": {
     "children": ["list-context.product-list#productos-destacados"],
     "props": {
+      "blockClass": "banners-shelfs",
       "width": "75%",
       "rowGap": 0
     }

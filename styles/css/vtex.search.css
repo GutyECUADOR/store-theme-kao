@@ -19,3 +19,16 @@
   flex-shrink: 0;
   margin-right: 8px;
 }
+
+.biggy-autocomplete {
+  position: absolute;
+  transition: opacity .15s ease-in .05s, max-height .3s ease-out, padding .6s ease-out;
+  padding: 20px 0 10px;
+  max-height: 630px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, .2);
+  background: #fff;
+  overflow: auto;
+  display: flex;
+  margin-top: 15px;
+  border-radius: 15px;
+}
