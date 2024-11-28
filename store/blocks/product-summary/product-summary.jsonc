@@ -60,8 +60,7 @@
   },
   "product-summary-sku-selector": {
   "props":{
-    "displayMode": "select",
-    "maxItems": 3
+    "displayMode": "select"
   }
   },
 
