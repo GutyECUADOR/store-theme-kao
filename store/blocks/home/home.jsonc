@@ -5,7 +5,7 @@
       "flex-layout.row#QuickAccess",
       "rich-text#nuevos-productos",
       "flex-layout.row#NuevosProductos",
-      "modal-trigger#promo-modal",
+      /* "modal-trigger#promo-modal", */
       "__fold__",
       "rich-text#productos-destacados",
       "flex-layout.row#productos-destacados",
