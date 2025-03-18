@@ -4,6 +4,7 @@
       "flex-layout.row#titulo-quito",
       "flex-layout.row#locales-fila-1",
       "flex-layout.row#locales-fila-2",
+      "flex-layout.row#locales-fila-3",
       "flex-layout.row#titulo-guayaquil",
       "flex-layout.row#locales-guayaquil-fila-1",
       "flex-layout.row#locales-guayaquil-fila-2",
@@ -267,6 +268,16 @@
     ]
   },
 
+  // ROW CARDS LOCALES FILA 3
+  "flex-layout.row#locales-fila-3": {
+    "props": {
+      "blockClass": "row-locales"
+    },
+    "children": [
+      "flex-layout.col#local-10"
+    ]
+  },
+
   // LOCAL
   "flex-layout.col#local-5": {
     "props": {
@@ -388,6 +399,31 @@
     "props": {
       "textAlignment": "CENTER",
       "text": "Carcelén Av. de la Prensa s/n. Av. Mariscal Sucre -Local 250-251",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL
+  "flex-layout.col#local-10": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-10-title",
+      "rich-text#local-10-description"
+    ]
+  },
+  "rich-text#local-10-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Tumbaco",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-10-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Pasando Ventura Mall y Metrocar, Av. Oswaldo Guayasamín, Quito 170184",
       "blockClass": "description-card-local"
     }
   },
@@ -626,7 +662,6 @@
     "blockClass": "row-locales"
   },
   "children": [
-    "flex-layout.col#local-cuenca-1",
     "flex-layout.col#local-cuenca-2"
   ]
 },
@@ -787,7 +822,7 @@
 "rich-text#local-manta-machala-3-description": {
   "props": {
     "textAlignment": "CENTER",
-    "text": "Av. Paquisha, Machala",
+    "text": "Frente de Paseo Shopping, Avenida 25 de junio, Machala 070223",
     "blockClass": "description-card-local"
   }
 }
