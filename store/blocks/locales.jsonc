@@ -662,7 +662,9 @@
     "blockClass": "row-locales"
   },
   "children": [
-    "flex-layout.col#local-cuenca-2"
+    "flex-layout.col#local-cuenca-1",
+    "flex-layout.col#local-cuenca-2",
+    "flex-layout.col#local-cuenca-3"
   ]
 },
 
@@ -679,14 +681,14 @@
 "rich-text#local-cuenca-1-title": {
   "props": {
     "textAlignment": "CENTER",
-    "text": "Cuenca Centro",
+    "text": "",
     "blockClass": "title-card-local"
   }
 },
 "rich-text#local-cuenca-1-description": {
   "props": {
     "textAlignment": "CENTER",
-    "text": "Bolivar 578 y Hermano Miguel",
+    "text": "",
     "blockClass": "description-card-local"
   }
 },
