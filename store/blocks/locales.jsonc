@@ -274,7 +274,9 @@
       "blockClass": "row-locales"
     },
     "children": [
-      "flex-layout.col#local-10"
+      "flex-layout.col#local-10",
+      "flex-layout.col#local-11",
+      "flex-layout.col#local-12"
     ]
   },
 
@@ -424,6 +426,58 @@
     "props": {
       "textAlignment": "CENTER",
       "text": "Pasando Ventura Mall y Metrocar, Av. Oswaldo Guayasamín, Quito 170184",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL 11
+  "flex-layout.col#local-11": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-11-title",
+      "rich-text#local-11-description"
+    ]
+  },
+  "rich-text#local-11-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "",
+      "blockClass": "title-card-local"
+    }
+  },
+  "rich-text#local-11-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "",
+      "blockClass": "description-card-local"
+    }
+  },
+
+  // LOCAL 12
+  "flex-layout.col#local-12": {
+    "props": {
+      "blockClass": "card-local"
+    },
+    "children": [
+      "rich-text#local-12-title",
+      "rich-text#local-12-description"
+    ]
+  },
+
+  "rich-text#local-12-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "",
+      "blockClass": "title-card-local"
+    }
+  },
+
+  "rich-text#local-12-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "",
       "blockClass": "description-card-local"
     }
   },

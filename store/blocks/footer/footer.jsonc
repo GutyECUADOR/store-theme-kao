@@ -132,7 +132,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "© 2024 KAO Sport. Todos los derechos reservados.",
+      "text": "© 2025 KAO Sport. Todos los derechos reservados. OK",
       "blockClass": "footer"
     }
   },
@@ -179,7 +179,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "© 2024 KAO Sport. Todos los derechos reservados.",
+      "text": "© 2025 KAO Sport. Todos los derechos reservados.",
       "blockClass": "footer"
     }
   }

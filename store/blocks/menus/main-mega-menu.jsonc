@@ -13,7 +13,8 @@
       "menu-item#deportes",
       "menu-item#marcas",
       "menu-item#maquinas",
-      "menu-item#descuentos"
+      "menu-item#descuentos",
+      "menu-item#fanzone"
     ]
   },
   "menu-item#inicio": {
@@ -157,6 +158,25 @@
         "noFollow": true,
         "tagTitle": "Descuentos",
         "text": "Descuentos"
+      }
+    },
+    "blocks": [
+    /*"vtex.menu@2.x:submenu#mujer" */
+    ]
+  },
+  "menu-item#fanzone": {
+    "props": {
+      "blockClass": "header-option",
+      "id": "menu-item-fanzone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/FANZONE",
+        "noFollow": true,
+        "tagTitle": "Fanzone",
+        "text": "Fanzone"
       }
     },
     "blocks": [
