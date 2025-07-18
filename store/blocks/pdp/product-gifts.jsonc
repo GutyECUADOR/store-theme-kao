@@ -16,8 +16,8 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#product-gifts-comentario",
-      //"rich-text#product-gifts",
+      //"rich-text#product-gifts-comentario",
+      "rich-text#product-gifts",
       "flex-layout.col#product-gifts-text"
     ]
   },
@@ -40,7 +40,7 @@
   "gift-text": {
     "props": {
       "blockClass": "default",
-      "text": "{exceedingItems, plural, =0{} one {+ # regalo} other {+ # regalos disponibles}}"
+      "text": "Ver regalos que podrás elegir" 
     }
   },
   "product-gift-list": {
