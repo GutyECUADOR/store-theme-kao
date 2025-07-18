@@ -16,7 +16,8 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#product-gifts",
+      "rich-text#product-gifts-comentario",
+      //"rich-text#product-gifts",
       "flex-layout.col#product-gifts-text"
     ]
   },
@@ -26,15 +27,20 @@
       "verticalAlign": "middle"
     }
   },
+  "rich-text#product-gifts-comentario": {
+    "props": {
+      "text": "Elije tu regalo al proceder al pago"
+    }
+  },
   "rich-text#product-gifts": {
     "props": {
-      "text": "**+ GIFT**"
+      "text": "**+ REGALO**"
     }
   },
   "gift-text": {
     "props": {
       "blockClass": "default",
-      "text": "{exceedingItems, plural, =0{} one {+ # gift} other {+ # gifts}}"
+      "text": "{exceedingItems, plural, =0{} one {+ # regalo} other {+ # regalos disponibles}}"
     }
   },
   "product-gift-list": {

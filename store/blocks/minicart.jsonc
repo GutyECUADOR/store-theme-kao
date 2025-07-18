@@ -40,7 +40,7 @@
   "minicart-checkout-button": {
     "props": {
       "labelfinishShoppingButton" : "Pagar ahora",
-      "finishShoppingButtonLink": "/checkout/#/orderform",
+      "finishShoppingButtonLink": "/checkout/#/cart",
       "blockClass": "minicart-add-button"
     }
   },
