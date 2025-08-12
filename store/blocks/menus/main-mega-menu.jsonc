@@ -14,7 +14,8 @@
       "menu-item#marcas",
       "menu-item#maquinas",
       "menu-item#descuentos",
-      "menu-item#fanzone"
+      "menu-item#fanzone",
+      "menu-item#hiringroom"
     ]
   },
   "menu-item#inicio": {
@@ -182,7 +183,24 @@
     "blocks": [
     /*"vtex.menu@2.x:submenu#mujer" */
     ]
+  },
+  "menu-item#hiringroom": {
+    "props": {
+      "blockClass": "header-option",
+      "id": "menu-item-descuentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://hiringroom.com/api/vacancies/get_vacancy_list_frame/kaosports",
+        "noFollow": true,
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabaja con nosotros"
+      }
+    },
+    "blocks": [
+    /*"vtex.menu@2.x:submenu#mujer" */
+    ]
   }
-
-
 }
