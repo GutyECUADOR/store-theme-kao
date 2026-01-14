@@ -140,7 +140,8 @@
       "menu-item#locales-quito",
       "menu-item#locales-guayaquil",
       "menu-item#locales-cuenca",
-      "menu-item#locales-manta-machala"
+      "menu-item#locales-manta-machala",
+      "menu-item#locales-santo-domingo"
     ]
   },
   "rich-text#locales": {
@@ -216,7 +217,22 @@
       }
     }
   },
-
+  "menu-item#locales-santo-domingo": {
+    "props": {
+      "id": "menu-item-locales-santo-domingo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["footerlink"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "santo-domingo",
+        "text": "Santo Domingo"
+      }
+    }
+  },
 
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
