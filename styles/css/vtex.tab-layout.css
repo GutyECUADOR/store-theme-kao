@@ -1,0 +1,21 @@
+.contentContainer--home-block {
+  padding: 20px;
+ 
+  background-color: #e1e7ed;
+}
+
+.contentItem {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flexRow--CustomCard{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 1440px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 7%);
+}

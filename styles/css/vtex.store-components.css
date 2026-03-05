@@ -82,7 +82,7 @@
 }
 
 .imageElement--image-tallas-productos {
-  width: 700px;
+  width: 600px;
   height: auto;
 }
 
@@ -109,6 +109,12 @@
     padding-top: 0.75rem !important;
     padding-bottom: 0.75rem !important;
   }
+
+  .imageElement--image-tallas-productos {
+  flex: 1; /* Cada imagen ocupa igual proporción del espacio disponible */
+  max-width: 100%; /* Asegura que no se desborden */
+  height: auto; /* Mantiene la proporción */
+}
 
 }
 

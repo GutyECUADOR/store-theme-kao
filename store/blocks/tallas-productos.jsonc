@@ -1,11 +1,11 @@
 {
   "store.custom#tallas-productos": {
     "blocks": [
-      "flex-layout.row#titulo-principal-tallas-productos",
+      "flex-layout.row#bloque-principal-tallas-productos",
       "tab-layout#tallas-productos"
     ]
   },
-  "flex-layout.row#titulo-principal-tallas-productos": {
+  "flex-layout.row#bloque-principal-tallas-productos": {
     "props": {
       "blockClass": "home-block"
     },
@@ -15,7 +15,7 @@
   },
   "flex-layout.col#principal": {
     "props": {
-      "blockClass": "home-block"
+      "blockClass": "CustomCard"
     },
     "children": [
       "rich-text#titulo-principal-tallas-productos"
@@ -73,7 +73,9 @@
   },
   "tab-content.item#tallas-productos1": {
     "children": [
-      "image#banner-tallas1"
+      "image#banner-tallas1",
+      "image#banner-tallas2",
+      "image#banner-tallas3"
     ],
     "props": {
       "tabId": "tallas-productos1"
@@ -81,22 +83,34 @@
   },
   "tab-content.item#tallas-productos2": {
     "children": [
-      "info-card#home"
-     
+      "image#banner-tallas1",
+      "image#banner-tallas2",
+      "image#banner-tallas3"
     ],
     "props": {
       "tabId": "tallas-productos2"
     }
   },
-
   /*Imagenes */
-   "image#banner-tallas1": {
+  "image#banner-tallas1": {
     "title": "Banner1",
     "props": {
       "blockClass": "image-tallas-productos",
       "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/15470dde-81a9-48e7-8a64-d522f03405ce___27334efd52dbac7edea1d75f749954a4.png"
     }
-    
+  },
+  "image#banner-tallas2": {
+    "title": "Banner2",
+    "props": {
+      "blockClass": "image-tallas-productos",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/b38d711e-2b20-4c4c-8663-99d09ebb9a9f___74b550e182368824fb516dc24e14dcb4.png"
+    }
+  },
+  "image#banner-tallas3": {
+    "title": "Banner3",
+    "props": {
+      "blockClass": "image-tallas-productos",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/20a2aeb9-1fc7-4e8d-a2a2-0ef6ba53f7ab___0a6e144f91920407180b70a10ed67c21.png"
+    }
   }
-
 }
