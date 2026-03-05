@@ -83,6 +83,7 @@
 
 .imageElement--image-tallas-productos {
   width: 600px;
+  max-width: 800px;
   height: auto;
 }
 

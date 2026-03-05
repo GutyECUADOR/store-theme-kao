@@ -75,7 +75,9 @@
     "children": [
       "image#banner-tallas1",
       "image#banner-tallas2",
-      "image#banner-tallas3"
+      "image#banner-tallas3",
+      "image#banner-tallas4",
+      "image#banner-tallas5"
     ],
     "props": {
       "tabId": "tallas-productos1"
@@ -85,7 +87,9 @@
     "children": [
       "image#banner-tallas1",
       "image#banner-tallas2",
-      "image#banner-tallas3"
+      "image#banner-tallas3",
+      "image#banner-tallas4",
+      "image#banner-tallas5"
     ],
     "props": {
       "tabId": "tallas-productos2"
@@ -111,6 +115,20 @@
     "props": {
       "blockClass": "image-tallas-productos",
       "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/20a2aeb9-1fc7-4e8d-a2a2-0ef6ba53f7ab___0a6e144f91920407180b70a10ed67c21.png"
+    }
+  },
+  "image#banner-tallas4": {
+    "title": "Banner4",
+    "props": {
+      "blockClass": "image-tallas-productos",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/2c2f4240-95a3-46d0-a37c-eb4732a22470___32eb496c197cef2d7bc90e96ef1892d1.png"
+    }
+  },
+  "image#banner-tallas5": {
+    "title": "Banner4",
+    "props": {
+      "blockClass": "image-tallas-productos",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/feeb44f7-405e-4243-bd79-22e4a52dd7f7___c32908255b4e9588bda23b29e5a588d2.png"
     }
   }
 }
