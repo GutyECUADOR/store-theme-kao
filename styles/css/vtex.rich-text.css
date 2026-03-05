@@ -182,6 +182,12 @@
   font-size: 1.2rem;
 }
 
+.wrapper--link-tallas-productos {
+  text-align: left;
+}
+
+
+
 .paragraph--help-message{
   text-align: center;
   text-wrap: balance;

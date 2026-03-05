@@ -106,6 +106,7 @@
       "product-installments",
       "product-separator",
       "product-identifier.product",
+      "link#link-tallas-productos",
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
@@ -180,6 +181,14 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+  "link#link-tallas-productos": {
+    "props": {
+      "blockClass": ["link-tallas-productos"],
+      "href": "/tallas-productos",
+      "label": "Consulta nuestra guía de tallas",
+      "displayMode": "anchor"
     }
   }
 }
