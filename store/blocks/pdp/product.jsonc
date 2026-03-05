@@ -187,8 +187,8 @@
     "props": {
       "blockClass": ["link-tallas-productos"],
       "href": "/tallas-productos",
-      "label": "Consulta nuestra guía de tallas",
-      "displayMode": "anchor"
+      "label": "Consulta nuestra guía de tallas"
+      /* "target": "_blank" */
     }
   }
 }

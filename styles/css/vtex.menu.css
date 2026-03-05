@@ -78,13 +78,13 @@
   justify-content: center;
   border-radius: 50px;
   transition: all 0.4s;
-  color: #fff;
+  color: #fd0101;
   box-shadow: 2px 2px 3px #999;
 }
 
 .styledLink--icono-button-floting:hover {
-  background-color: aliceblue;
-  color: #25d366;
+  background-color: rgb(209, 14, 14);
+  color: #20b356;
 }
 
 .styledLinkIcon--icono-button-floting {

@@ -7,7 +7,7 @@
       "blockClass": ["icono-button-floting"],
       "itemProps": {
         "type": "ex",
-        "href": "https://api.whatsapp.com/send?phone=593999328928",
+        "href": "https://api.whatsapp.com/send?phone=+593980638671",
         "noFollow": false,
         "tagTitle": "Ir a WhatsApp",
         "target": "target"

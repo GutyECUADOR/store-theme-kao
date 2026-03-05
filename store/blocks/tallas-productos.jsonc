@@ -1,0 +1,102 @@
+{
+  "store.custom#tallas-productos": {
+    "blocks": [
+      "flex-layout.row#titulo-principal-tallas-productos",
+      "tab-layout#tallas-productos"
+    ]
+  },
+  "flex-layout.row#titulo-principal-tallas-productos": {
+    "props": {
+      "blockClass": "home-block"
+    },
+    "children": [
+      "flex-layout.col#principal"
+    ]
+  },
+  "flex-layout.col#principal": {
+    "props": {
+      "blockClass": "home-block"
+    },
+    "children": [
+      "rich-text#titulo-principal-tallas-productos"
+    ]
+  },
+  "rich-text#titulo-principal-tallas-productos": {
+    "props": {
+      "blockClass": "title-custom-locales-page",
+      "textAlignment": "CENTER",
+      "text": "TALLAS DE PRODUCTOS"
+    }
+  },
+  "tab-layout#tallas-productos": {
+    "children": [
+      "tab-list#tallas-productos",
+      "tab-content#tallas-productos"
+    ],
+    "props": {
+      "blockClass": "tallas-productos",
+      "defaultActiveTabId": "tallas-productos1"
+    }
+  },
+  "tab-list#tallas-productos": {
+    "props": {
+      "blockClass": "home-block"
+    },
+    "children": [
+      "tab-list.item#tallas-productos1",
+      "tab-list.item#tallas-productos2"
+    ]
+  },
+  /*Titulos de los Tabs*/
+  "tab-list.item#tallas-productos1": {
+    "props": {
+      "tabId": "tallas-productos1",
+      "label": "Adidas",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tallas-productos2": {
+    "props": {
+      "tabId": "tallas-productos2",
+      "label": "Asics"
+    }
+  },
+  /*Contenido de los Tabs*/
+  "tab-content#tallas-productos": {
+    "props": {
+      "blockClass": "home-block"
+    },
+    "children": [
+      "tab-content.item#tallas-productos1",
+      "tab-content.item#tallas-productos2"
+    ]
+  },
+  "tab-content.item#tallas-productos1": {
+    "children": [
+      "image#banner-tallas1"
+    ],
+    "props": {
+      "tabId": "tallas-productos1"
+    }
+  },
+  "tab-content.item#tallas-productos2": {
+    "children": [
+      "info-card#home"
+     
+    ],
+    "props": {
+      "tabId": "tallas-productos2"
+    }
+  },
+
+  /*Imagenes */
+   "image#banner-tallas1": {
+    "title": "Banner1",
+    "props": {
+      "blockClass": "image-tallas-productos",
+      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/15470dde-81a9-48e7-8a64-d522f03405ce___27334efd52dbac7edea1d75f749954a4.png"
+    }
+    
+  }
+
+}

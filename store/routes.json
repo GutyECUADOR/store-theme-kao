@@ -10,5 +10,8 @@
   },
   "store.custom#politica-proteccion-datos": {
     "path": "/politica-proteccion-datos"
+  },
+  "store.custom#tallas-productos": {
+    "path": "/tallas-productos"
   }
 }
