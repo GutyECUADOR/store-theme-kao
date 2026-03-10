@@ -4,12 +4,14 @@
       "id": "item-icon-whatsapp",
       "type": "custom",
       "highlight": false,
-      "blockClass": ["icono-button-floting"],
+      "blockClass": [
+        "icono-button-floting"
+      ],
       "itemProps": {
         "type": "ex",
         "href": "https://api.whatsapp.com/send?phone=+593980638671",
         "noFollow": false,
-        "tagTitle": "Ir a WhatsApp",
+        "tagTitle": "Ir a WhatsApp de Ventas Web",
         "target": "target"
       },
       "iconProps": {
@@ -24,7 +26,9 @@
       "id": "item-icon-whatsapp",
       "type": "custom",
       "highlight": false,
-      "blockClass": ["icono-button-floting-servicio-cliente"],
+      "blockClass": [
+        "icono-button-floting-servicio-cliente"
+      ],
       "itemProps": {
         "type": "ex",
         "href": "https://api.whatsapp.com/send?phone=+593999328928",
@@ -33,9 +37,9 @@
         "target": "target"
       },
       "iconProps": {
-        "id": "hpa-whatsapp-button",
+        "id": "hpa-telemarketing",
         "size": 30,
-        "viewBox": "0 0 448 512"
+        "viewBox": "0 0 16 16"
       }
     }
   }
