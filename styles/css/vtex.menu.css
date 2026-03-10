@@ -105,6 +105,46 @@
   color: #000;
 }
 
+
+/* FLOTTING WHATSAPP */
+ .styledLink--icono-button-floting-servicio-cliente {
+  display: flex;
+  background-color: #25d366;
+  width: 60px;
+  height: 60px !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transition: all 0.4s;
+  color: #fd0101;
+  box-shadow: 2px 2px 3px #999;
+  position: fixed;
+  right: 25px;
+  bottom: 90px;
+  z-index: 100;
+}
+
+.styledLink--icono-button-floting-servicio-cliente:hover {
+  background-color: rgb(180, 171, 0);
+  color: #20b356;
+}
+
+.styledLinkIcon--icono-button-floting-servicio-cliente {
+  font-size: 0;
+}
+
+.menuItem--icono-button-floting-servicio-cliente {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  z-index: 100;
+}
+.menuItem--icono-button-floting-servicio-cliente:hover {
+  background: transparent !important;
+}
+
+
+
 @media (max-width: 1025px) {
   .menuItem--icono-button-floting {
     right: 10px;
@@ -118,6 +158,24 @@
   .styledLink--icono-button-floting {
     width: 52px;
     height: 52px !important;
+  }
+
+  /*FAB Servicio Cliente*/
+
+  .menuItem--icono-button-floting-servicio-cliente {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .styledLinkContainer--icono-button-floting-servicio-cliente {
+    margin: 0 !important;
+  }
+
+  .styledLink--icono-button-floting-servicio-cliente {
+    width: 52px;
+    height: 52px !important;
+    right: 10px;
+    bottom: 80px;
   }
 
   .styledLinkContent--footerlink {

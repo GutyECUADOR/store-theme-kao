@@ -18,5 +18,25 @@
         "viewBox": "0 0 448 512"
       }
     }
+  },
+  "menu-item#button-floting-servicio-cliente": {
+    "props": {
+      "id": "item-icon-whatsapp",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["icono-button-floting-servicio-cliente"],
+      "itemProps": {
+        "type": "ex",
+        "href": "https://api.whatsapp.com/send?phone=+593999328928",
+        "noFollow": false,
+        "tagTitle": "Ir a WhatsApp de servicio al cliente",
+        "target": "target"
+      },
+      "iconProps": {
+        "id": "hpa-whatsapp-button",
+        "size": 30,
+        "viewBox": "0 0 448 512"
+      }
+    }
   }
 }
