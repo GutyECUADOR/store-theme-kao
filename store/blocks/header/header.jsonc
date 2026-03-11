@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "menu-item#button-floting-whatsapp",
-      "menu-item#button-floting-servicio-cliente",
+      /* "menu-item#button-floting-servicio-cliente", */
       "flex-layout.row#1-hidensection",
       "sticky-layout#desktop-row"
     ]

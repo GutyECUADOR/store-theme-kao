@@ -9,7 +9,7 @@
       ],
       "itemProps": {
         "type": "ex",
-        "href": "https://api.whatsapp.com/send?phone=+593980638671",
+        "href": "https://api.whatsapp.com/send?phone=+593980638671&text=Hola%20KAO Sport%2C%20necesito%20ayuda%20con%20mi%20pedido",
         "noFollow": false,
         "tagTitle": "Ir a WhatsApp de Ventas Web",
         "target": "target"
@@ -31,7 +31,7 @@
       ],
       "itemProps": {
         "type": "ex",
-        "href": "https://api.whatsapp.com/send?phone=+593999328928",
+        "href": "https://api.whatsapp.com/send?phone=+593999328928&text=Hola%20KAO%20Sport%2C%20necesito%20ayuda%20con...",
         "noFollow": false,
         "tagTitle": "Ir a WhatsApp de servicio al cliente",
         "target": "target"

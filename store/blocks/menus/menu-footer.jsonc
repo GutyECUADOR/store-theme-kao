@@ -7,6 +7,7 @@
     },
     "children": [
       "rich-text#info-empresa-title",
+      "menu-item#servicio-cliente",
       "rich-text#info-empresa-description"
     ]
   },
@@ -20,6 +21,23 @@
     "props": {
       "text": "Av Eloy Alfaro y Av República. Edificio EPIQ Piso 3. Lunes - Viernes 09:00h a 17:00h +593-980638671 +593-2-2252505 ventasweb@kaosport.com. Quito - Ecuador",
       "blockClass": "footerlink"
+    }
+  },
+
+  "menu-item#servicio-cliente": {
+    "props": {
+      "id": "menu-item-servicio-cliente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["footerlink"],
+      "itemProps": {
+        "type": "external",
+        "href": "https://api.whatsapp.com/send?phone=+593999328928&text=Hola%20KAO%20Sport%2C%20necesito%20ayuda%20con...",
+        "noFollow": true,
+        "tagTitle": "servicio-cliente",
+        "text": "Whatsapp de Servicio al cliente"
+      }
     }
   },
 
