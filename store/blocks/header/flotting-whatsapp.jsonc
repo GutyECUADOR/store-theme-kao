@@ -15,9 +15,8 @@
         "target": "target"
       },
       "iconProps": {
-        "id": "hpa-whatsapp-button",
-        "size": 30,
-        "viewBox": "0 0 448 512"
+        "id": "hpa-cart",
+        "size": 20
       }
     }
   },

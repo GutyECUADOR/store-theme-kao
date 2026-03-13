@@ -44,21 +44,103 @@
     },
     "children": [
       "tab-list.item#tallas-productos1",
-      "tab-list.item#tallas-productos2"
+      "tab-list.item#tallas-productos2",
+      "tab-list.item#tallas-productos3",
+      "tab-list.item#tallas-productos4",
+      "tab-list.item#tallas-productos5",
+      "tab-list.item#tallas-productos6",
+      "tab-list.item#tallas-productos7",
+      "tab-list.item#tallas-productos8",
+      "tab-list.item#tallas-productos9",
+      "tab-list.item#tallas-productos10",
+      "tab-list.item#tallas-productos11",
+      "tab-list.item#tallas-productos12"
     ]
   },
   /*Titulos de los Tabs*/
   "tab-list.item#tallas-productos1": {
     "props": {
+      "blockClass": "tab-list-item-tallas-productos",
       "tabId": "tallas-productos1",
-      "label": "Adidas",
+      "label": "Zapatos Adidas",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#tallas-productos2": {
     "props": {
+      "blockClass": "tab-list-item-tallas-productos",
       "tabId": "tallas-productos2",
-      "label": "Asics"
+      "label": "Zapatos Asics"
+    }
+  },
+  "tab-list.item#tallas-productos3": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos3",
+      "label": "Zapatos AURIK"
+    }
+  },
+  "tab-list.item#tallas-productos4": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos4",
+      "label": "Zapatos CONVERSE"
+    }
+  },
+  "tab-list.item#tallas-productos5": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos5",
+      "label": "Zapatos IPANEMA"
+    }
+  },
+  "tab-list.item#tallas-productos6": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos6",
+      "label": "Zapatos LOTTO"
+    }
+  },
+  "tab-list.item#tallas-productos7": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos7",
+      "label": "Zapatos NEW BALANCE"
+    }
+  },
+  "tab-list.item#tallas-productos8": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos8",
+      "label": "Zapatos REBOOK ACT"
+    }
+  },
+  "tab-list.item#tallas-productos9": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos9",
+      "label": "Zapatos REEBOK"
+    }
+  },
+  "tab-list.item#tallas-productos10": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos10",
+      "label": "Zapatos RIDER"
+    }
+  },
+  "tab-list.item#tallas-productos11": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos11",
+      "label": "Zapatos SPALDING"
+    }
+  },
+  "tab-list.item#tallas-productos12": {
+    "props": {
+      "blockClass": "tab-list-item-tallas-productos",
+      "tabId": "tallas-productos12",
+      "label": "Zapatos TIMBERLAND"
     }
   },
   /*Contenido de los Tabs*/
@@ -68,16 +150,22 @@
     },
     "children": [
       "tab-content.item#tallas-productos1",
-      "tab-content.item#tallas-productos2"
+      "tab-content.item#tallas-productos2",
+      "tab-content.item#tallas-productos3",
+      "tab-content.item#tallas-productos4",
+      "tab-content.item#tallas-productos5",
+      "tab-content.item#tallas-productos6",
+      "tab-content.item#tallas-productos7",
+      "tab-content.item#tallas-productos8",
+      "tab-content.item#tallas-productos9",
+      "tab-content.item#tallas-productos10",
+      "tab-content.item#tallas-productos11",
+      "tab-content.item#tallas-productos12"
     ]
   },
   "tab-content.item#tallas-productos1": {
     "children": [
-      "image#banner-tallas1",
-      "image#banner-tallas2",
-      "image#banner-tallas3",
-      "image#banner-tallas4",
-      "image#banner-tallas5"
+      "list-context.image-list#adidas"
     ],
     "props": {
       "tabId": "tallas-productos1"
@@ -85,50 +173,411 @@
   },
   "tab-content.item#tallas-productos2": {
     "children": [
-      "image#banner-tallas1",
-      "image#banner-tallas2",
-      "image#banner-tallas3",
-      "image#banner-tallas4",
-      "image#banner-tallas5"
+      "list-context.image-list#asics"
     ],
     "props": {
       "tabId": "tallas-productos2"
     }
   },
-  /*Imagenes */
-  "image#banner-tallas1": {
-    "title": "Banner1",
+  "tab-content.item#tallas-productos3": {
+    "children": [
+      "list-context.image-list#aurik"
+    ],
     "props": {
-      "blockClass": "image-tallas-productos",
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/15470dde-81a9-48e7-8a64-d522f03405ce___27334efd52dbac7edea1d75f749954a4.png"
+      "tabId": "tallas-productos3"
     }
   },
-  "image#banner-tallas2": {
-    "title": "Banner2",
+  "tab-content.item#tallas-productos4": {
+    "children": [
+      "list-context.image-list#CONVERSE"
+    ],
     "props": {
-      "blockClass": "image-tallas-productos",
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/b38d711e-2b20-4c4c-8663-99d09ebb9a9f___74b550e182368824fb516dc24e14dcb4.png"
+      "tabId": "tallas-productos4"
     }
   },
-  "image#banner-tallas3": {
-    "title": "Banner3",
+  "tab-content.item#tallas-productos5": {
+    "children": [
+      "list-context.image-list#IPANEMA"
+    ],
     "props": {
-      "blockClass": "image-tallas-productos",
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/20a2aeb9-1fc7-4e8d-a2a2-0ef6ba53f7ab___0a6e144f91920407180b70a10ed67c21.png"
+      "tabId": "tallas-productos5"
     }
   },
-  "image#banner-tallas4": {
-    "title": "Banner4",
+  "tab-content.item#tallas-productos6": {
+    "children": [
+      "list-context.image-list#LOTTO"
+    ],
     "props": {
-      "blockClass": "image-tallas-productos",
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/2c2f4240-95a3-46d0-a37c-eb4732a22470___32eb496c197cef2d7bc90e96ef1892d1.png"
+      "tabId": "tallas-productos6"
     }
   },
-  "image#banner-tallas5": {
-    "title": "Banner4",
+  "tab-content.item#tallas-productos7": {
+    "children": [
+      "list-context.image-list#NEWBALANCE"
+    ],
     "props": {
-      "blockClass": "image-tallas-productos",
-      "src": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/feeb44f7-405e-4243-bd79-22e4a52dd7f7___c32908255b4e9588bda23b29e5a588d2.png"
+      "tabId": "tallas-productos7"
+    }
+  },
+  "tab-content.item#tallas-productos8": {
+    "children": [
+      "list-context.image-list#REBOOKACT"
+    ],
+    "props": {
+      "tabId": "tallas-productos8"
+    }
+  },
+  "tab-content.item#tallas-productos9": {
+    "children": [
+      "list-context.image-list#REBOOK"
+    ],
+    "props": {
+      "tabId": "tallas-productos9"
+    }
+  },
+  "tab-content.item#tallas-productos10": {
+    "children": [
+      "list-context.image-list#RIDER"
+    ],
+    "props": {
+      "tabId": "tallas-productos10"
+    }
+  },
+  "tab-content.item#tallas-productos11": {
+    "children": [
+      "list-context.image-list#SPALDING"
+    ],
+    "props": {
+      "tabId": "tallas-productos11"
+    }
+  },
+  "tab-content.item#tallas-productos12": {
+    "children": [
+      "list-context.image-list#TIMBERLAND"
+    ],
+    "props": {
+      "tabId": "tallas-productos12"
+    }
+  },
+
+
+
+
+  /*SLIDERS*/
+  /*Zapatos Adidas */
+  "list-context.image-list#adidas": {
+    "title": "Carrusel Adidas",
+    "children": [
+      "slider-layout#slides-images-adidas"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/15470dde-81a9-48e7-8a64-d522f03405ce___27334efd52dbac7edea1d75f749954a4.png"
+        },
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/b38d711e-2b20-4c4c-8663-99d09ebb9a9f___74b550e182368824fb516dc24e14dcb4.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-adidas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos Asics */
+  "list-context.image-list#asics": {
+    "title": "Carrusel Asics",
+    "children": [
+      "slider-layout#slides-images-asics"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/da31ad20-c1a4-4526-ab2e-2910da69f6e4___ac2782905b623e136b06694884dbfbfd.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-asics": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos Aurik */
+  "list-context.image-list#aurik": {
+    "title": "Carrusel Aurik",
+    "children": [
+      "slider-layout#slides-images-aurik"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-aurik": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos CONVERSE */
+  "list-context.image-list#CONVERSE": {
+    "title": "Carrusel CONVERSE",
+    "children": [
+      "slider-layout#slides-images-CONVERSE"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-CONVERSE": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos LOTTO */
+  "list-context.image-list#IPANEMA": {
+    "title": "Carrusel IPANEMA",
+    "children": [
+      "slider-layout#slides-images-IPANEMA"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-IPANEMA": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos LOTTO */
+  "list-context.image-list#LOTTO": {
+    "title": "Carrusel LOTTO",
+    "children": [
+      "slider-layout#slides-images-LOTTO"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-LOTTO": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos NEW BALANCE */
+  "list-context.image-list#NEWBALANCE": {
+    "title": "Carrusel NEW BALANCE",
+    "children": [
+      "slider-layout#slides-images-NEWBALANCE"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-NEWBALANCE": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos REBOOK ACT */
+  "list-context.image-list#REBOOKACT": {
+    "title": "Carrusel REBOOK ACT",
+    "children": [
+      "slider-layout#slides-images-REBOOKACT"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-REBOOKACT": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos REBOOK */
+  "list-context.image-list#REBOOK": {
+    "title": "Carrusel REBOOK",
+    "children": [
+      "slider-layout#slides-images-REBOOK"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-REBOOK": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos RIDER */
+  "list-context.image-list#RIDER": {
+    "title": "Carrusel RIDER",
+    "children": [
+      "slider-layout#slides-images-RIDER"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-RIDER": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos SPALDING */
+  "list-context.image-list#SPALDING": {
+    "title": "Carrusel SPALDING",
+    "children": [
+      "slider-layout#slides-images-SPALDING"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-SPALDING": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
+    }
+  },
+  /*Zapatos TIMBERLAND */
+  "list-context.image-list#TIMBERLAND": {
+    "title": "Carrusel TIMBERLAND",
+    "children": [
+      "slider-layout#slides-images-TIMBERLAND"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://kaosport.vtexassets.com/assets/vtex.file-manager-graphql/images/86a24d48-3354-4e66-8d7d-5bbce3b491cf___8592867b62a28487f5ce4865ef27e421.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slides-images-TIMBERLAND": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-tallas-productos"
     }
   }
+
 }

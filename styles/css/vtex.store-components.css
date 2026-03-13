@@ -82,9 +82,10 @@
 }
 
 .imageElement--image-tallas-productos {
-  width: 600px;
-  max-width: 800px;
-  height: auto;
+  width: 100%;            /* La imagen intenta ocupar todo el ancho del item */
+  max-width: 700px !important;       /* Pero nunca superará los 700px */
+  height: auto;           /* Mantiene la proporción */
+  display: block;         /* Evita espacios en blanco extra en la base */
 }
 
 
@@ -110,12 +111,6 @@
     padding-top: 0.75rem !important;
     padding-bottom: 0.75rem !important;
   }
-
-  .imageElement--image-tallas-productos {
-  flex: 1; /* Cada imagen ocupa igual proporción del espacio disponible */
-  max-width: 100%; /* Asegura que no se desborden */
-  height: auto; /* Mantiene la proporción */
-}
 
 }
 
