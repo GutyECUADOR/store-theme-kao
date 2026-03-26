@@ -6,3 +6,10 @@
 .link{
     text-decoration: none;
 }
+
+.link--pagos-transferencia-email {
+    padding: 10px;
+    background-color: #ab0000;
+    color: #ffffff;
+    border-radius: 10px;
+}

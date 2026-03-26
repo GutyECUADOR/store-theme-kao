@@ -19,9 +19,36 @@
     "children": [
       "op-confirmation-icon",
       "op-confirmation-title",
-      "op-confirmation-message",
-      "flex-layout.row#confirmation-buttons"
+      "rich-text#pagos-transferencia",
+      "flex-layout.row#comprobante-container",
+      "op-confirmation-message"
+      /* "flex-layout.row#confirmation-buttons" */
     ]
+  },
+  "rich-text#pagos-transferencia": {
+    "props": {
+      "blockClass": ["pagos-transferencia"],
+      "text": "Si su pago se realizó por **transferencia bancaria**, por favor, envíe el comprobante en el siguiente formulario o a nuestro WhatsApp para agilizar el proceso de verificación."
+    }
+  },
+  "flex-layout.row#comprobante-container": {
+    "props": {
+      "blockClass": ["comprobanteContainer"],
+      "horizontalAlign": "center",
+      "marginTop": 1,
+      "marginBottom": 1,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["link#pagos-transferencia-email"]
+  },
+  "link#pagos-transferencia-email": {
+    "props": {
+      "blockClass": ["pagos-transferencia-email"],
+      "href": "https://kaosportcenter.com/comprobante-de-pago",
+      "target": "_blank",
+      "label": "Click para registrar comprobante de pago"
+    }
   },
   "flex-layout.row#confirmation-buttons": {
     "props": {
