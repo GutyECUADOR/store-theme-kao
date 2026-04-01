@@ -141,6 +141,28 @@
   align-items: center;
 }
 
+.flexRowContent--QuickAccessCards{
+  gap:10px
+}
+
+/* Elimina el padding que causa el recuadro morado en el menu*/
+.stretchChildrenWidth {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/*Borde negro en el contenedor del buscador*/
+.flexRow--main-header-mobile-search {
+    border-bottom: 3px solid rgb(0, 0, 0) !important;
+}
+
+/* También verifica el contenedor que está justo adentro (el del buscador) */
+.stretchChildrenWidth :global(.vtex-store-components-3-x-searchBarContainer) {
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
 .flexRowContent--summaryLeftListDesktop .stretchChildrenWidth {
   width: 50% !important;
   justify-content: center;

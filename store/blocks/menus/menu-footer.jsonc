@@ -8,7 +8,9 @@
     "children": [
       "rich-text#info-empresa-title",
       "menu-item#servicio-cliente",
-      "rich-text#info-empresa-description"
+      "rich-text#info-empresa-description",
+      "rich-text#info-empresa-compra-web",
+      "rich-text#info-empresa-servicio-cliente"
     ]
   },
   "rich-text#info-empresa-title": {
@@ -20,6 +22,18 @@
   "rich-text#info-empresa-description": {
     "props": {
       "text": "Av Eloy Alfaro y Av República. Edificio EPIQ Piso 3. Lunes - Viernes 09:00h a 17:00h +593-980638671 +593-2-2252505 ventasweb@kaosport.com. Quito - Ecuador",
+      "blockClass": "footerlink"
+    }
+  },
+  "rich-text#info-empresa-compra-web": {
+    "props": {
+      "text": "COMPRA EN WEB +593-980638671 +593-2-2252505 Ext 1201 ventasweb@kaosport.com",
+      "blockClass": "footerlink"
+    }
+  },
+  "rich-text#info-empresa-servicio-cliente": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE Lunes - Viernes 09:00h a 17:00h +593-999328928 +593-2-2252505 servicioalcliente@kaosport.com",
       "blockClass": "footerlink"
     }
   },
@@ -158,7 +172,8 @@
       "menu-item#locales-quito",
       "menu-item#locales-guayaquil",
       "menu-item#locales-cuenca",
-      "menu-item#locales-manta-machala",
+      "menu-item#locales-manta",
+      "menu-item#locales-machala",
       "menu-item#locales-santo-domingo"
     ]
   },
@@ -219,9 +234,9 @@
       }
     }
   },
-  "menu-item#locales-manta-machala": {
+  "menu-item#locales-manta": {
     "props": {
-      "id": "menu-item-manta-machala",
+      "id": "menu-item-manta",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -230,8 +245,24 @@
         "type": "internal",
         "href": "/locales",
         "noFollow": true,
-        "tagTitle": "manta-machala",
-        "text": "Manta & Machala"
+        "tagTitle": "manta",
+        "text": "Manta"
+      }
+    }
+  },
+  "menu-item#locales-machala": {
+    "props": {
+      "id": "menu-item-machala",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["footerlink"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/locales",
+        "noFollow": true,
+        "tagTitle": "machala",
+        "text": "Machala"
       }
     }
   },
