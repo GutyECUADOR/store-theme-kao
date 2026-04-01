@@ -15,8 +15,13 @@
 }
 
 .productBrand--quickview{
-  font-size: 2rem;
   font-family: San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #505050;
+  line-height: 1.5rem;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .productImagesThumb {
@@ -132,6 +137,10 @@
   width: 100%;
 }
 
+.productDescriptionTitle {
+  padding-top: 20px;
+}
+
 .productNameContainer {
   color: #000;
   font-family: Montserrat;
@@ -139,6 +148,7 @@
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: -.3px;
+  padding-top: 10px;
 }
 
 .imageElement--quick-access-link {

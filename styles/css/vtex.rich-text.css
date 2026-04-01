@@ -222,6 +222,13 @@
   font-size: 0.8rem;
 }
 
+.wrapper--calcular-envio {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #505050;
+}
+
 /*Aplicado para screen mayor a 640px*/
 @media only screen and (min-width: 640px) {
   .container--question .strong {

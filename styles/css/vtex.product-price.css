@@ -24,17 +24,62 @@
 .installments {
   color: #727273;
   margin-bottom: 1rem;
+   /* Escondemos el texto original (el nodo de texto 'Hasta') */
+    visibility: hidden;
+    /* Evitamos que ocupe espacio si es necesario, aunque visibility suele bastar */
+    font-size: 0;
 }
+
+/*Mostrar Desde */
+
+/* Creamos el nuevo texto 'Desde' */
+.installments::before {
+    content: "Desde: ";
+    visibility: visible;
+    /* Debes restaurar el tamaño de fuente original aquí */
+    font-size: 1rem; 
+    /* Opcional: añade estilos para que coincida con el diseño */
+    color: inherit;
+}
+
+
+
+/* Nos aseguramos de que el resto de los números y palabras sigan siendo visibles */
+.installments :global(.vtex-product-price-1-x-installmentsNumber),
+.installmentsNumber,
+.installmentsNumber--1,
+.installmentValue {
+    visibility: visible;
+    font-size: 1rem; /* O el tamaño que uses en tu tienda */
+}
+
+/* Creamos el nuevo texto 'X' */
+.installmentsNumber::after {
+    content: " cuota(s) de ";
+    visibility: visible;
+    /* Debes restaurar el tamaño de fuente original aquí */
+    font-size: 1rem; 
+    /* Opcional: añade estilos para que coincida con el diseño */
+    color: inherit;
+}
+
+/* Fin Mostrar desde*/
 
 .savings {
   font-weight: 500;
-  color: #79B03A;
+  color: #66af14;
+}
+
+.savingsValue {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #66af14;
 }
 
 
 
 .savings--summary {
-  background: #8BC34A;
+  background: #66af14;
   border-radius: 1000px;
   align-items: center;
   display: flex;

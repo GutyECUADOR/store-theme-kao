@@ -145,6 +145,17 @@
   gap:10px
 }
 
+.flexRowContent--CardPDP{
+  gap:16px;
+}
+
+.flexCol--product-data {
+  padding: 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 20px;
+}
+
 /* Elimina el padding que causa el recuadro morado en el menu*/
 .stretchChildrenWidth {
     padding-right: 0 !important;

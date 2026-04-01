@@ -27,7 +27,7 @@
   },
   "flex-layout.row#description": {
     "props": {
-      "marginBottom": 7
+      "marginBottom": 2
     },
     "children": ["product-description"]
   },
@@ -51,7 +51,7 @@
   "flex-layout.row#CardPDP": {
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"],
     "props": {
-      "blockClass": "CardPDP"
+      "blockClass": ["CardPDP"]
     }
   },
   "stack-layout": {
@@ -59,7 +59,7 @@
       "blockClass": "product"
     },
     "children": [
-      "flex-layout.row#product-image",
+      "flex-layout.col#product-image",
       "product-bookmark",
       "product-specification-badges"
     ]
@@ -77,12 +77,12 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0
     }
   },
-  "flex-layout.row#product-image": {
-    "children": ["product-images"]
+  "flex-layout.col#product-image": {
+    "children": ["product-images","product-description"]
   },
   "product-images": {
     "props": {
@@ -95,26 +95,28 @@
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass": "product-data",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
       "flex-layout.row#product-name",
+      "product-identifier.product",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
-      "product-identifier.product",
       "link#link-tallas-productos",
       "sku-selector",
       "product-quantity",
+      "flex-layout.row#buy-button",
       "product-assembly-options",
       "product-gifts",
       "availability-subscriber",
-      /* "shipping-simulator", */
-      "flex-layout.row#description",
-      "flex-layout.row#buy-button"
+      "rich-text#CalcularEnvio",
+      "shipping-simulator"
+      /* "flex-layout.row#description" */
       /* "share#default" */
     ]
   },
@@ -189,6 +191,12 @@
       "href": "/tallas-productos",
       "label": "Consulta nuestra guía de tallas"
       /* "target": "_blank" */
+    }
+  },
+  "rich-text#CalcularEnvio": {
+    "props": {
+      "text": "Entrega en: ",
+      "blockClass": ["calcular-envio"]
     }
   }
 }
