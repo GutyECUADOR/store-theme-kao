@@ -32,3 +32,10 @@
   margin-top: 15px;
   border-radius: 15px;
 }
+
+.biggy-js-container--hidden {
+  display: none !important;
+  /* O si prefieres mantener la transición: */
+  pointer-events: none;
+  visibility: hidden;
+}
